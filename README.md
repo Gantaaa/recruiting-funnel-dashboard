@@ -37,8 +37,8 @@ the deck builds itself, and the narrative is drafted from the actual figures.
 | **[Metric layer](src/recruiting_funnel/metrics.py)** | Every KPI, defined exactly once. 48 tests pin the definitions. |
 | **[Validation](src/recruiting_funnel/validate.py)** | 11 data-quality rules that run over the raw CSV before any metric is computed. |
 | **[Generator](src/recruiting_funnel/generate.py)** | Seeded synthetic data where requisitions are real entities and funnel dates are monotonic. |
-| **[Apps Script](apps_script/Code.gs)** | The weekly job: snapshot → narrative → Slides deck → email, on a Monday trigger. |
-| **[Workbook](workbook/)** | The original Google Sheets implementation, 15 tabs. |
+| **[Apps Script](apps_script/Code.gs)** | The weekly job: snapshot → narrative → Slides deck → email, on a Monday trigger. [A real run's output](apps_script/example-output.md), and what it got wrong. |
+| **[Workbook](workbook/)** | The original Google Sheets implementation, 15 tabs. Preserved unfixed as the "before" — [its numbers are wrong on purpose](workbook/README.md). |
 | **[Portfolio write-up](docs/portfolio-writeup.md)** | The long-form version: design decisions, KPI reasoning, interview notes. |
 
 ## Quick start
@@ -57,16 +57,18 @@ make serve       # http://localhost:8000
 
 `make all` runs the whole pipeline: generate → validate → export.
 
-## What auditing the original found
+## What auditing my own workbook found
 
-The project started as a spreadsheet. Before building anything on top of it, I
-wrote the validation layer and pointed it at the existing data. The workbook's
-own Data Quality tab reported **99.75% health**. The audit found:
+I built the first version of this as a Google Sheets workbook, so everything
+below is an audit of my own work. Before building anything on top of it, I
+wrote the validation layer and pointed it at my own data. The workbook's own
+Data Quality tab — which I also wrote — reported **99.75% health**. The audit
+found:
 
 | Finding | Scale | Consequence |
 |---|---|---|
 | Requisitions whose rows disagreed about their own department, region and open date | **49 of 50** | `Requisition_ID` is the join key for every requisition-level metric. Time-to-fill was subtracting a randomly-assigned open date from a real hire date. |
-| The funnel derived stage depth from `Current_Stage` | all 750 rows | Everyone rejected or withdrawn collapsed back to "Applied". Applied→screen read **13.9%** instead of **59.2%**. |
+| The funnel derived stage depth from `Current_Stage` | all 400 rows | Everyone rejected or withdrawn collapsed back to "Applied". Applied→screen read **59.2%** against a true **81.5%**. |
 | Impossible calendar dates stored as text (`2026-02-29`, `2026-01-33`) | 4 | Spreadsheets compare text to dates without erroring, so the date-logic check passed them. |
 | One requisition counted as both open and filled | 1 | Requisition totals summed to 51 for a dataset containing 50. |
 | A whole department missing from every breakdown | 50 rows | Department lists on the dashboard tabs were hardcoded. |
@@ -77,7 +79,9 @@ table of four names, every value zero, and looked completely normal.
 
 Each finding is now pinned by a test. The funnel panel on the dashboard has a
 **Corrected / Spreadsheet logic** toggle so the difference is something you can
-see rather than something I assert:
+see rather than something I assert — on the current dataset the same bug reads
+13.9% against a true 59.2%, because it bites harder the more candidates drop
+out mid-funnel:
 
 ![funnel comparison](docs/images/dashboard-panels-dark.jpg)
 

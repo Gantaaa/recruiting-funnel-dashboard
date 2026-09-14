@@ -772,7 +772,8 @@ async function main() {
     .toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
   $("#as-of").setAttribute("datetime", payload.meta.generated_at);
   $("#row-count").textContent =
-    `${fmtInt(payload.dataset.candidates)} candidates across ${fmtInt(payload.dataset.requisitions)} requisitions`;
+    `${fmtInt(payload.dataset.candidates)} candidates across ` +
+    `${fmtInt(payload.dataset.requisitions)} requisitions · fixed seeded sample`;
 
   initTheme();
   initControls();
