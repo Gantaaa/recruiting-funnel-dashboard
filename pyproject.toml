@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recruiting-funnel-dashboard"
+version = "1.0.0"
+description = "A recruiting operations funnel dashboard and weekly reporting pipeline, built on synthetic data."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Gantamir Gankhuyag", email = "ggankhuy@ucsc.edu" }]
+keywords = ["recruiting", "analytics", "talent-operations", "dashboard", "data-quality"]
+classifiers = [
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business",
+]
+# Standard library only, by design. See docs/architecture.md.
+dependencies = []
+
+[project.urls]
+Homepage = "https://gantaaa.github.io/recruiting-funnel-dashboard/"
+Source = "https://github.com/Gantaaa/recruiting-funnel-dashboard"
+
+[project.scripts]
+recruiting-generate = "recruiting_funnel.generate:main"
+recruiting-export = "recruiting_funnel.export:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

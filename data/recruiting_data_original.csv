@@ -1,0 +1,401 @@
+Candidate_ID,Requisition_ID,Team,Department,Region,Recruiter,Hiring_Manager,Source_of_Hire,Candidate_Type,Application_Date,Phone_Screen_Date,Onsite_Date,Offer_Date,Hire_Date,Current_Stage,Req_Open_Date,Time_to_Fill,Headcount_Status
+C-10001,REQ-2026-0036,Data Science,Engineering,EMEA,Alice Smith,Manager 17,LinkedIn,Internal,2026-03-24,2026-03-31,2026-04-14,2026-04-24,2026-05-18,Hired,2026-03-21,58,Filled
+C-10002,REQ-2026-0008,Frontend,Engineering,EMEA,Bob Jones,Manager 18,University,External,2026-04-11,2026-04-14,,,,Screen,2026-04-10,,Filled
+C-10003,REQ-2026-0046,Data Science,Engineering,NA,Diana Prince,Manager 10,Job Board,Internal,2026-03-12,2026-03-16,2026-03-25,,,Onsite,2026-03-12,,Open
+C-10004,REQ-2026-0046,Data Science,Engineering,LATAM,Charlie Brown,Manager 18,LinkedIn,Internal,2026-01-20,2026-01-26,2026-02-09,,,Onsite,2026-01-19,,Open
+C-10005,REQ-2026-0010,Backend,Engineering,APAC,Diana Prince,Manager 10,Referral,Referral,2026-03-29,,,,,Withdrawn,2026-03-24,,Filled
+C-10006,REQ-2026-0012,Marketing,Marketing,APAC,Alice Smith,Manager 11,Agency,External,2026-04-23,2026-04-27,,,,Withdrawn,2026-04-21,,Filled
+C-10007,REQ-2026-0016,Frontend,Engineering,LATAM,Diana Prince,Manager 13,LinkedIn,Internal,2026-04-03,2026-04-08,,,,Screen,2026-04-01,,Open
+C-10008,REQ-2026-0010,Sales,Sales,APAC,Bob Jones,Manager 12,Job Board,External,2026-05-18,2026-05-24,2026-06-03,2026-06-13,2026-07-06,Hired,2026-05-14,53,Filled
+C-10009,REQ-2026-0004,Sales,Sales,EMEA,Diana Prince,Manager 11,Referral,Referral,2026-03-17,2026-03-22,2026-04-02,2026-04-12,2026-05-10,Hired,2026-03-14,57,Filled
+C-1010,REQ-2026-0034,Backend,Engineering,LATAM,Charlie Brown,Manager 5,LinkedIn,External,2026-02-18,2026-02-23,2026-03-08,2026-03-11,,Offer,2026-02-15,,Filled
+C-10011,REQ-2026-0001,Sales,Sales,EMEA,Alice Smith,Manager 17,LinkedIn,Internal,2026-02-22,2026-02-28,2026-03-14,2026-03-22,2026-04-07,Hired,2026-02-17,49,Filled
+C-10012,REQ-2026-0023,Frontend,Engineering,APAC,Diana Prince,Manager 15,Referral,Referral,2026-02-03,2026-02-05,2026-02-15,2026-02-22,2026-03-01,Hired,2026-01-31,29,Filled
+C-10013,REQ-2026-0017,Frontend,Engineering,EMEA,Diana Prince,Manager 6,University,External,2026-04-01,2026-04-07,,,,Screen,2026-04-01,,Filled
+C-10014,REQ-2026-0041,HR,G&A,LATAM,Charlie Brown,Manager 19,University,External,2026-04-30,2026-05-06,2026-05-18,,,Onsite,2026-04-26,,Filled
+C-10015,REQ-2026-0029,Finance,G&A,LATAM,Alice Smith,Manager 16,Agency,External,2026-04-27,2026-05-01,2026-05-08,,,Onsite,2026-04-23,,Filled
+C-10016,REQ-2026-0010,HR,G&A,NA,Alice Smith,Manager 19,Referral,Referral,2026-02-19,,,,,Withdrawn,2026-02-14,,Filled
+C-10017,REQ-2026-0030,Marketing,Marketing,NA,Charlie Brown,Manager 16,Job Board,Internal,2026-02-04,2026-02-07,2026-02-13,2026-02-19,,Offer,2026-02-03,,Filled
+C-10018,REQ-2026-0030,Frontend,Engineering,LATAM,Diana Prince,Manager 2,Agency,External,2026-05-28,2026-06-03,2026-06-08,,,Onsite,2026-05-23,,Filled
+C-10019,REQ-2026-0044,Data Science,Engineering,EMEA,Diana Prince,Manager 7,LinkedIn,Internal,2026-02-19,2026-02-21,2026-03-07,2026-03-11,2026-03-25,Hired,2026-02-18,35,Filled
+C-10020,REQ-2026-0023,Sales,Sales,LATAM,Alice Smith,Manager 2,Job Board,Internal,2026-01-19,,,,,Rejected,2026-01-19,,Filled
+C-10021,REQ-2026-0046,Frontend,Engineering,NA,Diana Prince,Manager 9,Referral,Referral,2026-02-24,2026-02-28,2026-03-07,,,Onsite,2026-02-21,,Open
+C-10022,REQ-2026-0029,Marketing,Marketing,LATAM,Charlie Brown,Manager 9,LinkedIn,External,2026-01-25,2026-02-01,2026-02-15,2026-02-20,2026-03-18,Hired,2026-01-23,54,Filled
+C-10023,REQ-2026-0030,Backend,Engineering,APAC,Diana Prince,Manager 4,Referral,Referral,2026-05-19,,,,,Rejected,2026-05-14,,Filled
+C-10024,REQ-2026-0046,Sales,Sales,APAC,Alice Smith,Manager 9,Job Board,External,2026-03-02,2026-03-09,,,,Withdrawn,2026-02-25,,Open
+C-10025,REQ-2026-0043,Marketing,Marketing,EMEA,Charlie Brown,Manager 13,Agency,Internal,2026-02-14,2026-02-21,,,,Screen,2026-02-11,,Open
+C-10026,REQ-2026-0036,Frontend,Engineering,LATAM,Diana Prince,Manager 16,University,Internal,2026-05-19,2026-05-25,2026-06-03,,,Onsite,2026-05-15,,Filled
+C-10027,REQ-2026-0032,Marketing,Marketing,EMEA,Charlie Brown,Manager 19,Job Board,External,2026-02-16,2026-02-21,2026-03-04,2026-03-13,,Offer,2026-02-15,,Open
+C-10028,REQ-2026-0031,Product,Product,LATAM,Alice Smith,Manager 20,University,Internal,2026-01-02,2026-01-09,2026-01-17,2026-01-22,,Rejected,2026-01-01,,Open
+C-10029,REQ-2026-0050,Finance,G&A,NA,Diana Prince,Manager 11,Referral,Referral,2026-03-12,2026-03-14,2026-03-24,,,Rejected,2026-03-10,,Filled
+C-10030,REQ-2026-0042,Backend,Engineering,LATAM,Diana Prince,Manager 20,Agency,External,2026-02-14,2026-02-19,2026-02-24,,,Onsite,2026-02-13,,Filled
+C-10031,REQ-2026-0032,Frontend,Engineering,EMEA,Diana Prince,Manager 8,Agency,Internal,2026-04-09,2026-04-15,,,,Withdrawn,2026-04-04,,Open
+C-10032,REQ-2026-0031,Backend,Engineering,NA,Bob Jones,Manager 10,Job Board,Internal,2026-06-01,,,,,Rejected,2026-05-29,,Open
+C-10033,REQ-2026-0045,Frontend,Engineering,NA,Bob Jones,Manager 12,Referral,Referral,2026-02-20,2026-02-25,2026-03-01,,,Withdrawn,2026-02-19,,Filled
+C-10034,REQ-2026-0035,Data Science,Engineering,LATAM,Bob Jones,Manager 2,LinkedIn,External,2026-03-09,2026-03-13,2026-03-25,,,Withdrawn,2026-03-09,,Filled
+C-10035,REQ-2026-0034,Backend,Engineering,NA,Charlie Brown,Manager 5,Job Board,Internal,2026-05-27,2026-06-01,,,,Screen,2026-05-22,,Filled
+C-10036,REQ-2026-0031,Finance,G&A,NA,Alice Smith,Manager 9,Job Board,External,2026-04-10,2026-04-14,,,,Screen,2026-04-05,,Open
+C-10037,REQ-2026-0006,Frontend,Engineering,APAC,Alice Smith,Manager 8,LinkedIn,Internal,2026-04-05,2026-04-11,2026-04-20,,,Onsite,2026-04-05,,Filled
+C-10038,REQ-2026-0046,HR,G&A,APAC,Charlie Brown,Manager 15,Agency,Internal,2026-04-05,2026-04-07,,,,Withdrawn,2026-04-01,,Open
+C-10039,REQ-2026-0038,Product,Product,EMEA,Bob Jones,Manager 6,University,Internal,2026-01-08,,,,,Rejected,2026-01-08,,Filled
+C-10040,REQ-2026-0005,HR,G&A,LATAM,Diana Prince,Manager 14,Job Board,Internal,2026-05-11,2026-05-14,,,,Rejected,2026-05-09,,Open
+C-10041,REQ-2026-0020,Sales,Sales,APAC,Alice Smith,Manager 14,University,Internal,2026-01-15,2026-01-19,2026-01-29,2026-02-04,2026-03-03,Hired,2026-01-14,48,Filled
+C-10042,REQ-2026-0029,HR,G&A,EMEA,Bob Jones,Manager 19,Referral,Referral,2026-06-05,,,,,Withdrawn,2026-05-31,,Filled
+C-10043,REQ-2026-0017,Product,Product,APAC,Bob Jones,Manager 6,LinkedIn,External,2026-04-25,,,,,Rejected,2026-04-22,,Filled
+C-10044,REQ-2026-0023,Marketing,Marketing,LATAM,Charlie Brown,Manager 13,Agency,Internal,2026-03-28,2026-04-04,,,,Screen,2026-03-27,,Filled
+C-10045,REQ-2026-0010,Marketing,Marketing,EMEA,Alice Smith,Manager 19,Agency,Internal,2026-05-04,2026-05-08,2026-05-18,2026-05-24,2026-06-19,Hired,2026-04-30,50,Filled
+C-10046,REQ-2026-0039,Sales,Sales,EMEA,Alice Smith,Manager 8,Job Board,Internal,2026-02-16,,,,,Rejected,2026-02-16,,Open
+C-10047,REQ-2026-0024,Frontend,Engineering,EMEA,Charlie Brown,Manager 12,Agency,Internal,2026-05-28,2026-06-02,2026-06-13,,,Onsite,2026-05-23,,Filled
+C-10048,REQ-2026-0011,Frontend,Engineering,APAC,Diana Prince,Manager 14,University,External,2026-03-25,2026-03-28,,,,Rejected,2026-03-23,,Filled
+C-10049,REQ-2026-0027,Backend,Engineering,NA,Diana Prince,Manager 20,LinkedIn,External,2026-04-27,2026-04-30,,,,Withdrawn,2026-04-24,,Filled
+C-10050,REQ-2026-0004,Backend,Engineering,LATAM,Charlie Brown,Manager 12,Job Board,External,2026-01-29,2026-02-03,,,,Rejected,2026-01-27,,Filled
+C-10051,REQ-2026-0050,Backend,Engineering,NA,Diana Prince,Manager 7,Job Board,External,2026-03-15,2026-03-18,,,,Rejected,2026-03-10,,Filled
+C-10052,REQ-2026-0021,Finance,G&A,EMEA,Charlie Brown,Manager 2,Referral,Referral,2026-04-23,2026-04-29,2026-05-13,,,Onsite,2026-04-23,,Filled
+C-10053,REQ-2026-0007,Backend,Engineering,EMEA,Charlie Brown,Manager 4,Referral,Referral,2026-01-23,2026-01-28,2026-02-09,2026-02-14,,Withdrawn,2026-01-19,,Open
+C-10054,REQ-2026-0017,Frontend,Engineering,LATAM,Charlie Brown,Manager 3,Referral,Referral,2026-01-15,,,,,Rejected,2026-01-15,,Filled
+C-10055,REQ-2026-0049,Data Science,Engineering,LATAM,Alice Smith,Manager 8,LinkedIn,Internal,2026-03-31,2026-04-02,2026-04-12,,,Withdrawn,2026-03-27,,Open
+C-10056,REQ-2026-0025,Product,Product,APAC,Bob Jones,Manager 18,Job Board,Internal,2026-03-13,,,,,Withdrawn,2026-03-11,,Filled
+C-10057,REQ-2026-0031,Data Science,Engineering,APAC,Diana Prince,Manager 6,LinkedIn,External,2026-04-10,2026-04-13,2026-04-18,2026-04-26,,Withdrawn,2026-04-08,,Open
+C-10058,REQ-2026-0014,Frontend,Engineering,EMEA,Charlie Brown,Manager 1,University,Internal,2026-05-21,2026-05-27,,,,Screen,2026-05-21,,Open
+C-10059,REQ-2026-0048,Finance,G&A,APAC,Bob Jones,Manager 8,Referral,Referral,2026-02-12,2026-02-16,,,,Screen,2026-02-12,,Filled
+C-10060,REQ-2026-0037,HR,G&A,EMEA,Alice Smith,Manager 16,LinkedIn,Internal,2026-02-26,,,,,Rejected,2026-02-24,,Filled
+C-10061,REQ-2026-0014,Marketing,Marketing,APAC,Diana Prince,Manager 9,Referral,Referral,2026-03-17,2026-03-19,,,,Screen,2026-03-16,,Open
+C-10062,REQ-2026-0026,HR,G&A,LATAM,Bob Jones,Manager 20,Job Board,External,2026-04-09,2026-04-12,2026-04-26,2026-05-01,2026-05-18,Hired,2026-04-06,42,Filled
+C-10063,REQ-2026-0044,Backend,Engineering,LATAM,Diana Prince,Manager 12,Agency,Internal,2026-04-29,2026-05-03,,,,Screen,2026-04-27,,Filled
+C-10064,REQ-2026-0010,Marketing,Marketing,LATAM,Charlie Brown,Manager 8,Referral,Referral,2026-05-03,2026-05-05,2026-05-15,2026-05-20,,Withdrawn,2026-05-03,,Filled
+C-10065,REQ-2026-0001,HR,G&A,EMEA,Alice Smith,Manager 14,Agency,Internal,2026-05-28,2026-06-01,,,,Screen,2026-05-24,,Filled
+C-10066,REQ-2026-0024,Data Science,Engineering,EMEA,Alice Smith,Manager 8,Agency,External,2026-03-07,2026-03-12,2026-03-24,2026-04-01,,Rejected,2026-03-04,,Filled
+C-10067,REQ-2026-0015,Sales,Sales,APAC,Charlie Brown,Manager 7,Agency,Internal,2026-04-13,2026-04-17,2026-04-29,,,Withdrawn,2026-04-09,,Filled
+C-10068,REQ-2026-0001,Sales,Sales,NA,Diana Prince,Manager 8,Referral,Referral,2026-04-28,,,,,Withdrawn,2026-04-26,,Filled
+C-10069,REQ-2026-0038,Marketing,Marketing,NA,Diana Prince,Manager 17,Job Board,External,2026-01-25,2026-01-31,,,,Rejected,2026-01-22,,Filled
+C-10070,REQ-2026-0011,Product,Product,EMEA,Alice Smith,Manager 5,LinkedIn,Internal,2026-05-16,,,,,Rejected,2026-05-15,,Filled
+C-10071,REQ-2026-0037,HR,G&A,APAC,Diana Prince,Manager 16,Agency,Internal,2026-04-29,,,,,Rejected,2026-04-26,,Filled
+C-10072,REQ-2026-0009,Frontend,Engineering,LATAM,Bob Jones,Manager 1,University,External,2026-02-25,2026-03-01,2026-03-12,2026-03-17,2026-04-07,Hired,2026-02-21,45,Filled
+C-10073,REQ-2026-0005,Sales,Sales,EMEA,Bob Jones,Manager 7,Job Board,External,2026-01-16,2026-01-21,2026-01-33,,,Withdrawn,2026-01-12,,Open
+C-10074,REQ-2026-0046,HR,G&A,EMEA,Bob Jones,Manager 9,Job Board,External,2026-05-16,2026-05-19,,,,Withdrawn,2026-05-13,,Open
+C-10075,REQ-2026-0030,Data Science,Engineering,EMEA,Alice Smith,Manager 4,Referral,Referral,2026-05-23,2026-05-25,2026-06-03,2026-06-09,2026-06-25,Hired,2026-05-20,36,Filled
+C-10076,REQ-2026-0035,Product,Product,EMEA,Alice Smith,Manager 18,University,External,2026-01-21,2026-01-28,,,,Screen,2026-01-21,,Filled
+C-10077,REQ-2026-0013,Data Science,Engineering,EMEA,Alice Smith,Manager 20,Referral,Referral,2026-02-22,2026-03-01,2026-03-12,2026-03-17,2026-04-04,Hired,2026-02-17,46,Filled
+C-10078,REQ-2026-0048,Finance,G&A,LATAM,Alice Smith,Manager 15,Referral,Referral,2026-04-20,2026-04-22,,,,Screen,2026-04-17,,Filled
+C-10079,REQ-2026-0037,Sales,Sales,EMEA,Charlie Brown,Manager 12,Referral,Referral,2026-04-09,2026-04-12,,,,Withdrawn,2026-04-06,,Filled
+C-10080,REQ-2026-0014,Frontend,Engineering,APAC,Alice Smith,Manager 8,Job Board,Internal,2026-04-22,2026-04-27,2026-05-04,2026-05-09,,Withdrawn,2026-04-19,,Open
+C-10081,REQ-2026-0019,HR,G&A,EMEA,Bob Jones,Manager 16,Job Board,External,2026-03-15,,,,,Rejected,2026-03-13,,Filled
+C-10082,REQ-2026-0044,Sales,Sales,EMEA,Diana Prince,Manager 15,Referral,Referral,2026-03-18,2026-03-21,2026-03-27,2026-04-04,,Offer,2026-03-15,,Filled
+C-10083,REQ-2026-0010,HR,G&A,NA,Charlie Brown,Manager 2,Referral,Referral,2026-04-20,2026-04-23,2026-05-06,,,Onsite,2026-04-19,,Filled
+C-10084,REQ-2026-0048,HR,G&A,APAC,Bob Jones,Manager 5,Job Board,Internal,2026-03-06,2026-03-12,2026-03-25,2026-03-31,2026-04-20,Hired,2026-03-05,46,Filled
+C-10085,REQ-2026-0026,Backend,Engineering,LATAM,Charlie Brown,Manager 11,Referral,Referral,2026-05-08,2026-05-13,,,,Rejected,2026-05-06,,Filled
+C-10086,REQ-2026-0044,Product,Product,LATAM,Charlie Brown,Manager 4,University,Internal,2026-06-03,,,,,Withdrawn,2026-05-31,,Filled
+C-10087,REQ-2026-0035,Backend,Engineering,APAC,Bob Jones,Manager 14,LinkedIn,Internal,2026-05-19,2026-05-21,2026-06-01,,,Withdrawn,2026-05-19,,Filled
+C-10088,REQ-2026-0050,HR,G&A,APAC,Alice Smith,Manager 19,University,External,2026-01-17,2026-01-22,,,,Rejected,2026-01-17,,Filled
+C-10089,REQ-2026-0010,Product,Product,APAC,Alice Smith,Manager 5,LinkedIn,Internal,2026-02-27,2026-03-01,2026-03-08,2026-03-15,,Withdrawn,2026-02-26,,Filled
+C-10090,REQ-2026-0042,Finance,G&A,NA,Alice Smith,Manager 2,Agency,Internal,2026-04-27,2026-05-01,2026-05-11,,,Onsite,2026-04-25,,Filled
+C-10091,REQ-2026-0041,Product,Product,EMEA,Charlie Brown,Manager 1,Job Board,External,2026-05-16,,,,,Rejected,2026-05-13,,Filled
+C-10092,REQ-2026-0026,Marketing,Marketing,NA,Alice Smith,Manager 9,LinkedIn,External,2026-02-13,,,,,Withdrawn,2026-02-11,,Filled
+C-10093,REQ-2026-0018,Backend,Engineering,APAC,Alice Smith,Manager 8,Referral,Referral,2026-02-21,2026-02-25,,,,Rejected,2026-02-16,,Filled
+C-10094,REQ-2026-0045,HR,G&A,NA,Bob Jones,Manager 10,Job Board,Internal,2026-01-07,,,,,Withdrawn,2026-01-04,,Filled
+C-10095,REQ-2026-0017,Product,Product,NA,Diana Prince,Manager 4,LinkedIn,External,2026-02-10,2026-02-12,,,,Screen,2026-02-09,,Filled
+C-10096,REQ-2026-0043,Backend,Engineering,NA,Alice Smith,Manager 9,Job Board,Internal,2026-04-19,2026-04-21,2026-05-04,,,Withdrawn,2026-04-17,,Open
+C-10097,REQ-2026-0024,Sales,Sales,EMEA,Diana Prince,Manager 2,University,External,2026-04-11,2026-04-16,2026-04-29,2026-05-04,,Offer,2026-04-09,,Filled
+C-10098,REQ-2026-0015,Frontend,Engineering,APAC,Alice Smith,Manager 18,LinkedIn,Internal,2026-05-19,,,,,Withdrawn,2026-05-16,,Filled
+C-10099,REQ-2026-0012,HR,G&A,NA,Alice Smith,Manager 11,Agency,Internal,2026-03-27,2026-04-01,2026-04-14,,,Onsite,2026-03-23,,Filled
+C-10100,REQ-2026-0031,Product,Product,EMEA,Alice Smith,Manager 9,Agency,Internal,2026-01-29,2026-02-04,,,,Withdrawn,2026-01-29,,Open
+C-10101,REQ-2026-0029,Backend,Engineering,LATAM,Charlie Brown,Manager 6,LinkedIn,Internal,2026-03-18,,,,,Withdrawn,2026-03-15,,Filled
+C-10102,REQ-2026-0008,Backend,Engineering,APAC,Bob Jones,Manager 14,LinkedIn,External,2026-02-11,2026-02-14,2026-02-23,2026-02-27,2026-03-22,Hired,2026-02-06,44,Filled
+C-10103,REQ-2026-0009,Frontend,Engineering,EMEA,Diana Prince,Manager 18,Job Board,External,2026-02-05,2026-02-07,2026-02-17,,,Onsite,2026-02-03,,Filled
+C-10104,REQ-2026-0045,Product,Product,EMEA,Charlie Brown,Manager 20,LinkedIn,Internal,2026-04-02,2026-04-08,2026-04-15,2026-04-20,2026-05-09,Hired,2026-03-29,41,Filled
+C-10105,REQ-2026-0017,Frontend,Engineering,EMEA,Diana Prince,Manager 8,Agency,Internal,2026-03-24,,,,,Rejected,2026-03-20,,Filled
+C-10106,REQ-2026-0027,Product,Product,APAC,Charlie Brown,Manager 13,LinkedIn,Internal,2026-01-07,2026-01-13,,,,Withdrawn,2026-01-02,,Filled
+C-10107,REQ-2026-0027,HR,G&A,APAC,Diana Prince,Manager 8,Agency,Internal,2026-03-28,2026-03-30,2026-04-12,2026-04-21,,Offer,2026-03-24,,Filled
+C-10108,REQ-2026-0004,HR,G&A,APAC,Charlie Brown,Manager 19,University,Internal,2026-01-26,2026-01-29,2026-02-12,,,Onsite,2026-01-25,,Filled
+C-10109,REQ-2026-0005,Frontend,Engineering,APAC,Charlie Brown,Manager 5,LinkedIn,Internal,2026-05-29,,,,,Withdrawn,2026-05-28,,Open
+C-10110,REQ-2026-0037,Backend,Engineering,EMEA,Alice Smith,Manager 19,Job Board,External,2026-05-15,,,,,Withdrawn,2026-05-13,,Filled
+C-10111,REQ-2026-0001,Backend,Engineering,EMEA,Alice Smith,Manager 9,Agency,Internal,2026-04-02,2026-04-09,2026-04-14,,,Onsite,2026-03-28,,Filled
+C-10112,REQ-2026-0007,Backend,Engineering,EMEA,Bob Jones,Manager 3,LinkedIn,External,2026-03-02,,,,,Withdrawn,2026-03-02,,Open
+C-10113,REQ-2026-0038,Product,Product,EMEA,Alice Smith,Manager 5,Referral,Referral,2026-04-24,2026-04-26,2026-05-02,2026-05-10,,Withdrawn,2026-04-20,,Filled
+C-10114,REQ-2026-0037,Data Science,Engineering,APAC,Diana Prince,Manager 2,University,Internal,2026-03-18,,,,,Withdrawn,2026-03-18,,Filled
+C-10115,REQ-2026-0012,Product,Product,EMEA,Alice Smith,Manager 4,Agency,Internal,2026-01-10,2026-01-14,,,,Screen,2026-01-08,,Filled
+C-10116,REQ-2026-0039,Backend,Engineering,NA,Alice Smith,Manager 16,LinkedIn,External,2026-01-19,2026-01-25,2026-02-01,2026-02-10,,Offer,2026-01-15,,Open
+C-10117,REQ-2026-0048,Data Science,Engineering,EMEA,Bob Jones,Manager 3,University,Internal,2026-01-11,2026-01-14,,,,Screen,2026-01-10,,Filled
+C-10118,REQ-2026-0004,Data Science,Engineering,EMEA,Charlie Brown,Manager 10,LinkedIn,Internal,2026-05-06,2026-05-11,2026-05-18,2026-05-24,,Offer,2026-05-01,,Filled
+C-10119,REQ-2026-0046,Data Science,Engineering,APAC,Diana Prince,Manager 12,Job Board,External,2026-02-05,2026-02-07,2026-02-18,,,Onsite,2026-02-05,,Open
+C-10120,REQ-2026-0048,Product,Product,APAC,Bob Jones,Manager 18,Job Board,External,2026-02-26,2026-03-01,2026-03-15,2026-03-23,2026-04-12,Hired,2026-02-21,50,Filled
+C-10121,REQ-2026-0039,Product,Product,LATAM,Diana Prince,Manager 18,University,Internal,2026-02-03,2026-02-07,2026-02-19,,,Onsite,2026-02-03,,Open
+C-10122,REQ-2026-0040,Frontend,Engineering,NA,Alice Smith,Manager 13,Job Board,Internal,2026-02-05,2026-02-11,2026-02-19,,,Withdrawn,2026-02-01,,Filled
+C-10123,REQ-2026-0046,Data Science,Engineering,APAC,Bob Jones,Manager 7,Job Board,External,2026-04-06,2026-04-11,2026-04-20,,,Withdrawn,2026-04-02,,Open
+C-10124,REQ-2026-0047,Product,Product,LATAM,Alice Smith,Manager 13,Referral,Referral,2026-04-16,,,,,Rejected,2026-04-13,,Open
+C-10125,REQ-2026-0001,Frontend,Engineering,APAC,Charlie Brown,Manager 16,University,External,2026-05-14,2026-05-16,2026-05-27,,,Onsite,2026-05-14,,Filled
+C-10126,REQ-2026-0033,Product,Product,APAC,Bob Jones,Manager 20,LinkedIn,External,2026-03-01,2026-03-07,,,,Withdrawn,2026-02-24,,Filled
+C-10127,REQ-2026-0040,Frontend,Engineering,NA,Charlie Brown,Manager 9,University,Internal,2026-02-20,2026-02-27,2026-03-09,,,Onsite,2026-02-20,,Filled
+C-10128,REQ-2026-0037,Frontend,Engineering,NA,Alice Smith,Manager 10,Agency,External,2026-01-02,2026-01-07,2026-01-18,2026-01-26,2026-02-23,Hired,2026-01-01,53,Filled
+C-10129,REQ-2026-0025,HR,G&A,EMEA,Charlie Brown,Manager 9,Job Board,External,2026-01-30,2026-02-03,2026-02-08,2026-02-14,,Offer,2026-01-25,,Filled
+C-10130,REQ-2026-0003,Frontend,Engineering,NA,Diana Prince,Manager 14,University,Internal,2026-03-27,,,,,Withdrawn,2026-03-26,,Filled
+C-10131,REQ-2026-0043,Data Science,Engineering,NA,Alice Smith,Manager 1,University,Internal,2026-05-29,2026-06-05,2026-06-15,,,Withdrawn,2026-05-25,,Open
+C-10132,REQ-2026-0047,Marketing,Marketing,EMEA,Diana Prince,Manager 13,Job Board,Internal,2026-01-29,,,,,Rejected,2026-01-28,,Open
+C-10133,REQ-2026-0018,Finance,G&A,EMEA,Charlie Brown,Manager 18,Referral,Referral,2026-03-03,,,,,Withdrawn,2026-02-28,,Filled
+C-10134,REQ-2026-0010,Backend,Engineering,APAC,Charlie Brown,Manager 16,University,External,2026-04-03,,,,,Withdrawn,2026-03-29,,Filled
+C-10135,REQ-2026-0007,Data Science,Engineering,APAC,Alice Smith,Manager 16,Job Board,External,2026-01-05,2026-01-10,2026-01-19,2026-01-23,,Offer,2026-01-01,,Open
+C-10136,REQ-2026-0027,Data Science,Engineering,EMEA,Charlie Brown,Manager 20,University,Internal,2026-03-05,2026-03-08,2026-03-20,2026-03-24,,Offer,2026-03-04,,Filled
+C-10137,REQ-2026-0027,Frontend,Engineering,NA,Diana Prince,Manager 5,University,Internal,2026-03-16,2026-03-22,2026-03-31,2026-04-10,,Offer,2026-03-12,,Filled
+C-10138,REQ-2026-0037,Sales,Sales,APAC,Bob Jones,Manager 4,Agency,Internal,2026-03-09,2026-03-15,2026-03-29,,,Onsite,2026-03-05,,Filled
+C-10139,REQ-2026-0014,Finance,G&A,APAC,Charlie Brown,Manager 16,Agency,Internal,2026-05-27,,,,,Withdrawn,2026-05-25,,Open
+C-10140,REQ-2026-0027,Sales,Sales,EMEA,Bob Jones,Manager 17,University,Internal,2026-05-18,,,,,Withdrawn,2026-05-16,,Filled
+C-10141,REQ-2026-0040,Backend,Engineering,APAC,Charlie Brown,Manager 15,University,Internal,2026-04-14,2026-04-16,,,,Withdrawn,2026-04-13,,Filled
+C-10142,REQ-2026-0040,Finance,G&A,LATAM,Alice Smith,Manager 7,Referral,Referral,2026-05-10,2026-05-12,2026-05-24,2026-06-03,2026-06-21,Hired,2026-05-10,42,Filled
+C-10143,REQ-2026-0023,Finance,G&A,APAC,Alice Smith,Manager 18,Agency,Internal,2026-01-27,2026-01-30,2026-02-11,2026-02-14,,Offer,2026-01-24,,Filled
+C-10144,REQ-2026-0049,Data Science,Engineering,NA,Alice Smith,Manager 16,Referral,Referral,2026-06-05,,,,,Rejected,2026-05-31,,Open
+C-10145,REQ-2026-0022,Frontend,Engineering,APAC,Charlie Brown,Manager 6,University,Internal,2026-02-25,2026-03-03,2026-03-12,,,Onsite,2026-02-20,,Filled
+C-10146,REQ-2026-0027,Marketing,Marketing,LATAM,Bob Jones,Manager 2,Referral,Referral,2026-02-24,2026-02-28,2026-03-07,2026-03-11,,Offer,2026-02-19,,Filled
+C-10147,REQ-2026-0045,Product,Product,NA,Diana Prince,Manager 19,Agency,External,2026-04-25,2026-04-29,,,,Rejected,2026-04-21,,Filled
+C-10148,REQ-2026-0006,Sales,Sales,LATAM,Bob Jones,Manager 10,Job Board,Internal,2026-04-17,2026-04-20,,,,Rejected,2026-04-17,,Filled
+C-10149,REQ-2026-0032,Finance,G&A,EMEA,Bob Jones,Manager 6,University,Internal,2026-03-24,2026-03-29,2026-04-06,,,Onsite,2026-03-20,,Open
+C-10150,REQ-2026-0002,Product,Product,APAC,Alice Smith,Manager 20,Agency,Internal,2026-05-14,,,,,Rejected,2026-05-13,,Open
+C-10151,REQ-2026-0048,Sales,Sales,NA,Charlie Brown,Manager 19,Agency,External,2026-05-03,2026-05-08,2026-05-16,2026-05-24,,Offer,2026-04-28,,Filled
+C-10152,REQ-2026-0042,Backend,Engineering,EMEA,Charlie Brown,Manager 18,University,Internal,2026-03-13,,,,,Rejected,2026-03-09,,Filled
+C-10153,REQ-2026-0046,Backend,Engineering,NA,Diana Prince,Manager 7,LinkedIn,Internal,2026-04-04,2026-04-07,,,,Rejected,2026-03-31,,Open
+C-10154,REQ-2026-0004,Finance,G&A,NA,Diana Prince,Manager 5,Job Board,Internal,2026-01-16,2026-01-19,,,,Screen,2026-01-13,,Filled
+C-10155,REQ-2026-0034,Marketing,Marketing,NA,Charlie Brown,Manager 3,Agency,Internal,2026-04-01,2026-04-08,2026-04-21,2026-04-25,,Offer,2026-03-27,,Filled
+C-10156,REQ-2026-0043,Finance,G&A,NA,Charlie Brown,Manager 3,Job Board,Internal,2026-05-01,2026-05-05,,,,Screen,2026-04-27,,Open
+C-10157,REQ-2026-0006,Product,Product,LATAM,Diana Prince,Manager 1,LinkedIn,External,2026-01-24,2026-01-26,2026-02-09,2026-02-12,,Rejected,2026-01-22,,Filled
+C-10158,REQ-2026-0034,Frontend,Engineering,LATAM,Diana Prince,Manager 12,LinkedIn,Internal,2026-06-02,2026-06-08,2026-06-16,2026-06-21,,Offer,2026-05-31,,Filled
+C-10159,REQ-2026-0027,Product,Product,APAC,Alice Smith,Manager 17,Referral,Referral,2026-02-22,2026-02-25,2026-03-08,,,Onsite,2026-02-20,,Filled
+C-10160,REQ-2026-0017,Data Science,Engineering,EMEA,Diana Prince,Manager 2,LinkedIn,Internal,2026-04-30,,,,,Withdrawn,2026-04-27,,Filled
+C-10161,REQ-2026-0024,HR,G&A,NA,Bob Jones,Manager 18,LinkedIn,External,2026-03-20,,,,,Withdrawn,2026-03-17,,Filled
+C-10162,REQ-2026-0017,Sales,Sales,LATAM,Charlie Brown,Manager 10,Referral,Referral,2026-01-31,2026-02-06,2026-02-13,2026-02-23,,Offer,2026-01-28,,Filled
+C-10163,REQ-2026-0030,Finance,G&A,LATAM,Diana Prince,Manager 8,LinkedIn,Internal,2026-02-19,2026-02-25,2026-03-05,2026-03-12,,Offer,2026-02-18,,Filled
+C-10164,REQ-2026-0007,Frontend,Engineering,NA,Charlie Brown,Manager 3,Job Board,Internal,2026-03-01,2026-03-05,2026-03-16,,,Onsite,2026-02-28,,Open
+C-10165,REQ-2026-0013,Frontend,Engineering,LATAM,Diana Prince,Manager 1,Job Board,External,2026-04-16,,,,,Rejected,2026-04-12,,Filled
+C-10166,REQ-2026-0042,Backend,Engineering,APAC,Bob Jones,Manager 8,Agency,External,2026-02-01,2026-02-04,2026-02-18,,,Onsite,2026-01-27,,Filled
+C-10167,REQ-2026-0032,Frontend,Engineering,EMEA,Charlie Brown,Manager 19,University,External,2026-02-23,,,,,Withdrawn,2026-02-22,,Open
+C-10168,REQ-2026-0042,Product,Product,NA,Charlie Brown,Manager 5,Job Board,External,2026-03-11,2026-03-14,2026-03-24,2026-03-28,,Rejected,2026-03-06,,Filled
+C-10169,REQ-2026-0038,Finance,G&A,LATAM,Bob Jones,Manager 20,University,Internal,2026-02-17,2026-02-20,2026-02-26,,,Onsite,2026-02-12,,Filled
+C-10170,REQ-2026-0026,Product,Product,LATAM,Bob Jones,Manager 19,University,Internal,2026-05-12,2026-05-18,2026-05-27,2026-06-02,2026-06-20,Hired,2026-05-07,44,Filled
+C-10171,REQ-2026-0022,Marketing,Marketing,EMEA,Diana Prince,Manager 5,Job Board,Internal,2026-02-02,2026-02-04,,,,Screen,2026-01-28,,Filled
+C-10172,REQ-2026-0023,Sales,Sales,NA,Alice Smith,Manager 3,Job Board,External,2026-05-14,2026-05-19,,,,Screen,2026-05-11,,Filled
+C-10173,REQ-2026-0004,Product,Product,LATAM,Bob Jones,Manager 3,LinkedIn,Internal,2026-04-08,2026-04-15,2026-04-22,,,Rejected,2026-04-06,,Filled
+C-10174,REQ-2026-0022,Data Science,Engineering,NA,Bob Jones,Manager 2,University,External,2026-03-22,2026-03-27,2026-04-06,,,Withdrawn,2026-03-18,,Filled
+C-10175,REQ-2026-0004,Finance,G&A,APAC,Alice Smith,Manager 10,Agency,Internal,2026-03-30,2026-04-02,2026-04-11,2026-04-15,2026-05-01,Hired,2026-03-28,34,Filled
+C-10176,REQ-2026-0027,Marketing,Marketing,APAC,Bob Jones,Manager 6,Job Board,Internal,2026-05-09,2026-05-11,2026-05-24,2026-06-03,,Offer,2026-05-04,,Filled
+C-10177,REQ-2026-0044,Product,Product,NA,Alice Smith,Manager 17,Referral,Referral,2026-01-04,2026-01-06,2026-01-16,,,Onsite,2026-01-04,,Filled
+C-10178,REQ-2026-0021,Sales,Sales,NA,Bob Jones,Manager 13,LinkedIn,External,2026-01-10,2026-01-17,,,,Rejected,2026-01-07,,Filled
+C-10179,REQ-2026-0018,Backend,Engineering,APAC,Alice Smith,Manager 12,Referral,Referral,2026-01-29,2026-02-04,2026-02-14,2026-02-23,2026-03-17,Hired,2026-01-24,52,Filled
+C-10180,REQ-2026-0049,Frontend,Engineering,APAC,Alice Smith,Manager 16,Referral,Referral,2026-02-10,2026-02-13,,,,Rejected,2026-02-10,,Open
+C-10181,REQ-2026-0024,Product,Product,NA,Bob Jones,Manager 15,LinkedIn,Internal,2026-02-19,2026-02-26,2026-03-04,2026-03-08,2026-03-16,Hired,2026-02-17,27,Filled
+C-10182,REQ-2026-0037,HR,G&A,EMEA,Alice Smith,Manager 16,Referral,Referral,2026-03-09,2026-03-14,2026-03-24,2026-03-30,2026-04-12,Hired,2026-03-07,36,Filled
+C-10183,REQ-2026-0038,Data Science,Engineering,LATAM,Diana Prince,Manager 10,Agency,Internal,2026-04-29,2026-05-02,2026-05-12,2026-05-16,2026-06-09,Hired,2026-04-29,41,Filled
+C-10184,REQ-2026-0009,Data Science,Engineering,LATAM,Diana Prince,Manager 13,Agency,External,2026-03-09,2026-03-15,,,,Withdrawn,2026-03-09,,Filled
+C-10185,REQ-2026-0046,Backend,Engineering,LATAM,Charlie Brown,Manager 1,Job Board,Internal,2026-05-07,2026-05-13,2026-05-24,,,Onsite,2026-05-05,,Open
+C-10186,REQ-2026-0049,Finance,G&A,EMEA,Bob Jones,Manager 6,University,Internal,2026-04-16,2026-04-21,2026-04-26,,,Onsite,2026-04-16,,Open
+C-10187,REQ-2026-0008,Marketing,Marketing,APAC,Charlie Brown,Manager 5,LinkedIn,External,2026-01-22,2026-01-25,2026-02-06,2026-02-14,,Offer,2026-01-19,,Filled
+C-10188,REQ-2026-0035,Product,Product,NA,Charlie Brown,Manager 18,Agency,Internal,2026-03-27,2026-03-29,,,,Screen,2026-03-26,,Filled
+C-10189,REQ-2026-0048,Backend,Engineering,APAC,Charlie Brown,Manager 2,Referral,Referral,2026-03-15,2026-03-17,2026-03-22,,,Onsite,2026-03-12,,Filled
+C-10190,REQ-2026-0027,Data Science,Engineering,NA,Charlie Brown,Manager 1,Referral,Referral,2026-03-15,2026-03-18,2026-03-28,2026-04-01,,Offer,2026-03-14,,Filled
+C-10191,REQ-2026-0048,HR,G&A,NA,Bob Jones,Manager 1,Referral,Referral,2026-02-15,2026-02-19,2026-02-28,2026-03-08,2026-03-23,Hired,2026-02-12,39,Filled
+C-10192,REQ-2026-0018,Marketing,Marketing,APAC,Diana Prince,Manager 8,Agency,External,2026-04-06,2026-04-12,2026-04-18,,,Onsite,2026-04-02,,Filled
+C-10193,REQ-2026-0016,Backend,Engineering,APAC,Diana Prince,Manager 11,LinkedIn,External,2026-02-23,2026-02-27,,,,Screen,2026-02-22,,Open
+C-10194,REQ-2026-0027,Marketing,Marketing,NA,Charlie Brown,Manager 12,Agency,External,2026-03-05,2026-03-09,2026-03-18,,,Withdrawn,2026-02-28,,Filled
+C-10195,REQ-2026-0043,Data Science,Engineering,APAC,Alice Smith,Manager 9,LinkedIn,Internal,2026-04-25,,,,,Rejected,2026-04-23,,Open
+C-10196,REQ-2026-0026,Product,Product,EMEA,Alice Smith,Manager 9,University,External,2026-01-15,2026-01-20,2026-01-29,2026-02-05,2026-02-13,Hired,2026-01-10,34,Filled
+C-10197,REQ-2026-0029,Finance,G&A,EMEA,Charlie Brown,Manager 7,University,Internal,2026-01-19,2026-01-26,,,,Rejected,2026-01-16,,Filled
+C-10198,REQ-2026-0015,Frontend,Engineering,EMEA,Diana Prince,Manager 9,Referral,Referral,2026-01-14,2026-01-21,2026-02-01,,,Onsite,2026-01-09,,Filled
+C-10199,REQ-2026-0001,Finance,G&A,LATAM,Diana Prince,Manager 2,LinkedIn,External,2026-04-24,2026-04-29,2026-05-12,2026-05-18,,Offer,2026-04-23,,Filled
+C-10200,REQ-2026-0030,Data Science,Engineering,NA,Alice Smith,Manager 3,University,Internal,2026-03-03,2026-03-10,,,,Screen,2026-03-02,,Filled
+C-10201,REQ-2026-0017,Backend,Engineering,EMEA,Charlie Brown,Manager 9,Referral,Referral,2026-03-02,2026-03-06,,,,Screen,2026-02-25,,Filled
+C-10202,REQ-2026-0048,Marketing,Marketing,APAC,Diana Prince,Manager 14,LinkedIn,External,2026-01-18,2026-01-25,2026-02-03,2026-02-12,,Offer,2026-01-16,,Filled
+C-10203,REQ-2026-0012,HR,G&A,LATAM,Charlie Brown,Manager 5,Agency,Internal,2026-03-17,2026-03-23,,,,Screen,2026-03-12,,Filled
+C-10204,REQ-2026-0001,Marketing,Marketing,NA,Charlie Brown,Manager 16,Referral,Referral,2026-04-17,,,,,Withdrawn,2026-04-15,,Filled
+C-10205,REQ-2026-0040,Finance,G&A,APAC,Bob Jones,Manager 9,Job Board,Internal,2026-03-16,2026-03-22,2026-03-31,2026-04-09,,Withdrawn,2026-03-14,,Filled
+C-10206,REQ-2026-0027,Data Science,Engineering,NA,Bob Jones,Manager 6,University,Internal,2026-01-27,,,,,Rejected,2026-01-22,,Filled
+C-10207,REQ-2026-0015,Data Science,Engineering,APAC,Alice Smith,Manager 17,Agency,Internal,2026-01-07,2026-01-11,2026-01-20,2026-01-23,,Offer,2026-01-02,,Filled
+C-10208,REQ-2026-0041,Marketing,Marketing,APAC,Bob Jones,Manager 2,Job Board,External,2026-05-22,2026-05-24,2026-06-03,2026-06-11,,Rejected,2026-05-19,,Filled
+C-10209,REQ-2026-0033,Backend,Engineering,APAC,Alice Smith,Manager 16,Job Board,Internal,2026-01-31,2026-02-04,2026-02-14,2026-02-22,,Rejected,2026-01-30,,Filled
+C-10210,REQ-2026-0021,Backend,Engineering,EMEA,Charlie Brown,Manager 4,University,External,2026-03-07,2026-03-10,,,,Screen,2026-03-04,,Filled
+C-10211,REQ-2026-0031,Frontend,Engineering,EMEA,Alice Smith,Manager 7,Agency,External,2026-02-08,2026-02-10,2026-02-18,,,Onsite,2026-02-06,,Open
+C-10212,REQ-2026-0029,HR,G&A,EMEA,Diana Prince,Manager 20,Job Board,Internal,2026-02-25,,,,,Withdrawn,2026-02-21,,Filled
+C-10213,REQ-2026-0043,Marketing,Marketing,EMEA,Bob Jones,Manager 7,Job Board,Internal,2026-04-07,2026-04-14,,,,Screen,2026-04-05,,Open
+C-10214,REQ-2026-0012,Backend,Engineering,APAC,Alice Smith,Manager 7,Agency,External,2026-05-26,2026-06-01,,,,Screen,2026-05-21,,Filled
+C-10215,REQ-2026-0021,HR,G&A,LATAM,Alice Smith,Manager 20,University,External,2026-01-31,2026-02-07,2026-02-19,,,Onsite,2026-01-31,,Filled
+C-10216,REQ-2026-0031,Finance,G&A,APAC,Bob Jones,Manager 8,Job Board,External,2026-01-04,2026-01-09,2026-01-20,,,Onsite,2026-01-02,,Open
+C-10217,REQ-2026-0001,Frontend,Engineering,LATAM,Alice Smith,Manager 12,Referral,Referral,2026-01-31,,,,,Withdrawn,2026-01-28,,Filled
+C-10218,REQ-2026-0006,Product,Product,NA,Charlie Brown,Manager 8,University,External,2026-03-24,2026-03-30,2026-04-08,2026-04-12,2026-04-20,Hired,2026-03-23,28,Filled
+C-10219,REQ-2026-0008,HR,G&A,NA,Bob Jones,Manager 19,University,External,2026-01-21,2026-01-27,2026-02-03,2026-02-13,,Offer,2026-01-16,,Filled
+C-10220,REQ-2026-0039,Marketing,Marketing,APAC,Alice Smith,Manager 9,Referral,Referral,2026-03-11,2026-03-17,2026-03-29,,,Rejected,2026-03-06,,Open
+C-10221,REQ-2026-0036,Finance,G&A,APAC,Charlie Brown,Manager 18,Referral,Referral,2026-04-10,2026-04-17,,,,Screen,2026-04-05,,Filled
+C-10222,REQ-2026-0039,Backend,Engineering,LATAM,Charlie Brown,Manager 10,Job Board,External,2026-05-05,2026-05-08,,,,Screen,2026-05-05,,Open
+C-10223,REQ-2026-0029,Finance,G&A,LATAM,Diana Prince,Manager 5,Agency,Internal,2026-04-28,2026-05-05,,,,Screen,2026-04-23,,Filled
+C-10224,REQ-2026-0047,Backend,Engineering,LATAM,Diana Prince,Manager 11,Referral,Referral,2026-05-31,2026-06-04,2026-06-12,2026-06-21,,Withdrawn,2026-05-27,,Open
+C-10225,REQ-2026-0022,Product,Product,EMEA,Charlie Brown,Manager 15,LinkedIn,External,2026-02-21,2026-02-24,2026-03-03,,,Onsite,2026-02-20,,Filled
+C-10226,REQ-2026-0045,Product,Product,LATAM,Alice Smith,Manager 1,Agency,Internal,2026-05-16,2026-05-20,2026-06-03,,,Onsite,2026-05-11,,Filled
+C-10227,REQ-2026-0050,Data Science,Engineering,NA,Diana Prince,Manager 10,Job Board,Internal,2026-03-31,2026-04-06,2026-04-13,2026-04-22,,Offer,2026-03-29,,Filled
+C-10228,REQ-2026-0016,Frontend,Engineering,NA,Diana Prince,Manager 2,University,External,2026-05-06,,,,,Withdrawn,2026-05-03,,Open
+C-10229,REQ-2026-0019,Backend,Engineering,APAC,Diana Prince,Manager 18,Job Board,Internal,2026-04-20,,,,,Rejected,2026-04-15,,Filled
+C-10230,REQ-2026-0048,Sales,Sales,LATAM,Bob Jones,Manager 5,Agency,External,2026-03-14,2026-03-19,2026-03-28,,,Onsite,2026-03-14,,Filled
+C-10231,REQ-2026-0014,Finance,G&A,APAC,Alice Smith,Manager 1,Job Board,External,2026-02-15,2026-02-19,2026-03-03,2026-03-07,,Offer,2026-02-15,,Open
+C-10232,REQ-2026-0017,Backend,Engineering,APAC,Alice Smith,Manager 20,Job Board,Internal,2026-03-26,2026-03-31,,,,Screen,2026-03-24,,Filled
+C-10233,REQ-2026-0001,Sales,Sales,EMEA,Charlie Brown,Manager 17,Referral,Referral,2026-05-03,2026-05-08,2026-05-18,2026-05-24,2026-06-08,Hired,2026-04-28,41,Filled
+C-10234,REQ-2026-0003,Marketing,Marketing,APAC,Charlie Brown,Manager 12,University,External,2026-01-08,2026-01-14,2026-01-28,2026-02-05,2026-03-05,Hired,2026-01-04,60,Filled
+C-10235,REQ-2026-0040,Sales,Sales,LATAM,Charlie Brown,Manager 19,Agency,Internal,2026-02-27,2026-03-05,,,,Screen,2026-02-25,,Filled
+C-10236,REQ-2026-0004,Product,Product,APAC,Bob Jones,Manager 20,LinkedIn,Internal,2026-02-22,,,,,Rejected,2026-02-19,,Filled
+C-10237,REQ-2026-0035,Product,Product,EMEA,Charlie Brown,Manager 13,Referral,Referral,2026-01-26,2026-01-31,2026-02-10,,,Onsite,2026-01-24,,Filled
+C-10238,REQ-2026-0041,HR,G&A,NA,Charlie Brown,Manager 8,Agency,Internal,2026-01-22,2026-01-26,2026-02-09,2026-02-14,2026-03-04,Hired,2026-01-19,44,Filled
+C-10239,REQ-2026-0019,Finance,G&A,NA,Charlie Brown,Manager 1,LinkedIn,Internal,2026-02-26,2026-03-02,2026-03-10,2026-03-17,2026-04-15,Hired,2026-02-22,52,Filled
+C-10240,REQ-2026-0021,Frontend,Engineering,NA,Charlie Brown,Manager 19,Referral,Referral,2026-04-04,2026-04-08,2026-04-20,2026-04-23,2026-05-18,Hired,2026-04-03,45,Filled
+C-10241,REQ-2026-0025,Frontend,Engineering,APAC,Alice Smith,Manager 18,Referral,Referral,2026-05-15,2026-05-22,2026-05-28,2026-06-03,2026-06-15,Hired,2026-05-13,33,Filled
+C-10242,REQ-2026-0007,Marketing,Marketing,EMEA,Diana Prince,Manager 17,Job Board,Internal,2026-01-02,2026-01-09,2026-01-22,2026-01-29,,Rejected,2026-01-02,,Open
+C-10243,REQ-2026-0021,Frontend,Engineering,APAC,Diana Prince,Manager 18,Referral,Referral,2026-04-25,2026-04-29,,,,Screen,2026-04-20,,Filled
+C-10244,REQ-2026-0004,Sales,Sales,EMEA,Bob Jones,Manager 15,Referral,Referral,2026-04-30,2026-05-04,2026-05-10,2026-05-18,,Rejected,2026-04-28,,Filled
+C-10245,REQ-2026-0032,Finance,G&A,NA,Charlie Brown,Manager 2,Agency,Internal,2026-03-25,2026-03-30,,,,Withdrawn,2026-03-20,,Open
+C-10246,REQ-2026-0015,Product,Product,NA,Diana Prince,Manager 6,University,External,2026-03-21,,,,,Withdrawn,2026-03-19,,Filled
+C-10247,REQ-2026-0034,Backend,Engineering,APAC,Alice Smith,Manager 2,Referral,Referral,2026-05-10,2026-05-16,2026-05-24,2026-06-03,2026-06-25,Hired,2026-05-10,46,Filled
+C-10248,REQ-2026-0028,Product,Product,NA,Charlie Brown,Manager 10,LinkedIn,Internal,2026-03-23,2026-03-27,2026-04-03,2026-04-07,,Offer,2026-03-19,,Open
+C-10249,REQ-2026-0017,Product,Product,NA,Alice Smith,Manager 10,LinkedIn,Internal,2026-05-25,2026-06-01,,,,Screen,2026-05-23,,Filled
+C-10250,REQ-2026-0019,Product,Product,APAC,Bob Jones,Manager 20,LinkedIn,External,2026-05-14,2026-05-19,2026-05-26,2026-06-01,2026-06-18,Hired,2026-05-09,40,Filled
+C-10251,REQ-2026-0014,Marketing,Marketing,LATAM,Charlie Brown,Manager 13,Agency,External,2026-01-14,2026-01-20,2026-01-30,,,Rejected,2026-01-14,,Open
+C-10252,REQ-2026-0015,Finance,G&A,EMEA,Charlie Brown,Manager 13,University,Internal,2026-04-03,,,,,Rejected,2026-03-29,,Filled
+C-10253,REQ-2026-0023,Finance,G&A,NA,Charlie Brown,Manager 11,University,External,2026-02-23,,,,,Withdrawn,2026-02-21,,Filled
+C-10254,REQ-2026-0011,Data Science,Engineering,APAC,Charlie Brown,Manager 20,LinkedIn,Internal,2026-01-13,2026-01-19,2026-01-32,,,Onsite,2026-01-10,,Filled
+C-10255,REQ-2026-0038,Data Science,Engineering,APAC,Bob Jones,Manager 6,Referral,Referral,2026-01-06,2026-01-09,,,,Screen,2026-01-06,,Filled
+C-10256,REQ-2026-0014,Marketing,Marketing,APAC,Charlie Brown,Manager 19,Job Board,Internal,2026-05-26,,,,,Withdrawn,2026-05-22,,Open
+C-10257,REQ-2026-0011,Finance,G&A,NA,Bob Jones,Manager 12,Job Board,External,2026-02-14,2026-02-19,2026-02-25,2026-03-01,,Offer,2026-02-13,,Filled
+C-10258,REQ-2026-0004,Backend,Engineering,EMEA,Diana Prince,Manager 8,Agency,Internal,2026-02-03,2026-02-08,2026-02-19,2026-02-25,,Rejected,2026-01-29,,Filled
+C-10259,REQ-2026-0038,Product,Product,APAC,Diana Prince,Manager 7,University,External,2026-04-21,2026-04-25,2026-05-09,,,Onsite,2026-04-21,,Filled
+C-10260,REQ-2026-0004,Frontend,Engineering,EMEA,Bob Jones,Manager 15,LinkedIn,Internal,2026-01-12,2026-01-19,2026-01-26,2026-02-03,,Offer,2026-01-08,,Filled
+C-10261,REQ-2026-0017,Backend,Engineering,NA,Bob Jones,Manager 20,Job Board,External,2026-02-21,2026-02-28,2026-03-08,2026-03-12,,Offer,2026-02-20,,Filled
+C-10262,REQ-2026-0048,Data Science,Engineering,LATAM,Charlie Brown,Manager 4,Referral,Referral,2026-05-19,,,,,Rejected,2026-05-19,,Filled
+C-10263,REQ-2026-0009,Finance,G&A,LATAM,Charlie Brown,Manager 17,Agency,Internal,2026-05-13,2026-05-18,2026-05-24,2026-05-30,,Offer,2026-05-08,,Filled
+C-10264,REQ-2026-0044,Product,Product,LATAM,Alice Smith,Manager 8,University,Internal,2026-02-15,2026-02-21,2026-02-29,2026-03-05,2026-03-24,Hired,2026-02-15,37,Filled
+C-10265,REQ-2026-0033,Sales,Sales,LATAM,Bob Jones,Manager 10,University,External,2026-02-21,2026-02-28,,,,Screen,2026-02-20,,Filled
+C-10266,REQ-2026-0017,Sales,Sales,NA,Charlie Brown,Manager 17,Referral,Referral,2026-01-25,2026-01-27,2026-02-09,2026-02-18,2026-03-10,Hired,2026-01-21,48,Filled
+C-10267,REQ-2026-0029,HR,G&A,LATAM,Alice Smith,Manager 4,Agency,Internal,2026-05-12,2026-05-19,2026-05-28,,,Onsite,2026-05-10,,Filled
+C-10268,REQ-2026-0022,Data Science,Engineering,EMEA,Alice Smith,Manager 18,LinkedIn,Internal,2026-05-28,2026-06-01,2026-06-12,2026-06-16,2026-07-07,Hired,2026-05-25,43,Filled
+C-10269,REQ-2026-0027,Backend,Engineering,LATAM,Bob Jones,Manager 1,University,External,2026-04-21,2026-04-27,2026-05-09,,,Onsite,2026-04-16,,Filled
+C-10270,REQ-2026-0015,Finance,G&A,LATAM,Bob Jones,Manager 1,Agency,Internal,2026-01-24,2026-01-29,2026-02-08,2026-02-14,2026-02-27,Hired,2026-01-24,34,Filled
+C-10271,REQ-2026-0024,Product,Product,LATAM,Bob Jones,Manager 16,Job Board,External,2026-02-09,2026-02-16,2026-02-22,2026-02-27,,Withdrawn,2026-02-06,,Open
+C-10272,REQ-2026-0002,Finance,G&A,EMEA,Diana Prince,Manager 12,Agency,Internal,2026-03-05,2026-03-08,2026-03-14,,,Onsite,2026-02-28,,Open
+C-10273,REQ-2026-0037,Data Science,Engineering,LATAM,Diana Prince,Manager 7,LinkedIn,External,2026-04-06,2026-04-13,,,,Rejected,2026-04-02,,Filled
+C-10274,REQ-2026-0031,Marketing,Marketing,NA,Diana Prince,Manager 1,Job Board,Internal,2026-02-12,2026-02-15,,,,Screen,2026-02-07,,Open
+C-10275,REQ-2026-0050,Marketing,Marketing,NA,Charlie Brown,Manager 18,University,Internal,2026-03-24,2026-03-29,,,,Rejected,2026-03-19,,Filled
+C-10276,REQ-2026-0047,Backend,Engineering,EMEA,Bob Jones,Manager 7,Referral,Referral,2026-01-28,,,,,Rejected,2026-01-24,,Open
+C-10277,REQ-2026-0032,Frontend,Engineering,LATAM,Diana Prince,Manager 13,Referral,Referral,2026-05-15,2026-05-21,2026-06-03,2026-06-08,,Offer,2026-05-11,,Open
+C-10278,REQ-2026-0047,Frontend,Engineering,EMEA,Alice Smith,Manager 14,Referral,Referral,2026-01-12,2026-01-17,,,,Withdrawn,2026-01-10,,Open
+C-10279,REQ-2026-0021,Frontend,Engineering,NA,Alice Smith,Manager 15,Referral,Referral,2026-01-22,2026-01-28,2026-02-11,,,Rejected,2026-01-21,,Filled
+C-10280,REQ-2026-0019,HR,G&A,LATAM,Charlie Brown,Manager 20,Agency,Internal,2026-02-08,2026-02-12,2026-02-23,,,Withdrawn,2026-02-06,,Filled
+C-10281,REQ-2026-0021,Sales,Sales,NA,Bob Jones,Manager 1,Referral,Referral,2026-04-14,2026-04-21,2026-05-02,,,Onsite,2026-04-11,,Filled
+C-10282,REQ-2026-0018,Sales,Sales,APAC,Charlie Brown,Manager 2,Job Board,External,2026-05-02,2026-05-05,2026-05-14,2026-05-19,2026-06-09,Hired,2026-04-30,40,Filled
+C-10283,REQ-2026-0042,Marketing,Marketing,NA,Charlie Brown,Manager 15,Referral,Referral,2026-02-05,2026-02-08,2026-02-15,2026-02-22,2026-03-22,Hired,2026-02-05,45,Filled
+C-10284,REQ-2026-0011,Product,Product,EMEA,Alice Smith,Manager 8,Referral,Referral,2026-03-18,2026-03-24,,,,Withdrawn,2026-03-18,,Filled
+C-10285,REQ-2026-0043,Marketing,Marketing,EMEA,Bob Jones,Manager 15,Job Board,External,2026-02-22,2026-02-26,2026-03-05,2026-03-14,,Offer,2026-02-21,,Open
+C-10286,REQ-2026-0045,Marketing,Marketing,NA,Bob Jones,Manager 12,LinkedIn,Internal,2026-02-02,2026-02-07,2026-02-14,2026-02-24,,Offer,2026-01-28,,Filled
+C-10287,REQ-2026-0015,HR,G&A,LATAM,Bob Jones,Manager 20,LinkedIn,Internal,2026-04-29,2026-05-05,,,,Screen,2026-04-27,,Filled
+C-10288,REQ-2026-0046,Finance,G&A,LATAM,Alice Smith,Manager 18,Referral,Referral,2026-04-11,2026-04-13,,,,Screen,2026-04-09,,Open
+C-10289,REQ-2026-0027,Sales,Sales,LATAM,Alice Smith,Manager 5,University,Internal,2026-05-06,2026-05-10,2026-05-24,2026-06-03,2026-06-15,Hired,2026-05-06,40,Filled
+C-10290,REQ-2026-0035,Backend,Engineering,LATAM,Diana Prince,Manager 7,LinkedIn,Internal,2026-03-15,2026-03-17,,,,Withdrawn,2026-03-11,,Filled
+C-10291,REQ-2026-0050,Frontend,Engineering,LATAM,Bob Jones,Manager 4,Job Board,External,2026-01-31,2026-02-07,2026-02-19,2026-02-26,,Withdrawn,2026-01-31,,Filled
+C-10292,REQ-2026-0048,Finance,G&A,LATAM,Diana Prince,Manager 13,University,Internal,2026-05-24,2026-05-30,2026-06-09,,,Rejected,2026-05-24,,Filled
+C-10293,REQ-2026-0021,HR,G&A,APAC,Alice Smith,Manager 1,University,Internal,2026-01-22,,,,,Withdrawn,2026-01-20,,Filled
+C-10294,REQ-2026-0035,Frontend,Engineering,NA,Diana Prince,Manager 8,Referral,Referral,2026-01-10,,,,,Rejected,2026-01-06,,Filled
+C-10295,REQ-2026-0050,Marketing,Marketing,EMEA,Diana Prince,Manager 12,Job Board,Internal,2026-05-21,2026-05-23,,,,Screen,2026-05-19,,Filled
+C-10296,REQ-2026-0040,Data Science,Engineering,APAC,Diana Prince,Manager 10,Job Board,External,2026-05-21,,,,,Withdrawn,2026-05-16,,Filled
+C-10297,REQ-2026-0013,Data Science,Engineering,EMEA,Charlie Brown,Manager 14,Job Board,Internal,2026-03-08,2026-03-15,2026-03-24,2026-03-31,,Rejected,2026-03-03,,Filled
+C-10298,REQ-2026-0017,Backend,Engineering,LATAM,Diana Prince,Manager 18,University,Internal,2026-05-07,2026-05-14,,,,Screen,2026-05-04,,Filled
+C-10299,REQ-2026-0028,Backend,Engineering,APAC,Bob Jones,Manager 9,Referral,Referral,2026-02-04,2026-02-10,2026-02-23,,,Onsite,2026-02-04,,Open
+C-10300,REQ-2026-0036,Sales,Sales,NA,Diana Prince,Manager 13,Job Board,Internal,2026-02-16,2026-02-21,,,,Rejected,2026-02-12,,Filled
+C-10301,REQ-2026-0014,HR,G&A,LATAM,Charlie Brown,Manager 10,Agency,Internal,2026-04-22,2026-04-27,,,,Screen,2026-04-19,,Open
+C-10302,REQ-2026-0050,Backend,Engineering,LATAM,Charlie Brown,Manager 17,University,External,2026-04-19,2026-04-25,2026-05-04,2026-05-07,,Offer,2026-04-14,,Filled
+C-10303,REQ-2026-0037,Product,Product,NA,Alice Smith,Manager 6,Job Board,Internal,2026-05-29,2026-06-04,,,,Screen,2026-05-27,,Filled
+C-10304,REQ-2026-0007,Marketing,Marketing,EMEA,Diana Prince,Manager 19,Referral,Referral,2026-05-24,2026-05-28,2026-06-05,,,Withdrawn,2026-05-24,,Open
+C-10305,REQ-2026-0021,Data Science,Engineering,APAC,Diana Prince,Manager 17,Agency,External,2026-03-04,,,,,Rejected,2026-03-04,,Filled
+C-10306,REQ-2026-0045,Backend,Engineering,EMEA,Bob Jones,Manager 1,LinkedIn,Internal,2026-02-01,2026-02-05,2026-02-11,,,Onsite,2026-01-28,,Filled
+C-10307,REQ-2026-0029,Marketing,Marketing,EMEA,Alice Smith,Manager 13,LinkedIn,Internal,2026-05-15,2026-05-22,2026-05-30,2026-06-05,2026-06-25,Hired,2026-05-13,43,Filled
+C-10308,REQ-2026-0045,Data Science,Engineering,LATAM,Alice Smith,Manager 14,Referral,Referral,2026-03-16,,,,,Withdrawn,2026-03-12,,Filled
+C-10309,REQ-2026-0044,Sales,Sales,LATAM,Bob Jones,Manager 4,University,Internal,2026-02-03,2026-02-09,,,,Rejected,2026-02-03,,Filled
+C-10310,REQ-2026-0014,Backend,Engineering,LATAM,Charlie Brown,Manager 11,LinkedIn,Internal,2026-03-01,2026-03-07,,,,Screen,2026-03-01,,Open
+C-10311,REQ-2026-0027,Marketing,Marketing,NA,Diana Prince,Manager 20,Referral,Referral,2026-05-03,2026-05-08,2026-05-17,,,Onsite,2026-05-03,,Filled
+C-10312,REQ-2026-0008,Frontend,Engineering,LATAM,Bob Jones,Manager 9,Referral,Referral,2026-04-30,,,,,Withdrawn,2026-04-29,,Filled
+C-10313,REQ-2026-0023,Data Science,Engineering,APAC,Charlie Brown,Manager 11,Referral,Referral,2026-04-18,2026-04-20,2026-04-28,2026-05-04,,Offer,2026-04-17,,Filled
+C-10314,REQ-2026-0045,Sales,Sales,LATAM,Charlie Brown,Manager 5,University,External,2026-03-12,2026-03-18,,,,Screen,2026-03-10,,Filled
+C-10315,REQ-2026-0049,Frontend,Engineering,APAC,Charlie Brown,Manager 9,Referral,Referral,2026-01-19,2026-01-22,,,,Screen,2026-01-16,,Open
+C-10316,REQ-2026-0023,Product,Product,EMEA,Charlie Brown,Manager 5,Agency,Internal,2026-04-20,2026-04-23,2026-05-05,,,Onsite,2026-04-16,,Filled
+C-10317,REQ-2026-0041,Marketing,Marketing,EMEA,Diana Prince,Manager 12,Job Board,External,2026-05-01,2026-05-08,,,,Withdrawn,2026-05-01,,Filled
+C-10318,REQ-2026-0004,Product,Product,APAC,Alice Smith,Manager 15,University,Internal,2026-01-02,2026-01-04,2026-01-17,,,Onsite,2026-01-01,,Filled
+C-10319,REQ-2026-0015,Product,Product,NA,Alice Smith,Manager 11,Agency,External,2026-04-01,2026-04-05,,,,Screen,2026-03-27,,Filled
+C-10320,REQ-2026-0012,Sales,Sales,LATAM,Diana Prince,Manager 3,University,External,2026-02-26,2026-03-01,2026-03-10,2026-03-14,2026-04-09,Hired,2026-02-22,46,Filled
+C-10321,REQ-2026-0002,Sales,Sales,NA,Charlie Brown,Manager 1,Referral,Referral,2026-05-28,,,,,Rejected,2026-05-26,,Open
+C-10322,REQ-2026-0029,Product,Product,EMEA,Diana Prince,Manager 16,Job Board,Internal,2026-03-11,2026-03-15,,,,Rejected,2026-03-11,,Filled
+C-10323,REQ-2026-0013,Product,Product,APAC,Charlie Brown,Manager 3,Job Board,External,2026-05-23,2026-05-27,2026-06-03,2026-06-08,2026-06-25,Hired,2026-05-21,35,Filled
+C-10324,REQ-2026-0040,Marketing,Marketing,APAC,Alice Smith,Manager 8,Referral,Referral,2026-02-16,2026-02-20,2026-03-05,2026-03-11,,Offer,2026-02-15,,Filled
+C-10325,REQ-2026-0041,Backend,Engineering,APAC,Alice Smith,Manager 7,Agency,External,2026-04-20,2026-04-27,2026-05-06,2026-05-15,2026-06-01,Hired,2026-04-20,42,Filled
+C-10326,REQ-2026-0028,Product,Product,NA,Alice Smith,Manager 19,Referral,Referral,2026-02-10,,,,,Withdrawn,2026-02-08,,Open
+C-10327,REQ-2026-0040,Backend,Engineering,APAC,Bob Jones,Manager 15,Referral,Referral,2026-05-26,,,,,Withdrawn,2026-05-22,,Filled
+C-10328,REQ-2026-0040,Backend,Engineering,EMEA,Charlie Brown,Manager 5,Agency,External,2026-04-04,2026-04-09,2026-04-22,,,Onsite,2026-04-04,,Filled
+C-10329,REQ-2026-0050,Product,Product,APAC,Diana Prince,Manager 12,Agency,External,2026-05-10,,,,,Withdrawn,2026-05-10,,Filled
+C-10330,REQ-2026-0050,Sales,Sales,APAC,Bob Jones,Manager 4,LinkedIn,External,2026-02-07,2026-02-13,,,,Screen,2026-02-06,,Filled
+C-10331,REQ-2026-0042,Finance,G&A,LATAM,Alice Smith,Manager 2,University,External,2026-05-20,2026-05-27,2026-06-09,2026-06-12,2026-07-07,Hired,2026-05-15,53,Filled
+C-10332,REQ-2026-0009,Sales,Sales,EMEA,Bob Jones,Manager 4,Agency,Internal,2026-02-17,2026-02-24,2026-03-03,2026-03-09,2026-03-26,Hired,2026-02-17,37,Filled
+C-10333,REQ-2026-0049,HR,G&A,LATAM,Charlie Brown,Manager 10,LinkedIn,External,2026-01-22,2026-01-28,2026-02-11,,,Onsite,2026-01-22,,Open
+C-10334,REQ-2026-0035,Frontend,Engineering,NA,Charlie Brown,Manager 5,Job Board,Internal,2026-04-10,2026-04-16,2026-04-26,2026-05-06,2026-05-26,Hired,2026-04-09,47,Filled
+C-10335,REQ-2026-0008,Finance,G&A,APAC,Alice Smith,Manager 20,Referral,Referral,2026-05-30,2026-06-05,2026-06-12,2026-06-17,2026-07-02,Hired,2026-05-30,33,Filled
+C-10336,REQ-2026-0040,Marketing,Marketing,EMEA,Alice Smith,Manager 18,Job Board,Internal,2026-01-21,2026-01-27,2026-02-04,,,Onsite,2026-01-17,,Filled
+C-10337,REQ-2026-0026,Backend,Engineering,APAC,Charlie Brown,Manager 5,Referral,Referral,2026-02-10,2026-02-15,2026-02-23,,,Withdrawn,2026-02-05,,Filled
+C-10338,REQ-2026-0035,Marketing,Marketing,LATAM,Charlie Brown,Manager 13,Referral,Referral,2026-05-20,2026-05-24,,,,Withdrawn,2026-05-17,,Filled
+C-10339,REQ-2026-0038,HR,G&A,EMEA,Diana Prince,Manager 15,Job Board,External,2026-05-09,2026-05-16,2026-05-27,2026-05-30,2026-06-10,Hired,2026-05-07,34,Filled
+C-10340,REQ-2026-0024,Data Science,Engineering,LATAM,Diana Prince,Manager 3,Agency,Internal,2026-02-05,2026-02-07,,,,Screen,2026-02-04,,Filled
+C-10341,REQ-2026-0017,HR,G&A,APAC,Charlie Brown,Manager 4,University,External,2026-01-05,2026-01-12,2026-01-21,,,Rejected,2026-01-03,,Filled
+C-10342,REQ-2026-0048,Product,Product,LATAM,Bob Jones,Manager 7,LinkedIn,External,2026-04-07,,,,,Rejected,2026-04-05,,Filled
+C-10343,REQ-2026-0010,Marketing,Marketing,LATAM,Charlie Brown,Manager 10,LinkedIn,External,2026-03-10,,,,,Withdrawn,2026-03-09,,Filled
+C-10344,REQ-2026-0002,Frontend,Engineering,NA,Bob Jones,Manager 18,University,External,2026-05-06,2026-05-10,2026-05-21,2026-05-25,,Offer,2026-05-05,,Open
+C-10345,REQ-2026-0046,Sales,Sales,NA,Alice Smith,Manager 11,Agency,External,2026-01-25,2026-01-30,2026-02-04,2026-02-13,,Offer,2026-01-24,,Open
+C-10346,REQ-2026-0023,Marketing,Marketing,APAC,Alice Smith,Manager 6,University,Internal,2026-06-01,,,,,Rejected,2026-05-30,,Filled
+C-10347,REQ-2026-0031,Product,Product,EMEA,Bob Jones,Manager 5,LinkedIn,External,2026-03-04,2026-03-10,2026-03-24,,,Onsite,2026-03-01,,Open
+C-10348,REQ-2026-0008,Frontend,Engineering,NA,Diana Prince,Manager 13,Job Board,External,2026-01-31,2026-02-05,2026-02-14,2026-02-18,,Offer,2026-01-27,,Filled
+C-10349,REQ-2026-0041,Finance,G&A,APAC,Charlie Brown,Manager 20,Job Board,External,2026-02-09,2026-02-13,,,,Rejected,2026-02-09,,Filled
+C-10350,REQ-2026-0023,Backend,Engineering,NA,Charlie Brown,Manager 1,Agency,Internal,2026-01-20,2026-01-24,2026-02-02,,,Onsite,2026-01-18,,Filled
+C-10351,REQ-2026-0033,Sales,Sales,APAC,Diana Prince,Manager 18,Job Board,External,2026-03-04,2026-03-08,2026-03-19,,,Onsite,2026-02-27,,Filled
+C-10352,REQ-2026-0035,Marketing,Marketing,EMEA,Charlie Brown,Manager 15,University,Internal,2026-03-11,2026-03-17,2026-03-25,2026-04-03,2026-04-20,Hired,2026-03-10,41,Filled
+C-10353,REQ-2026-0038,Backend,Engineering,APAC,Charlie Brown,Manager 1,Job Board,External,2026-05-24,2026-05-27,2026-06-03,2026-06-13,2026-07-06,Hired,2026-05-23,44,Filled
+C-10354,REQ-2026-0024,HR,G&A,LATAM,Alice Smith,Manager 18,University,Internal,2026-01-08,2026-01-14,,,,Withdrawn,2026-01-08,,Filled
+C-10355,REQ-2026-0050,Marketing,Marketing,EMEA,Alice Smith,Manager 5,Agency,External,2026-03-07,2026-03-10,2026-03-22,2026-03-29,,Offer,2026-03-03,,Filled
+C-10356,REQ-2026-0034,HR,G&A,NA,Bob Jones,Manager 17,Job Board,External,2026-01-20,,,,,Rejected,2026-01-18,,Filled
+C-10357,REQ-2026-0050,Sales,Sales,NA,Charlie Brown,Manager 1,LinkedIn,External,2026-03-01,2026-03-07,2026-03-18,,,Rejected,2026-02-25,,Filled
+C-10358,REQ-2026-0019,HR,G&A,NA,Bob Jones,Manager 4,Referral,Referral,2026-02-08,2026-02-11,2026-02-21,2026-02-29,2026-03-15,Hired,2026-02-04,39,Filled
+C-10359,REQ-2026-0023,Data Science,Engineering,LATAM,Alice Smith,Manager 18,University,External,2026-05-13,2026-05-18,2026-05-24,,,Onsite,2026-05-12,,Filled
+C-10360,REQ-2026-0037,Backend,Engineering,EMEA,Alice Smith,Manager 4,Job Board,Internal,2026-03-31,2026-04-04,2026-04-14,2026-04-20,,Withdrawn,2026-03-27,,Filled
+C-10361,REQ-2026-0033,Marketing,Marketing,APAC,Bob Jones,Manager 16,LinkedIn,Internal,2026-05-11,2026-05-13,,,,Screen,2026-05-06,,Filled
+C-10362,REQ-2026-0035,Frontend,Engineering,EMEA,Diana Prince,Manager 11,LinkedIn,Internal,2026-02-24,2026-03-02,2026-03-12,2026-03-21,,Offer,2026-02-22,,Filled
+C-10363,REQ-2026-0027,Sales,Sales,EMEA,Diana Prince,Manager 18,University,External,2026-05-04,2026-05-08,,,,Screen,2026-05-02,,Filled
+C-10364,REQ-2026-0028,Product,Product,LATAM,Diana Prince,Manager 9,Referral,Referral,2026-02-17,2026-02-20,2026-02-26,,,Rejected,2026-02-17,,Open
+C-10365,REQ-2026-0014,Data Science,Engineering,APAC,Diana Prince,Manager 10,University,External,2026-01-16,2026-01-20,,,,Screen,2026-01-14,,Open
+C-10366,REQ-2026-0011,Backend,Engineering,NA,Charlie Brown,Manager 13,LinkedIn,External,2026-02-15,2026-02-19,2026-02-27,2026-03-07,2026-03-29,Hired,2026-02-13,44,Filled
+C-10367,REQ-2026-0010,Data Science,Engineering,LATAM,Diana Prince,Manager 8,University,External,2026-02-14,2026-02-20,2026-03-05,2026-03-10,,Offer,2026-02-12,,Filled
+C-10368,REQ-2026-0033,Sales,Sales,NA,Bob Jones,Manager 16,LinkedIn,Internal,2026-05-09,2026-05-14,,,,Withdrawn,2026-05-04,,Filled
+C-10369,REQ-2026-0018,Finance,G&A,APAC,Charlie Brown,Manager 2,Job Board,External,2026-01-04,2026-01-11,2026-01-21,,,Withdrawn,2026-01-01,,Filled
+C-10370,REQ-2026-0034,Frontend,Engineering,EMEA,Charlie Brown,Manager 9,Job Board,Internal,2026-04-07,2026-04-13,2026-04-22,2026-04-30,2026-05-20,Hired,2026-04-06,44,Filled
+C-10371,REQ-2026-0019,Product,Product,APAC,Alice Smith,Manager 11,LinkedIn,Internal,2026-05-12,2026-05-19,2026-05-24,2026-06-03,,Withdrawn,2026-05-07,,Filled
+C-10372,REQ-2026-0047,Backend,Engineering,EMEA,Diana Prince,Manager 9,Agency,Internal,2026-04-26,2026-05-03,2026-05-12,2026-05-16,,Offer,2026-04-22,,Open
+C-10373,REQ-2026-0011,Backend,Engineering,APAC,Diana Prince,Manager 19,University,Internal,2026-02-09,2026-02-16,,,,Screen,2026-02-09,,Filled
+C-10374,REQ-2026-0050,Frontend,Engineering,APAC,Charlie Brown,Manager 11,LinkedIn,External,2026-02-21,2026-02-28,2026-03-09,2026-03-12,2026-03-24,Hired,2026-02-20,32,Filled
+C-10375,REQ-2026-0033,Sales,Sales,EMEA,Charlie Brown,Manager 10,University,Internal,2026-04-17,2026-04-23,2026-05-06,2026-05-10,,Offer,2026-04-17,,Filled
+C-10376,REQ-2026-0049,Finance,G&A,LATAM,Bob Jones,Manager 9,LinkedIn,Internal,2026-01-19,,,,,Withdrawn,2026-01-15,,Open
+C-10377,REQ-2026-0019,Finance,G&A,NA,Charlie Brown,Manager 15,Referral,Referral,2026-04-22,2026-04-26,2026-05-04,2026-05-10,,Offer,2026-04-21,,Filled
+C-10378,REQ-2026-0037,Finance,G&A,EMEA,Bob Jones,Manager 14,Referral,Referral,2026-04-18,2026-04-25,2026-05-01,2026-05-10,2026-06-03,Hired,2026-04-16,48,Filled
+C-10379,REQ-2026-0002,Data Science,Engineering,LATAM,Bob Jones,Manager 3,University,External,2026-04-24,2026-05-01,2026-05-07,2026-05-11,,Offer,2026-04-19,,Open
+C-10380,REQ-2026-0021,Finance,G&A,APAC,Diana Prince,Manager 17,University,Internal,2026-06-01,2026-06-05,,,,Screen,2026-05-27,,Filled
+C-10381,REQ-2026-0044,Marketing,Marketing,NA,Bob Jones,Manager 7,LinkedIn,External,2026-02-02,,,,,Rejected,2026-02-02,,Filled
+C-10382,REQ-2026-0028,Marketing,Marketing,NA,Bob Jones,Manager 16,Referral,Referral,2026-02-16,2026-02-21,2026-02-28,2026-03-07,,Offer,2026-02-11,,Open
+C-10383,REQ-2026-0007,Finance,G&A,APAC,Diana Prince,Manager 16,LinkedIn,External,2026-05-14,2026-05-18,,,,Screen,2026-05-14,,Open
+C-10384,REQ-2026-0033,Backend,Engineering,APAC,Alice Smith,Manager 5,Agency,Internal,2026-03-06,2026-03-08,2026-03-18,2026-03-22,2026-04-01,Hired,2026-03-02,30,Filled
+C-10385,REQ-2026-0017,Backend,Engineering,NA,Bob Jones,Manager 1,Job Board,External,2026-01-18,,,,,Withdrawn,2026-01-16,,Filled
+C-10386,REQ-2026-0040,Backend,Engineering,LATAM,Diana Prince,Manager 16,Referral,Referral,2026-04-22,2026-04-27,,,,Screen,2026-04-19,,Filled
+C-10387,REQ-2026-0013,Marketing,Marketing,EMEA,Bob Jones,Manager 18,University,Internal,2026-03-08,2026-03-14,2026-03-25,2026-03-31,,Offer,2026-03-06,,Filled
+C-10388,REQ-2026-0008,Data Science,Engineering,LATAM,Diana Prince,Manager 19,University,External,2026-04-14,2026-04-17,,,,Screen,2026-04-13,,Filled
+C-10389,REQ-2026-0021,Marketing,Marketing,APAC,Charlie Brown,Manager 20,University,Internal,2026-01-27,2026-01-30,2026-02-12,2026-02-19,,Withdrawn,2026-01-22,,Filled
+C-10390,REQ-2026-0034,HR,G&A,EMEA,Alice Smith,Manager 9,University,Internal,2026-04-24,,,,,Withdrawn,2026-04-22,,Filled
+C-10391,REQ-2026-0039,Product,Product,NA,Charlie Brown,Manager 5,Job Board,External,2026-02-09,2026-02-16,2026-03-01,,,Onsite,2026-02-07,,Open
+C-10392,REQ-2026-0050,Sales,Sales,LATAM,Charlie Brown,Manager 4,Referral,Referral,2026-04-26,2026-04-30,2026-05-12,2026-05-17,2026-06-05,Hired,2026-04-21,45,Filled
+C-10393,REQ-2026-0022,Product,Product,LATAM,Alice Smith,Manager 11,Job Board,External,2026-05-18,2026-05-22,2026-06-01,2026-06-11,2026-07-06,Hired,2026-05-17,50,Filled
+C-10394,REQ-2026-0021,Sales,Sales,LATAM,Diana Prince,Manager 9,University,External,2026-01-30,2026-02-03,,,,Screen,2026-01-30,,Filled
+C-10395,REQ-2026-0026,Data Science,Engineering,APAC,Charlie Brown,Manager 19,Referral,Referral,2026-03-24,2026-03-27,2026-04-02,2026-04-11,,Offer,2026-03-24,,Filled
+C-10396,REQ-2026-0001,Backend,Engineering,NA,Bob Jones,Manager 18,Referral,Referral,2026-03-08,,,,,Withdrawn,2026-03-05,,Filled
+C-10397,REQ-2026-0040,Sales,Sales,LATAM,Charlie Brown,Manager 13,Job Board,External,2026-04-23,2026-04-30,2026-05-09,2026-05-16,2026-06-03,Hired,2026-04-18,46,Filled
+C-10398,REQ-2026-0047,Frontend,Engineering,APAC,Diana Prince,Manager 18,Job Board,External,2026-02-02,2026-02-05,,,,Withdrawn,2026-02-02,,Open
+C-10399,REQ-2026-0033,Frontend,Engineering,EMEA,Alice Smith,Manager 8,LinkedIn,Internal,2026-03-26,2026-03-29,2026-04-06,2026-04-11,2026-05-01,Hired,2026-03-24,38,Filled
+C-10400,REQ-2026-0003,Backend,Engineering,EMEA,Diana Prince,Manager 4,Referral,Referral,2026-01-30,2026-02-05,,,,Screen,2026-01-28,,Filled

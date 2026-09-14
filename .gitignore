@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Apps Script: contains a script id specific to your own copy of the workbook
+apps_script/.clasp.json
+apps_script/.clasprc.json
+
+# Never commit credentials. Keys live in Apps Script Script Properties.
+.env
+*.key
+credentials.json

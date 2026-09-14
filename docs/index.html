@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recruiting Funnel Dashboard</title>
+<meta name="description" content="A recruiting operations funnel dashboard built on synthetic data — funnel conversion, time-to-fill, source effectiveness and requisition ageing.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='14'>%F0%9F%93%8A</text></svg>">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <h1>Recruiting Funnel Dashboard</h1>
+        <p class="brand-sub">Talent operations &middot; weekly leadership view</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <span class="badge badge-synthetic" title="No real candidate or company data appears anywhere in this project.">Synthetic data</span>
+      <button id="theme-toggle" class="icon-button" type="button" aria-label="Switch colour theme">
+        <span class="theme-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="controls" aria-label="Filters">
+    <div class="control">
+      <label for="filter-department">Department</label>
+      <select id="filter-department"><option value="">All departments</option></select>
+    </div>
+    <div class="control">
+      <label for="filter-region">Region</label>
+      <select id="filter-region"><option value="">All regions</option></select>
+    </div>
+    <p class="as-of">Data as of <time id="as-of"></time> &middot; <span id="row-count"></span></p>
+  </section>
+
+  <p id="filter-note" class="filter-note" hidden></p>
+
+  <section class="tiles" id="tiles" aria-label="Headline metrics"></section>
+
+  <div class="grid">
+    <section class="panel panel-wide" aria-labelledby="funnel-title">
+      <div class="panel-head">
+        <div>
+          <h2 id="funnel-title">Hiring funnel</h2>
+          <p class="panel-sub">Candidates reaching each stage, and the conversion from the stage before it.</p>
+        </div>
+        <div class="segmented" role="group" aria-label="Funnel calculation">
+          <button type="button" data-funnel="funnel" class="is-active">Corrected</button>
+          <button type="button" data-funnel="funnel_legacy">Spreadsheet logic</button>
+        </div>
+      </div>
+      <div id="funnel-chart" class="chart"></div>
+      <p id="funnel-note" class="panel-note"></p>
+    </section>
+
+    <section class="panel panel-wide" aria-labelledby="trend-title">
+      <div class="panel-head">
+        <div>
+          <h2 id="trend-title">Sixteen-week activity</h2>
+          <p class="panel-sub">Recomputed from the event dates on every build, so the history can never drift from the data.</p>
+        </div>
+      </div>
+      <div id="trend-charts" class="small-multiples"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="ttf-title">
+      <div class="panel-head">
+        <div>
+          <h2 id="ttf-title">Time to fill by department</h2>
+          <p class="panel-sub">Days from requisition open to hire. Target is 45 days.</p>
+        </div>
+      </div>
+      <div id="ttf-chart" class="chart"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="source-title">
+      <div class="panel-head">
+        <div>
+          <h2 id="source-title">Source effectiveness</h2>
+          <p class="panel-sub">Share of each channel's applicants who were hired.</p>
+        </div>
+      </div>
+      <div id="source-chart" class="chart"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="aging-title">
+      <div class="panel-head">
+        <div>
+          <h2 id="aging-title">Open requisition ageing</h2>
+          <p class="panel-sub">How long the roles still open have been open.</p>
+        </div>
+      </div>
+      <div id="aging-chart" class="chart"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="risk-title">
+      <div class="panel-head">
+        <div>
+          <h2 id="risk-title">Requisitions at risk</h2>
+          <p class="panel-sub">Open more than 60 days, oldest first.</p>
+        </div>
+      </div>
+      <div id="risk-table" class="table-wrap"></div>
+    </section>
+
+    <section class="panel panel-wide" aria-labelledby="quality-title">
+      <div class="panel-head">
+        <div>
+          <h2 id="quality-title">Data quality</h2>
+          <p class="panel-sub">Every row is checked before any metric is computed. Numbers you cannot trust are worse than no numbers.</p>
+        </div>
+      </div>
+      <div id="quality-panel"></div>
+    </section>
+  </div>
+
+  <section class="panel panel-wide" aria-labelledby="table-title">
+    <div class="panel-head">
+      <div>
+        <h2 id="table-title">All figures</h2>
+        <p class="panel-sub">The same numbers as above, as text.</p>
+      </div>
+      <button id="table-toggle" class="icon-button text-button" type="button" aria-expanded="false">Show table</button>
+    </div>
+    <div id="data-table" class="table-wrap" hidden></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p><strong>This dashboard is built entirely on synthetic data.</strong> It was never connected to a live applicant tracking system and contains no real candidate, employee or company information. It exists to demonstrate how a recruiting operations reporting pipeline is designed, tested and delivered.</p>
+  <p class="footer-meta">Every number on this page is computed by <code>recruiting_funnel.metrics</code> and written to <code>dashboard.json</code> at build time &mdash; the page draws figures, it never derives them. <a id="repo-link" href="#">View the source</a>.</p>
+</footer>
+
+<div id="tooltip" class="tooltip" role="status" aria-live="polite" hidden></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

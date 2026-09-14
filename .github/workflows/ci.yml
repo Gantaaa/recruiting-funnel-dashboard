@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # No install step: the package is standard library only.
+      - name: Run tests
+        run: make test
+
+      - name: Validate the shipped dataset
+        run: make validate
+
+      - name: Check the published dashboard data is up to date
+        run: |
+          make dashboard
+          git diff --exit-code docs/data/dashboard.json \
+            || (echo "::error::docs/data/dashboard.json is stale. Run 'make dashboard' and commit the result." && exit 1)
