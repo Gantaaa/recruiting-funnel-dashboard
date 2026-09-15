@@ -720,19 +720,41 @@ cited that were wrong — is in
 
 ---
 
-## 13. Data Quality and Audit Process
+## 13. Data Quality
 
-| Issue | How it shows up | Detection |
-|---|---|---|
-| **Missing key dates** | Hired candidate with blank `Hire_Date`; offer stage with no `Offer_Date` | Validation rule counts blanks on required-by-stage fields. |
-| **Duplicate candidates** | Same `Candidate_ID` on the same req across multiple rows | Group by `Candidate_ID + Requisition_ID`; keep furthest stage, flag the rest. |
-| **Incorrect hire attribution** | Hire credited to the wrong source/recruiter | Cross-check `Source_of_Hire` and `Recruiter` against the req's owner; flag mismatches for review. |
-| **Date inconsistencies** | `Hire_Date < Application_Date`, or `Offer_Date < Onsite_Date` | Ordered-date logic check (each stage date ≥ the prior). |
-| **Orphan reqs** | Candidates pointing to a `Requisition_ID` not in the req list | Anti-join candidates vs. reqs. |
-| **Enum typos** | "Linkedin" vs "LinkedIn" splitting a pivot | Validation dropdowns + Python normalization. |
+The rules that ship, what each one catches, and the full audit of this
+workbook are in [`docs/data-quality.md`](./data-quality.md). That file is
+authoritative; this section is about what I got wrong before writing it.
 
-The **Data Quality** tab surfaces a `Data Health %` = `1 − (flagged rows ÷ total rows)`. Leadership sees that number on the Exec Overview so they know how much to trust the week's figures. Anything flagged is listed with the offending field highlighted.
+### What I planned for, and what actually happened
 
+At design time I listed the failure modes I could imagine: candidates pointing
+at requisitions that don't exist, hires credited to the wrong recruiter,
+"Linkedin" and "LinkedIn" splitting a pivot, missing dates on a stage a
+candidate had clearly reached.
+
+**None of those occurred.** Two of them could not have — a requisition in this
+model is derived from the candidate rows themselves rather than held in a
+separate list, so there is no list for a candidate to be orphaned from.
+
+What actually broke every requisition-level metric was something I had not
+thought to check at all: whether a requisition was *internally consistent*.
+49 of 50 had rows disagreeing about which team and region they belonged to and
+when they opened. Time-to-fill, requisition ageing, at-risk reporting — all of
+them join on that key, and all of them were measuring noise.
+
+### The lesson
+
+I had written a data-quality tab. It reported 99.75% health. It was checking
+for blanks and duplicate names — the errors that are easy to imagine and easy
+to count — and it was silent about the one that mattered, because I had only
+thought to verify the *contents* of rows and never the *relationships between
+them*.
+
+The checks that now run are the ones that would have caught it: every field
+that should be constant across a requisition is asserted to be constant, and
+the assertion runs before any metric is computed rather than on a tab beside
+the results.
 
 ## 14. Capstone Expansion
 
