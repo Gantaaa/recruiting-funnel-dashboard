@@ -154,6 +154,36 @@ def validate_records(records: list[dict]) -> list[Issue]:
                 "MISSING_STAGE_DATE", "error", index, record, "Offer_Date",
                 "Current_Stage is Offer but Offer_Date is missing",
             )
+        # A stored derived column that disagrees with the columns it is
+        # derived from is the quiet version of this project's whole problem:
+        # nothing errors, and whichever of the two a report happens to read
+        # decides the answer.
+        stored_ttf = (record.get("Time_to_Fill") or "").strip()
+        if stored_ttf:
+            try:
+                stored = int(float(stored_ttf))
+            except ValueError:
+                add(
+                    "INVALID_NUMBER", "error", index, record, "Time_to_Fill",
+                    f"{stored_ttf!r} is not a number",
+                )
+            else:
+                if parsed["Hire_Date"] and parsed["Req_Open_Date"]:
+                    derived = (parsed["Hire_Date"] - parsed["Req_Open_Date"]).days
+                    if stored != derived:
+                        add(
+                            "DERIVED_VALUE_MISMATCH", "error", index, record,
+                            "Time_to_Fill",
+                            f"stored {stored} days, but Hire_Date minus "
+                            f"Req_Open_Date is {derived}",
+                        )
+                elif parsed["Hire_Date"] is None:
+                    add(
+                        "DERIVED_VALUE_MISMATCH", "error", index, record,
+                        "Time_to_Fill",
+                        "time to fill recorded for a candidate with no hire date",
+                    )
+
         if parsed["Hire_Date"] and parsed["Offer_Date"] is None:
             add(
                 "HIRED_WITHOUT_OFFER", "warning", index, record, "Offer_Date",

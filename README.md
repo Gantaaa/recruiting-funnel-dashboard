@@ -35,7 +35,7 @@ the deck builds itself, and the narrative is drafted from the actual figures.
 |---|---|
 | **[Live dashboard](https://gantaaa.github.io/recruiting-funnel-dashboard/)** | Funnel, velocity, source effectiveness, requisition ageing, data quality. Filters by department and region, light and dark themes, works on a phone. |
 | **[Metric layer](src/recruiting_funnel/metrics.py)** | Every KPI, defined exactly once. 48 tests pin the definitions. |
-| **[Validation](src/recruiting_funnel/validate.py)** | 11 data-quality rules that run over the raw CSV before any metric is computed. |
+| **[Validation](src/recruiting_funnel/validate.py)** | 13 data-quality rules that run over the raw CSV before any metric is computed. |
 | **[Generator](src/recruiting_funnel/generate.py)** | Seeded synthetic data where requisitions are real entities and funnel dates are monotonic. |
 | **[Apps Script](apps_script/Code.gs)** | The weekly job: snapshot → narrative → Slides deck → email, on a Monday trigger. [A real run's output](apps_script/example-output.md), and what it got wrong. |
 | **[Workbook](workbook/)** | The original Google Sheets build: 15 tabs, 5 pivot tables, 7 charts, named ranges, validation rules, conditional formatting and a bound Apps Script. Preserved unfixed as the audit's ["before"](workbook/README.md). |
@@ -138,7 +138,7 @@ Full list in [docs/kpi-definitions.md](docs/kpi-definitions.md).
 │   ├── schema.py      field dictionary, controlled vocabularies, funnel definition
 │   ├── generate.py    seeded synthetic generator
 │   ├── dataset.py     CSV → typed rows, with schema-drift rejection
-│   ├── validate.py    11 data-quality rules
+│   ├── validate.py    13 data-quality rules
 │   ├── metrics.py     every KPI, defined once
 │   └── export.py      metrics → dashboard.json
 ├── apps_script/       the weekly report automation

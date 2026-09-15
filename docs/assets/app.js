@@ -617,10 +617,11 @@ function renderQuality() {
   status.appendChild(
     document.createTextNode(
       healthy
-        ? "  Eleven rules run over the raw CSV before any metric is computed — impossible " +
+        ? "  Thirteen rules run over the raw CSV before any metric is computed — impossible " +
           "calendar dates, values outside the controlled vocabulary, stage dates running " +
-          "backwards, duplicate candidates, and requisitions whose rows disagree about " +
-          "their own department, region or status."
+          "backwards, duplicate candidates, a stored time-to-fill that disagrees with the " +
+          "dates it derives from, and requisitions whose rows disagree about their own " +
+          "department, region or status."
         : "  See the repository's data-quality report for the full list."
     )
   );

@@ -54,6 +54,8 @@ Each rule is pinned by a test in
 | `DUPLICATE_CANDIDATE_ID` | The same candidate id on more than one row |
 | `INCONSISTENT_REQ_STATUS` | One requisition carrying two headcount statuses |
 | `INCONSISTENT_REQ_ATTRIBUTE` | One requisition whose rows disagree about department, region or open date |
+| `INVALID_NUMBER` | A numeric cell that is not a number |
+| `DERIVED_VALUE_MISMATCH` | A stored `Time_to_Fill` that disagrees with `Hire_Date − Req_Open_Date`, or one recorded against a candidate who was never hired |
 
 ### Warnings — worth a look, but no metric is wrong
 
@@ -81,6 +83,13 @@ print(summarise(750, issues)["health"])
 Each issue carries its rule, severity, CSV line number, candidate id, column and
 a readable explanation — enough to go and fix the row, which is the only thing
 a data-quality report is actually for.
+
+`DERIVED_VALUE_MISMATCH` is the one worth explaining. `Time_to_Fill` is stored
+in the data *and* derivable from two other columns in it. When those disagree,
+nothing errors — whichever of the two a given report happens to read decides
+the answer, which is the quiet version of this project's whole problem. The
+rule exists because an exported dataset can carry a stale derived column even
+when every other field is sound.
 
 The dataset shipped in `data/recruiting_data.csv` validates clean: 750 rows, no
 errors, no warnings. A test enforces that, so a regression in the generator

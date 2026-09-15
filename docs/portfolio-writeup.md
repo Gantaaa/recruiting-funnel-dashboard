@@ -581,82 +581,50 @@ load on the most-loaded recruiters could keep the backlog from compounding.
 
 ## 10. Python Analytics Layer
 
-Python does the work that's clumsy in formulas. In the prototype it runs in Colab against the synthetic CSV; in production it could be a Cloud Function writing back to Sheets via the Sheets API.
+Python does the work that is clumsy in formulas and impossible to unit-test in
+a spreadsheet. The shipped implementation is in
+[`src/recruiting_funnel/`](../src/recruiting_funnel/):
 
-```python
-import pandas as pd
-import numpy as np
+| Module | Responsibility |
+|---|---|
+| [`schema.py`](../src/recruiting_funnel/schema.py) | Field dictionary, controlled vocabularies, what "reaching a stage" means |
+| [`generate.py`](../src/recruiting_funnel/generate.py) | Seeded synthetic generator; requisitions are built first, candidates attached to them |
+| [`dataset.py`](../src/recruiting_funnel/dataset.py) | CSV to typed rows, rejecting header drift |
+| [`validate.py`](../src/recruiting_funnel/validate.py) | 13 data-quality rules, run over the raw CSV before typing |
+| [`metrics.py`](../src/recruiting_funnel/metrics.py) | Every KPI, defined exactly once |
+| [`export.py`](../src/recruiting_funnel/export.py) | Metrics to the JSON the web dashboard reads |
 
-df = pd.read_csv("recruiting_data.csv", parse_dates=[
-    "Req_Open_Date","Application_Date","Phone_Screen_Date",
-    "Onsite_Date","Offer_Date","Hire_Date"])
+### Three things changed from the original design
 
-# ---------- 1. DATA CLEANING ----------
-def clean(df):
-    df = df.copy()
-    # normalize enums (trim + title case) to kill pivot-breaking typos
-    for col in ["Region","Source_of_Hire","Candidate_Type",
-                "Current_Stage","Headcount_Status"]:
-        df[col] = df[col].str.strip().str.title()
-    # dedupe exact duplicate candidate-req rows, keep furthest stage
-    stage_rank = {"Applied":1,"Screen":2,"Onsite":3,"Offer":4,"Hired":5}
-    df["_rank"] = df["Current_Stage"].map(stage_rank).fillna(0)
-    df = (df.sort_values("_rank")
-            .drop_duplicates(["Candidate_ID","Requisition_ID"], keep="last")
-            .drop(columns="_rank"))
-    return df
+**No pandas.** The first sketch of this layer was built on pandas. For 750
+rows and a fixed set of aggregations it was buying a dependency and no
+capability, so the shipped code is standard library only. The practical payoff
+is that `make test` works on a fresh clone with no install step and CI needs no
+resolver. The boundary to revisit is `dataset.load()` — at warehouse scale,
+that is the one function that changes.
 
-# ---------- 2. METRIC VALIDATION ----------
-def validate(df):
-    issues = []
-    bad_dates = df[df["Hire_Date"] < df["Application_Date"]]
-    if len(bad_dates):
-        issues.append(("hire_before_apply", bad_dates["Candidate_ID"].tolist()))
-    offer_no_date = df[(df["Current_Stage"]=="Offer") & df["Offer_Date"].isna()]
-    if len(offer_no_date):
-        issues.append(("offer_stage_missing_offer_date",
-                        offer_no_date["Candidate_ID"].tolist()))
-    # recompute TTF independently and compare to stored column
-    ttf = (df["Hire_Date"] - df["Req_Open_Date"]).dt.days
-    mismatch = df[(df["Headcount_Status"]=="Filled") &
-                  (abs(ttf - df["Time_to_Fill"]) > 1)]
-    if len(mismatch):
-        issues.append(("ttf_mismatch", mismatch["Candidate_ID"].tolist()))
-    return issues
+**No `.str.title()` normalisation.** The original plan normalised the enum
+columns by trimming and title-casing them, to stop `"Linkedin"` and
+`"LinkedIn"` splitting a pivot. That fix is worse than the problem: `.title()`
+turns `"LinkedIn"` into `"Linkedin"`, corrupting the correctly-spelled value in
+order to match the typo. Silently rewriting data to make a report tidy is how
+you lose the ability to reconcile it against the source. The shipped code
+validates against a controlled vocabulary and *reports* anything outside it
+instead — see `UNKNOWN_ENUM`.
 
-# ---------- 3. ANOMALY DETECTION (week-over-week, z-score) ----------
-def detect_anomalies(weekly_kpis: pd.DataFrame, z=2.0):
-    """weekly_kpis indexed by week, columns = KPIs."""
-    flags = {}
-    for col in weekly_kpis.columns:
-        s = weekly_kpis[col].dropna()
-        if len(s) < 4:            # need history to judge "normal"
-            continue
-        mu, sd = s[:-1].mean(), s[:-1].std(ddof=0)
-        latest = s.iloc[-1]
-        if sd > 0 and abs(latest - mu) > z * sd:
-            flags[col] = {"latest": latest, "mean": round(mu,2),
-                          "z": round((latest-mu)/sd, 2)}
-    return flags
+**No anomaly detection.** The design included z-score flagging on the weekly
+KPIs. It is not implemented, and the write-up previously implied it was. With
+16 weeks of history and hire counts in the low single digits per week, a
+z-score would flag noise constantly; it needs either more history or a model
+of the count distribution, and neither was worth building on synthetic data.
+It is honest future work rather than a shipped feature.
 
-# ---------- 4. TREND ANALYSIS ----------
-def trend(weekly_kpis: pd.DataFrame, col, window=4):
-    """Simple slope over a rolling window: rising / flat / falling."""
-    y = weekly_kpis[col].dropna().tail(window).values
-    if len(y) < 2: return "insufficient data"
-    slope = np.polyfit(range(len(y)), y, 1)[0]
-    return "rising" if slope > 0.5 else "falling" if slope < -0.5 else "flat"
+### On testing
 
-df = clean(df)
-print("Validation issues:", validate(df))
-```
-
-- **Cleaning** normalizes categorical fields and dedupes candidate-req rows (keeping the furthest stage) — the single biggest source of wrong counts.
-- **Validation** independently recomputes TTF and checks date logic; mismatches feed the Data Quality tab.
-- **Anomaly detection** uses a z-score against the recent weekly history, so "9 days slower" is only flagged when it's genuinely unusual for *this* team.
-- **Trend** fits a slope over a rolling window to label each KPI rising/flat/falling for the narrative.
-
----
+The metric definitions carry 51 tests, which is the part of this layer that
+most needed them: a KPI is a definition as much as a calculation, and a test is
+the only place a definition can be pinned so that changing it has to be
+deliberate. See [`tests/`](../tests/).
 
 ## 11. Automated Google Slides Reporting
 

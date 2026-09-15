@@ -89,7 +89,7 @@ Not carelessness on any single day. Three ordinary causes:
 ## What I changed
 
 Every metric is now calculated in one place, and each definition has a test
-that fails the build if the number moves unexpectedly. Eleven checks run over
+that fails the build if the number moves unexpectedly. Thirteen checks run over
 the raw data before any figure is computed — including the ones that would have
 caught all of the above. The weekly history is recalculated from the underlying
 records each time rather than accumulated, so it can no longer drift.

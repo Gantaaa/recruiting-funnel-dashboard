@@ -9,7 +9,7 @@
             │  data/recruiting_data.csv
             ▼
   ┌────────────────────┐
-  │  validate.py       │   11 rules over the RAW csv, before typing
+  │  validate.py       │   13 rules over the RAW csv, before typing
   └─────────┬──────────┘
             │  issues + health score
             ▼

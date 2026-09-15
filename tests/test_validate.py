@@ -69,6 +69,24 @@ class Rules(unittest.TestCase):
         found = rules([record(Onsite_Date="2026-02-01", Phone_Screen_Date="")])
         self.assertIn("SKIPPED_STAGE_DATE", found)
 
+    def test_a_stored_time_to_fill_that_contradicts_its_dates_is_caught(self):
+        found = rules([record(
+            Req_Open_Date="2026-01-01", Application_Date="2026-01-05",
+            Hire_Date="2026-03-02", Current_Stage="Hired", Time_to_Fill="12",
+        )])
+        self.assertIn("DERIVED_VALUE_MISMATCH", found)  # the true value is 60
+
+    def test_a_matching_stored_time_to_fill_is_accepted(self):
+        found = rules([record(
+            Req_Open_Date="2026-01-01", Application_Date="2026-01-05",
+            Hire_Date="2026-03-02", Current_Stage="Hired", Time_to_Fill="60",
+        )])
+        self.assertNotIn("DERIVED_VALUE_MISMATCH", found)
+
+    def test_time_to_fill_on_a_candidate_with_no_hire_is_caught(self):
+        found = rules([record(Time_to_Fill="40")])
+        self.assertIn("DERIVED_VALUE_MISMATCH", found)
+
     def test_duplicate_candidate_ids_are_caught(self):
         found = rules([record(Candidate_ID="C-1"), record(Candidate_ID="C-1")])
         self.assertIn("DUPLICATE_CANDIDATE_ID", found)
