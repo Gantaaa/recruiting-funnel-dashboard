@@ -3,7 +3,7 @@
 A recruiting-operations reporting pipeline: synthetic ATS data in, a validated
 metric layer in the middle, and three delivery surfaces out — an interactive web
 dashboard, a Google Sheets workbook, and an automatically generated weekly
-leadership deck with a written executive summary.
+leadership deck whose executive summary is written by an LLM.
 
 **[▶ Open the live dashboard](https://gantaaa.github.io/recruiting-funnel-dashboard/)**
 
@@ -37,7 +37,8 @@ the deck builds itself, and the narrative is drafted from the actual figures.
 | **[Metric layer](src/recruiting_funnel/metrics.py)** | Every KPI, defined exactly once. 51 tests pin the definitions. |
 | **[Validation](src/recruiting_funnel/validate.py)** | 13 data-quality rules that run over the raw CSV before any metric is computed. |
 | **[Generator](src/recruiting_funnel/generate.py)** | Seeded synthetic data where requisitions are real entities and funnel dates are monotonic. |
-| **[Apps Script](apps_script/Code.gs)** | The weekly job: snapshot → narrative → Slides deck → email, on a Monday trigger. [A real run's output](apps_script/example-output.md), and what it got wrong. |
+| **[Apps Script](apps_script/Code.gs)** | The weekly job on a Monday trigger: snapshot → LLM narrative → Slides deck → email. |
+| **[The LLM step](apps_script/Code.gs#L149)** | `generateNarrative()` — the prompt, and [a real run's output](apps_script/example-output.md) with an account of the two figures it got wrong. |
 | **[Workbook](workbook/)** | The original Google Sheets build: 15 tabs, 5 pivot tables, 7 charts, named ranges, validation rules, conditional formatting and a bound Apps Script. Preserved unfixed as the audit's ["before"](workbook/README.md). |
 | **[Findings memo](docs/findings-memo.md)** | The one-page version for a TA leader: what the numbers said, what was true, what it would have cost. No code. |
 | **[Portfolio write-up](docs/portfolio-writeup.md)** | The long-form version: design decisions, KPI reasoning, interview notes. |
@@ -89,6 +90,48 @@ out mid-funnel:
 Details in [docs/data-quality.md](docs/data-quality.md). The same findings
 written for a non-technical reader are in
 [docs/findings-memo.md](docs/findings-memo.md).
+
+## The AI step, and why it is the argument for everything else
+
+The weekly deck's executive summary is written by an LLM —
+[`generateNarrative()`](apps_script/Code.gs#L149), the only model call in the
+project. It runs on Groq (Llama 3.3 70B); the endpoint and model are three
+lines at the top of the file, and Gemini or Claude are drop-in replacements
+([how](apps_script/README.md#swapping-the-narrative-provider)).
+
+It is deliberately constrained. The model never sees the dataset — it receives
+twelve numbers as text and an instruction to use only those and invent nothing.
+Arithmetic stays in code; the model only does phrasing, so it cannot derive a
+figure that is not already on the dashboard.
+
+It worked. Here is part of a real run, recovered from the workbook's
+`AI_Output` tab:
+
+> **RISKS**
+> Our headcount is currently at 72.5% of plan, which may indicate a risk in
+> meeting our hiring targets, and our offer acceptance rate of 55.2% may also
+> be a concern.
+
+**Both of those figures are wrong.** There is no hiring plan anywhere in the
+data — 72.5% was the mislabelled fill rate, computed on a denominator that
+counted 51 of 50 requisitions. And 55.2% offer acceptance came from the broken
+funnel; corrected, it was 46.0%.
+
+The model did nothing wrong. It was told to use only the numbers it was given,
+and it obeyed exactly — then produced a confident, well-organised summary in
+which half the cited figures were wrong, under the heading **RISKS**, with no
+hedge and nothing in the prose to catch the eye.
+
+That is the case for everything else in this repository. A narration layer
+inherits the correctness of whatever sits beneath it and adds fluency on top,
+which makes a wrong number *more* persuasive, not less. It is the last thing in
+the pipeline that can be checked, so everything it reads from has to be checked
+first — which is why the metrics live in
+[one tested module](src/recruiting_funnel/metrics.py) and
+[13 rules](src/recruiting_funnel/validate.py) run before any of them are
+computed.
+
+Full write-up: [apps_script/example-output.md](apps_script/example-output.md).
 
 ## How it fits together
 
