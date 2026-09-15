@@ -39,6 +39,7 @@ the deck builds itself, and the narrative is drafted from the actual figures.
 | **[Generator](src/recruiting_funnel/generate.py)** | Seeded synthetic data where requisitions are real entities and funnel dates are monotonic. |
 | **[Apps Script](apps_script/Code.gs)** | The weekly job: snapshot → narrative → Slides deck → email, on a Monday trigger. [A real run's output](apps_script/example-output.md), and what it got wrong. |
 | **[Workbook](workbook/)** | The original Google Sheets implementation, 15 tabs. Preserved unfixed as the "before" — [its numbers are wrong on purpose](workbook/README.md). |
+| **[Findings memo](docs/findings-memo.md)** | The one-page version for a TA leader: what the numbers said, what was true, what it would have cost. No code. |
 | **[Portfolio write-up](docs/portfolio-writeup.md)** | The long-form version: design decisions, KPI reasoning, interview notes. |
 
 ## Quick start
@@ -85,7 +86,9 @@ out mid-funnel:
 
 ![funnel comparison](docs/images/dashboard-panels-dark.jpg)
 
-Details in [docs/data-quality.md](docs/data-quality.md).
+Details in [docs/data-quality.md](docs/data-quality.md). The same findings
+written for a non-technical reader are in
+[docs/findings-memo.md](docs/findings-memo.md).
 
 ## How it fits together
 
