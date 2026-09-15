@@ -38,7 +38,7 @@ the deck builds itself, and the narrative is drafted from the actual figures.
 | **[Validation](src/recruiting_funnel/validate.py)** | 11 data-quality rules that run over the raw CSV before any metric is computed. |
 | **[Generator](src/recruiting_funnel/generate.py)** | Seeded synthetic data where requisitions are real entities and funnel dates are monotonic. |
 | **[Apps Script](apps_script/Code.gs)** | The weekly job: snapshot → narrative → Slides deck → email, on a Monday trigger. [A real run's output](apps_script/example-output.md), and what it got wrong. |
-| **[Workbook](workbook/)** | The original Google Sheets implementation, 15 tabs. Preserved unfixed as the "before" — [its numbers are wrong on purpose](workbook/README.md). |
+| **[Workbook](workbook/)** | The original Google Sheets build: 15 tabs, 5 pivot tables, 7 charts, named ranges, validation rules, conditional formatting and a bound Apps Script. Preserved unfixed as the audit's ["before"](workbook/README.md). |
 | **[Findings memo](docs/findings-memo.md)** | The one-page version for a TA leader: what the numbers said, what was true, what it would have cost. No code. |
 | **[Portfolio write-up](docs/portfolio-writeup.md)** | The long-form version: design decisions, KPI reasoning, interview notes. |
 

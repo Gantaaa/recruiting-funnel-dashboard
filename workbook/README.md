@@ -1,7 +1,12 @@
 # The original workbook
 
-`Recruiting_Funnel_Dashboard.xlsx` is the first version of this project, kept
-**unchanged**. It is the "before" in the audit the
+`Recruiting_Funnel_Dashboard.xlsx` is the first version of this project: 15
+tabs, 5 pivot tables, 7 charts, 8 named ranges, 5 data-validation rules, 4
+conditional-formatting rules, and an Apps Script project bound to the
+workbook. The raw log feeds `Helper_Calcs`, which feeds the pivots on
+`Pivots`, which feed eight dashboard tabs.
+
+It is kept here **unchanged**, because it is also the "before" in the audit the
 [README](../README.md#what-auditing-my-own-workbook-found) describes.
 
 ## Its numbers do not match the dashboard, and are not meant to
