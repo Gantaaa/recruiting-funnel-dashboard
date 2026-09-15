@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-09-14",
+  "as_of": "2026-07-31",
   "dataset": {
     "candidates": 750,
     "requisitions": 70,
     "date_range": {
-      "earliest_application": "2025-11-22",
-      "latest_hire": "2026-09-06"
+      "earliest_application": "2025-10-08",
+      "latest_hire": "2026-07-23"
     }
   },
   "kpis": {
@@ -475,143 +475,143 @@
   ],
   "weekly_trend": [
     {
-      "week_ending": "2026-05-31",
-      "applications": 15,
+      "week_ending": "2026-04-12",
+      "applications": 8,
+      "offers": 2,
+      "hires": 0,
+      "open_requisitions": 17,
+      "avg_time_to_fill": null
+    },
+    {
+      "week_ending": "2026-04-19",
+      "applications": 17,
       "offers": 1,
+      "hires": 1,
+      "open_requisitions": 19,
+      "avg_time_to_fill": 51.0
+    },
+    {
+      "week_ending": "2026-04-26",
+      "applications": 18,
+      "offers": 4,
+      "hires": 1,
+      "open_requisitions": 20,
+      "avg_time_to_fill": 92.0
+    },
+    {
+      "week_ending": "2026-05-03",
+      "applications": 20,
+      "offers": 1,
+      "hires": 2,
+      "open_requisitions": 19,
+      "avg_time_to_fill": 49.5
+    },
+    {
+      "week_ending": "2026-05-10",
+      "applications": 27,
+      "offers": 0,
+      "hires": 1,
+      "open_requisitions": 18,
+      "avg_time_to_fill": 67.0
+    },
+    {
+      "week_ending": "2026-05-17",
+      "applications": 15,
+      "offers": 4,
       "hires": 0,
       "open_requisitions": 18,
       "avg_time_to_fill": null
     },
     {
+      "week_ending": "2026-05-24",
+      "applications": 12,
+      "offers": 0,
+      "hires": 3,
+      "open_requisitions": 17,
+      "avg_time_to_fill": 50.3
+    },
+    {
+      "week_ending": "2026-05-31",
+      "applications": 13,
+      "offers": 1,
+      "hires": 1,
+      "open_requisitions": 16,
+      "avg_time_to_fill": 54.0
+    },
+    {
       "week_ending": "2026-06-07",
       "applications": 19,
-      "offers": 4,
-      "hires": 2,
-      "open_requisitions": 20,
-      "avg_time_to_fill": 71.5
+      "offers": 1,
+      "hires": 1,
+      "open_requisitions": 17,
+      "avg_time_to_fill": 40.0
     },
     {
       "week_ending": "2026-06-14",
-      "applications": 11,
-      "offers": 1,
+      "applications": 21,
+      "offers": 3,
       "hires": 1,
       "open_requisitions": 19,
       "avg_time_to_fill": 57.0
     },
     {
       "week_ending": "2026-06-21",
-      "applications": 34,
-      "offers": 0,
-      "hires": 1,
-      "open_requisitions": 19,
-      "avg_time_to_fill": 42.0
+      "applications": 18,
+      "offers": 1,
+      "hires": 0,
+      "open_requisitions": 20,
+      "avg_time_to_fill": null
     },
     {
       "week_ending": "2026-06-28",
-      "applications": 15,
-      "offers": 3,
-      "hires": 1,
-      "open_requisitions": 18,
-      "avg_time_to_fill": 67.0
-    },
-    {
-      "week_ending": "2026-07-05",
       "applications": 13,
-      "offers": 1,
-      "hires": 1,
-      "open_requisitions": 18,
-      "avg_time_to_fill": 35.0
-    },
-    {
-      "week_ending": "2026-07-12",
-      "applications": 13,
-      "offers": 1,
-      "hires": 2,
-      "open_requisitions": 17,
-      "avg_time_to_fill": 58.0
-    },
-    {
-      "week_ending": "2026-07-19",
-      "applications": 17,
       "offers": 0,
       "hires": 2,
-      "open_requisitions": 16,
-      "avg_time_to_fill": 47.0
-    },
-    {
-      "week_ending": "2026-07-26",
-      "applications": 19,
-      "offers": 3,
-      "hires": 0,
       "open_requisitions": 19,
-      "avg_time_to_fill": null
-    },
-    {
-      "week_ending": "2026-08-02",
-      "applications": 19,
-      "offers": 1,
-      "hires": 1,
-      "open_requisitions": 19,
-      "avg_time_to_fill": 57.0
-    },
-    {
-      "week_ending": "2026-08-09",
-      "applications": 17,
-      "offers": 1,
-      "hires": 2,
-      "open_requisitions": 18,
       "avg_time_to_fill": 79.5
     },
     {
-      "week_ending": "2026-08-16",
+      "week_ending": "2026-07-05",
       "applications": 15,
       "offers": 2,
       "hires": 0,
-      "open_requisitions": 19,
+      "open_requisitions": 20,
       "avg_time_to_fill": null
     },
     {
-      "week_ending": "2026-08-23",
-      "applications": 21,
-      "offers": 0,
-      "hires": 0,
+      "week_ending": "2026-07-12",
+      "applications": 26,
+      "offers": 2,
+      "hires": 1,
       "open_requisitions": 21,
-      "avg_time_to_fill": null
+      "avg_time_to_fill": 30.0
     },
     {
-      "week_ending": "2026-08-30",
-      "applications": 25,
-      "offers": 4,
+      "week_ending": "2026-07-19",
+      "applications": 27,
+      "offers": 2,
       "hires": 2,
       "open_requisitions": 21,
-      "avg_time_to_fill": 65.0
+      "avg_time_to_fill": 69.0
     },
     {
-      "week_ending": "2026-09-06",
-      "applications": 28,
-      "offers": 1,
-      "hires": 3,
-      "open_requisitions": 19,
-      "avg_time_to_fill": 42.3
-    },
-    {
-      "week_ending": "2026-09-13",
-      "applications": 5,
+      "week_ending": "2026-07-26",
+      "applications": 21,
       "offers": 2,
-      "hires": 0,
+      "hires": 2,
       "open_requisitions": 19,
-      "avg_time_to_fill": null
+      "avg_time_to_fill": 44.5
     }
   ],
   "slices": {
     "all": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 750,
         "requisitions": 70,
         "date_range": {
-          "earliest_application": "2025-11-22",
-          "latest_hire": "2026-09-06"
+          "earliest_application": "2025-10-08",
+          "latest_hire": "2026-07-23"
         }
       },
       "kpis": {
@@ -1081,143 +1081,143 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
-          "applications": 15,
+          "week_ending": "2026-04-12",
+          "applications": 8,
+          "offers": 2,
+          "hires": 0,
+          "open_requisitions": 17,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-04-19",
+          "applications": 17,
           "offers": 1,
+          "hires": 1,
+          "open_requisitions": 19,
+          "avg_time_to_fill": 51.0
+        },
+        {
+          "week_ending": "2026-04-26",
+          "applications": 18,
+          "offers": 4,
+          "hires": 1,
+          "open_requisitions": 20,
+          "avg_time_to_fill": 92.0
+        },
+        {
+          "week_ending": "2026-05-03",
+          "applications": 20,
+          "offers": 1,
+          "hires": 2,
+          "open_requisitions": 19,
+          "avg_time_to_fill": 49.5
+        },
+        {
+          "week_ending": "2026-05-10",
+          "applications": 27,
+          "offers": 0,
+          "hires": 1,
+          "open_requisitions": 18,
+          "avg_time_to_fill": 67.0
+        },
+        {
+          "week_ending": "2026-05-17",
+          "applications": 15,
+          "offers": 4,
           "hires": 0,
           "open_requisitions": 18,
           "avg_time_to_fill": null
         },
         {
+          "week_ending": "2026-05-24",
+          "applications": 12,
+          "offers": 0,
+          "hires": 3,
+          "open_requisitions": 17,
+          "avg_time_to_fill": 50.3
+        },
+        {
+          "week_ending": "2026-05-31",
+          "applications": 13,
+          "offers": 1,
+          "hires": 1,
+          "open_requisitions": 16,
+          "avg_time_to_fill": 54.0
+        },
+        {
           "week_ending": "2026-06-07",
           "applications": 19,
-          "offers": 4,
-          "hires": 2,
-          "open_requisitions": 20,
-          "avg_time_to_fill": 71.5
+          "offers": 1,
+          "hires": 1,
+          "open_requisitions": 17,
+          "avg_time_to_fill": 40.0
         },
         {
           "week_ending": "2026-06-14",
-          "applications": 11,
-          "offers": 1,
+          "applications": 21,
+          "offers": 3,
           "hires": 1,
           "open_requisitions": 19,
           "avg_time_to_fill": 57.0
         },
         {
           "week_ending": "2026-06-21",
-          "applications": 34,
-          "offers": 0,
-          "hires": 1,
-          "open_requisitions": 19,
-          "avg_time_to_fill": 42.0
+          "applications": 18,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 20,
+          "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-06-28",
-          "applications": 15,
-          "offers": 3,
-          "hires": 1,
-          "open_requisitions": 18,
-          "avg_time_to_fill": 67.0
-        },
-        {
-          "week_ending": "2026-07-05",
           "applications": 13,
-          "offers": 1,
-          "hires": 1,
-          "open_requisitions": 18,
-          "avg_time_to_fill": 35.0
-        },
-        {
-          "week_ending": "2026-07-12",
-          "applications": 13,
-          "offers": 1,
-          "hires": 2,
-          "open_requisitions": 17,
-          "avg_time_to_fill": 58.0
-        },
-        {
-          "week_ending": "2026-07-19",
-          "applications": 17,
           "offers": 0,
           "hires": 2,
-          "open_requisitions": 16,
-          "avg_time_to_fill": 47.0
-        },
-        {
-          "week_ending": "2026-07-26",
-          "applications": 19,
-          "offers": 3,
-          "hires": 0,
           "open_requisitions": 19,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
-          "applications": 19,
-          "offers": 1,
-          "hires": 1,
-          "open_requisitions": 19,
-          "avg_time_to_fill": 57.0
-        },
-        {
-          "week_ending": "2026-08-09",
-          "applications": 17,
-          "offers": 1,
-          "hires": 2,
-          "open_requisitions": 18,
           "avg_time_to_fill": 79.5
         },
         {
-          "week_ending": "2026-08-16",
+          "week_ending": "2026-07-05",
           "applications": 15,
           "offers": 2,
           "hires": 0,
-          "open_requisitions": 19,
+          "open_requisitions": 20,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-23",
-          "applications": 21,
-          "offers": 0,
-          "hires": 0,
+          "week_ending": "2026-07-12",
+          "applications": 26,
+          "offers": 2,
+          "hires": 1,
           "open_requisitions": 21,
-          "avg_time_to_fill": null
+          "avg_time_to_fill": 30.0
         },
         {
-          "week_ending": "2026-08-30",
-          "applications": 25,
-          "offers": 4,
+          "week_ending": "2026-07-19",
+          "applications": 27,
+          "offers": 2,
           "hires": 2,
           "open_requisitions": 21,
-          "avg_time_to_fill": 65.0
+          "avg_time_to_fill": 69.0
         },
         {
-          "week_ending": "2026-09-06",
-          "applications": 28,
-          "offers": 1,
-          "hires": 3,
-          "open_requisitions": 19,
-          "avg_time_to_fill": 42.3
-        },
-        {
-          "week_ending": "2026-09-13",
-          "applications": 5,
+          "week_ending": "2026-07-26",
+          "applications": 21,
           "offers": 2,
-          "hires": 0,
+          "hires": 2,
           "open_requisitions": 19,
-          "avg_time_to_fill": null
+          "avg_time_to_fill": 44.5
         }
       ]
     },
     "department:Engineering": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 192,
         "requisitions": 18,
         "date_range": {
-          "earliest_application": "2025-11-22",
-          "latest_hire": "2026-08-30"
+          "earliest_application": "2025-10-08",
+          "latest_hire": "2026-07-16"
         }
       },
       "kpis": {
@@ -1568,15 +1568,23 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
-          "applications": 8,
-          "offers": 1,
+          "week_ending": "2026-04-12",
+          "applications": 2,
+          "offers": 0,
           "hires": 0,
           "open_requisitions": 6,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-07",
+          "week_ending": "2026-04-19",
+          "applications": 8,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 7,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-04-26",
           "applications": 5,
           "offers": 1,
           "hires": 1,
@@ -1584,79 +1592,79 @@
           "avg_time_to_fill": 92.0
         },
         {
-          "week_ending": "2026-06-14",
-          "applications": 3,
+          "week_ending": "2026-05-03",
+          "applications": 5,
           "offers": 1,
-          "hires": 0,
-          "open_requisitions": 6,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-21",
-          "applications": 9,
-          "offers": 0,
           "hires": 1,
           "open_requisitions": 5,
           "avg_time_to_fill": 42.0
         },
         {
-          "week_ending": "2026-06-28",
-          "applications": 4,
-          "offers": 1,
+          "week_ending": "2026-05-10",
+          "applications": 6,
+          "offers": 0,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-05",
-          "applications": 2,
-          "offers": 1,
+          "week_ending": "2026-05-17",
+          "applications": 4,
+          "offers": 2,
           "hires": 0,
-          "open_requisitions": 6,
+          "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-12",
-          "applications": 4,
+          "week_ending": "2026-05-24",
+          "applications": 3,
           "offers": 0,
           "hires": 1,
           "open_requisitions": 5,
           "avg_time_to_fill": 34.0
         },
         {
-          "week_ending": "2026-07-19",
-          "applications": 9,
+          "week_ending": "2026-05-31",
+          "applications": 6,
           "offers": 0,
           "hires": 1,
           "open_requisitions": 4,
           "avg_time_to_fill": 54.0
         },
         {
-          "week_ending": "2026-07-26",
-          "applications": 5,
+          "week_ending": "2026-06-07",
+          "applications": 8,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-02",
-          "applications": 4,
+          "week_ending": "2026-06-14",
+          "applications": 5,
           "offers": 1,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-09",
-          "applications": 5,
+          "week_ending": "2026-06-21",
+          "applications": 4,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-16",
+          "week_ending": "2026-06-28",
+          "applications": 2,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 5,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-07-05",
           "applications": 1,
           "offers": 1,
           "hires": 0,
@@ -1664,32 +1672,24 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-23",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-30",
-          "applications": 10,
+          "week_ending": "2026-07-12",
+          "applications": 3,
           "offers": 1,
-          "hires": 1,
-          "open_requisitions": 5,
-          "avg_time_to_fill": 100.0
-        },
-        {
-          "week_ending": "2026-09-06",
-          "applications": 15,
-          "offers": 0,
           "hires": 0,
           "open_requisitions": 6,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-09-13",
-          "applications": 4,
+          "week_ending": "2026-07-19",
+          "applications": 14,
+          "offers": 0,
+          "hires": 1,
+          "open_requisitions": 6,
+          "avg_time_to_fill": 100.0
+        },
+        {
+          "week_ending": "2026-07-26",
+          "applications": 12,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 6,
@@ -1698,13 +1698,13 @@
       ]
     },
     "department:G&A": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 151,
         "requisitions": 17,
         "date_range": {
-          "earliest_application": "2025-11-27",
-          "latest_hire": "2026-08-06"
+          "earliest_application": "2025-10-13",
+          "latest_hire": "2026-06-22"
         }
       },
       "kpis": {
@@ -2053,7 +2053,7 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
+          "week_ending": "2026-04-12",
           "applications": 2,
           "offers": 0,
           "hires": 0,
@@ -2061,7 +2061,15 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-07",
+          "week_ending": "2026-04-19",
+          "applications": 2,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-04-26",
           "applications": 6,
           "offers": 1,
           "hires": 0,
@@ -2069,19 +2077,67 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-14",
-          "applications": 4,
+          "week_ending": "2026-05-03",
+          "applications": 6,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-21",
-          "applications": 7,
+          "week_ending": "2026-05-10",
+          "applications": 4,
+          "offers": 0,
+          "hires": 1,
+          "open_requisitions": 4,
+          "avg_time_to_fill": 67.0
+        },
+        {
+          "week_ending": "2026-05-17",
+          "applications": 3,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-24",
+          "applications": 3,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 5,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-31",
+          "applications": 3,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 5,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-07",
+          "applications": 1,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 5,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-14",
+          "applications": 5,
+          "offers": 1,
+          "hires": 1,
+          "open_requisitions": 4,
+          "avg_time_to_fill": 57.0
+        },
+        {
+          "week_ending": "2026-06-21",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
@@ -2089,23 +2145,23 @@
           "applications": 1,
           "offers": 0,
           "hires": 1,
-          "open_requisitions": 4,
-          "avg_time_to_fill": 67.0
+          "open_requisitions": 3,
+          "avg_time_to_fill": 62.0
         },
         {
           "week_ending": "2026-07-05",
-          "applications": 3,
+          "applications": 2,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 4,
+          "open_requisitions": 3,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-12",
-          "applications": 3,
+          "applications": 2,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 5,
+          "open_requisitions": 3,
           "avg_time_to_fill": null
         },
         {
@@ -2113,68 +2169,12 @@
           "applications": 2,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 5,
+          "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-26",
-          "applications": 5,
-          "offers": 2,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
-          "applications": 2,
-          "offers": 0,
-          "hires": 1,
-          "open_requisitions": 4,
-          "avg_time_to_fill": 57.0
-        },
-        {
-          "week_ending": "2026-08-09",
-          "applications": 1,
-          "offers": 0,
-          "hires": 1,
-          "open_requisitions": 3,
-          "avg_time_to_fill": 62.0
-        },
-        {
-          "week_ending": "2026-08-16",
-          "applications": 2,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 3,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-23",
-          "applications": 2,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 3,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-30",
-          "applications": 1,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 4,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-06",
-          "applications": 4,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 4,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-13",
-          "applications": 0,
+          "applications": 3,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 4,
@@ -2183,13 +2183,13 @@
       ]
     },
     "department:Marketing": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 82,
         "requisitions": 7,
         "date_range": {
-          "earliest_application": "2025-12-18",
-          "latest_hire": "2026-09-05"
+          "earliest_application": "2025-11-03",
+          "latest_hire": "2026-07-22"
         }
       },
       "kpis": {
@@ -2489,7 +2489,15 @@
       "at_risk_requisitions": [],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
+          "week_ending": "2026-04-12",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 1,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-04-19",
           "applications": 0,
           "offers": 0,
           "hires": 0,
@@ -2497,7 +2505,7 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-07",
+          "week_ending": "2026-04-26",
           "applications": 1,
           "offers": 1,
           "hires": 0,
@@ -2505,7 +2513,7 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-14",
+          "week_ending": "2026-05-03",
           "applications": 0,
           "offers": 0,
           "hires": 1,
@@ -2513,55 +2521,71 @@
           "avg_time_to_fill": 57.0
         },
         {
-          "week_ending": "2026-06-21",
-          "applications": 1,
+          "week_ending": "2026-05-10",
+          "applications": 3,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-17",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-24",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-31",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-07",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-14",
+          "applications": 2,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 2,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-21",
+          "applications": 8,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 2,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-06-28",
-          "applications": 2,
+          "applications": 1,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 0,
+          "open_requisitions": 2,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-05",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-07-12",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-07-19",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-07-26",
-          "applications": 2,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 1,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
           "applications": 6,
           "offers": 0,
           "hires": 0,
@@ -2569,63 +2593,39 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-09",
-          "applications": 3,
-          "offers": 0,
+          "week_ending": "2026-07-12",
+          "applications": 2,
+          "offers": 1,
           "hires": 0,
           "open_requisitions": 2,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-16",
-          "applications": 5,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 2,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-23",
-          "applications": 3,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 2,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-30",
-          "applications": 1,
-          "offers": 2,
-          "hires": 0,
-          "open_requisitions": 2,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-06",
-          "applications": 5,
-          "offers": 0,
-          "hires": 2,
-          "open_requisitions": 0,
+          "week_ending": "2026-07-19",
+          "applications": 4,
+          "offers": 1,
+          "hires": 1,
+          "open_requisitions": 1,
           "avg_time_to_fill": 38.0
         },
         {
-          "week_ending": "2026-09-13",
-          "applications": 0,
+          "week_ending": "2026-07-26",
+          "applications": 2,
           "offers": 1,
-          "hires": 0,
+          "hires": 1,
           "open_requisitions": 0,
-          "avg_time_to_fill": null
+          "avg_time_to_fill": 38.0
         }
       ]
     },
     "department:Product": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 180,
         "requisitions": 16,
         "date_range": {
-          "earliest_application": "2025-11-25",
-          "latest_hire": "2026-09-06"
+          "earliest_application": "2025-10-11",
+          "latest_hire": "2026-07-23"
         }
       },
       "kpis": {
@@ -2967,39 +2967,47 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
-          "applications": 2,
+          "week_ending": "2026-04-12",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-04-19",
+          "applications": 4,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-07",
+          "week_ending": "2026-04-26",
+          "applications": 5,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 5,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-03",
           "applications": 6,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-14",
-          "applications": 3,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-21",
-          "applications": 11,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 6,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-28",
+          "week_ending": "2026-05-10",
+          "applications": 10,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 6,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-17",
           "applications": 6,
           "offers": 2,
           "hires": 0,
@@ -3007,103 +3015,95 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-05",
-          "applications": 5,
+          "week_ending": "2026-05-24",
+          "applications": 3,
           "offers": 0,
-          "hires": 1,
-          "open_requisitions": 5,
-          "avg_time_to_fill": 35.0
-        },
-        {
-          "week_ending": "2026-07-12",
-          "applications": 4,
-          "offers": 1,
-          "hires": 1,
+          "hires": 2,
           "open_requisitions": 4,
-          "avg_time_to_fill": 82.0
+          "avg_time_to_fill": 58.5
         },
         {
-          "week_ending": "2026-07-19",
-          "applications": 5,
+          "week_ending": "2026-05-31",
+          "applications": 3,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-07",
+          "applications": 8,
           "offers": 0,
           "hires": 1,
           "open_requisitions": 4,
           "avg_time_to_fill": 40.0
         },
         {
-          "week_ending": "2026-07-26",
-          "applications": 5,
-          "offers": 1,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
-          "applications": 6,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-09",
+          "week_ending": "2026-06-14",
           "applications": 7,
           "offers": 1,
-          "hires": 1,
+          "hires": 0,
           "open_requisitions": 5,
-          "avg_time_to_fill": 97.0
+          "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-16",
-          "applications": 6,
+          "week_ending": "2026-06-21",
+          "applications": 4,
           "offers": 1,
           "hires": 0,
           "open_requisitions": 6,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-23",
-          "applications": 10,
+          "week_ending": "2026-06-28",
+          "applications": 8,
           "offers": 0,
+          "hires": 1,
+          "open_requisitions": 6,
+          "avg_time_to_fill": 97.0
+        },
+        {
+          "week_ending": "2026-07-05",
+          "applications": 4,
+          "offers": 1,
           "hires": 0,
-          "open_requisitions": 7,
+          "open_requisitions": 6,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-30",
-          "applications": 10,
-          "offers": 1,
+          "week_ending": "2026-07-12",
+          "applications": 14,
+          "offers": 0,
           "hires": 1,
           "open_requisitions": 6,
           "avg_time_to_fill": 30.0
         },
         {
-          "week_ending": "2026-09-06",
+          "week_ending": "2026-07-19",
+          "applications": 5,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 6,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-07-26",
           "applications": 4,
           "offers": 0,
           "hires": 1,
           "open_requisitions": 5,
           "avg_time_to_fill": 51.0
-        },
-        {
-          "week_ending": "2026-09-13",
-          "applications": 1,
-          "offers": 1,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
         }
       ]
     },
     "department:Sales": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 145,
         "requisitions": 12,
         "date_range": {
-          "earliest_application": "2025-11-30",
-          "latest_hire": "2026-06-03"
+          "earliest_application": "2025-10-16",
+          "latest_hire": "2026-04-19"
         }
       },
       "kpis": {
@@ -3443,24 +3443,80 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
+          "week_ending": "2026-04-12",
           "applications": 3,
-          "offers": 0,
+          "offers": 2,
           "hires": 0,
           "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-07",
-          "applications": 1,
-          "offers": 1,
+          "week_ending": "2026-04-19",
+          "applications": 3,
+          "offers": 0,
           "hires": 1,
           "open_requisitions": 3,
           "avg_time_to_fill": 51.0
         },
         {
-          "week_ending": "2026-06-14",
+          "week_ending": "2026-04-26",
           "applications": 1,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-03",
+          "applications": 3,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-10",
+          "applications": 4,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-17",
+          "applications": 2,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-24",
+          "applications": 3,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-31",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-07",
+          "applications": 2,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 3,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-14",
+          "applications": 2,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 3,
@@ -3468,7 +3524,7 @@
         },
         {
           "week_ending": "2026-06-21",
-          "applications": 6,
+          "applications": 1,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 3,
@@ -3476,7 +3532,7 @@
         },
         {
           "week_ending": "2026-06-28",
-          "applications": 2,
+          "applications": 1,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 3,
@@ -3484,88 +3540,32 @@
         },
         {
           "week_ending": "2026-07-05",
-          "applications": 3,
+          "applications": 2,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 3,
+          "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-12",
-          "applications": 2,
+          "applications": 5,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 3,
+          "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-19",
-          "applications": 1,
+          "applications": 2,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 3,
+          "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-26",
-          "applications": 2,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 3,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
-          "applications": 1,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 3,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-09",
-          "applications": 1,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 3,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-16",
-          "applications": 1,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 3,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-23",
-          "applications": 6,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 4,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-30",
-          "applications": 3,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 4,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-06",
           "applications": 0,
           "offers": 1,
-          "hires": 0,
-          "open_requisitions": 4,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-13",
-          "applications": 0,
-          "offers": 0,
           "hires": 0,
           "open_requisitions": 4,
           "avg_time_to_fill": null
@@ -3573,13 +3573,13 @@
       ]
     },
     "region:APAC": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 184,
         "requisitions": 16,
         "date_range": {
-          "earliest_application": "2025-12-17",
-          "latest_hire": "2026-09-06"
+          "earliest_application": "2025-11-02",
+          "latest_hire": "2026-07-23"
         }
       },
       "kpis": {
@@ -3991,15 +3991,31 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
+          "week_ending": "2026-04-12",
           "applications": 3,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-04-19",
+          "applications": 4,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 4,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-07",
+          "week_ending": "2026-04-26",
+          "applications": 3,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 5,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-03",
           "applications": 4,
           "offers": 0,
           "hires": 0,
@@ -4007,15 +4023,7 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-14",
-          "applications": 3,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-21",
+          "week_ending": "2026-05-10",
           "applications": 7,
           "offers": 0,
           "hires": 0,
@@ -4023,23 +4031,15 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-28",
-          "applications": 4,
+          "week_ending": "2026-05-17",
+          "applications": 3,
           "offers": 1,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-05",
-          "applications": 2,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-07-12",
+          "week_ending": "2026-05-24",
           "applications": 2,
           "offers": 0,
           "hires": 1,
@@ -4047,31 +4047,39 @@
           "avg_time_to_fill": 82.0
         },
         {
-          "week_ending": "2026-07-19",
-          "applications": 4,
+          "week_ending": "2026-05-31",
+          "applications": 2,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 6,
+          "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-26",
+          "week_ending": "2026-06-07",
           "applications": 9,
-          "offers": 1,
+          "offers": 0,
           "hires": 0,
           "open_requisitions": 7,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-02",
+          "week_ending": "2026-06-14",
           "applications": 8,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 8,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-21",
+          "applications": 4,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 8,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-09",
+          "week_ending": "2026-06-28",
           "applications": 4,
           "offers": 0,
           "hires": 1,
@@ -4079,7 +4087,7 @@
           "avg_time_to_fill": 62.0
         },
         {
-          "week_ending": "2026-08-16",
+          "week_ending": "2026-07-05",
           "applications": 4,
           "offers": 0,
           "hires": 0,
@@ -4087,47 +4095,39 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-23",
-          "applications": 4,
-          "offers": 0,
+          "week_ending": "2026-07-12",
+          "applications": 3,
+          "offers": 1,
           "hires": 0,
           "open_requisitions": 7,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-30",
-          "applications": 2,
-          "offers": 3,
+          "week_ending": "2026-07-19",
+          "applications": 4,
+          "offers": 2,
           "hires": 1,
           "open_requisitions": 6,
           "avg_time_to_fill": 100.0
         },
         {
-          "week_ending": "2026-09-06",
-          "applications": 4,
+          "week_ending": "2026-07-26",
+          "applications": 2,
           "offers": 0,
           "hires": 2,
           "open_requisitions": 4,
           "avg_time_to_fill": 44.5
-        },
-        {
-          "week_ending": "2026-09-13",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 4,
-          "avg_time_to_fill": null
         }
       ]
     },
     "region:EMEA": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 204,
         "requisitions": 18,
         "date_range": {
-          "earliest_application": "2025-11-30",
-          "latest_hire": "2026-08-08"
+          "earliest_application": "2025-10-16",
+          "latest_hire": "2026-06-24"
         }
       },
       "kpis": {
@@ -4523,39 +4523,63 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
-          "applications": 6,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-07",
-          "applications": 7,
-          "offers": 2,
-          "hires": 1,
-          "open_requisitions": 5,
-          "avg_time_to_fill": 51.0
-        },
-        {
-          "week_ending": "2026-06-14",
-          "applications": 4,
+          "week_ending": "2026-04-12",
+          "applications": 2,
           "offers": 1,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-21",
-          "applications": 15,
+          "week_ending": "2026-04-19",
+          "applications": 6,
           "offers": 0,
+          "hires": 1,
+          "open_requisitions": 5,
+          "avg_time_to_fill": 51.0
+        },
+        {
+          "week_ending": "2026-04-26",
+          "applications": 7,
+          "offers": 2,
+          "hires": 0,
+          "open_requisitions": 5,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-03",
+          "applications": 11,
+          "offers": 1,
           "hires": 1,
           "open_requisitions": 4,
           "avg_time_to_fill": 42.0
         },
         {
-          "week_ending": "2026-06-28",
+          "week_ending": "2026-05-10",
+          "applications": 7,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-17",
+          "applications": 4,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-24",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-31",
           "applications": 3,
           "offers": 0,
           "hires": 0,
@@ -4563,8 +4587,40 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-05",
+          "week_ending": "2026-06-07",
+          "applications": 1,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-14",
+          "applications": 2,
+          "offers": 1,
+          "hires": 1,
+          "open_requisitions": 3,
+          "avg_time_to_fill": 57.0
+        },
+        {
+          "week_ending": "2026-06-21",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 4,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-28",
           "applications": 3,
+          "offers": 0,
+          "hires": 1,
+          "open_requisitions": 3,
+          "avg_time_to_fill": 97.0
+        },
+        {
+          "week_ending": "2026-07-05",
+          "applications": 5,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 4,
@@ -4572,80 +4628,24 @@
         },
         {
           "week_ending": "2026-07-12",
-          "applications": 0,
+          "applications": 16,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 4,
+          "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-19",
-          "applications": 3,
+          "applications": 6,
           "offers": 0,
           "hires": 0,
-          "open_requisitions": 4,
+          "open_requisitions": 5,
           "avg_time_to_fill": null
         },
         {
           "week_ending": "2026-07-26",
-          "applications": 2,
-          "offers": 2,
-          "hires": 0,
-          "open_requisitions": 4,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
-          "applications": 1,
-          "offers": 0,
-          "hires": 1,
-          "open_requisitions": 3,
-          "avg_time_to_fill": 57.0
-        },
-        {
-          "week_ending": "2026-08-09",
-          "applications": 2,
-          "offers": 0,
-          "hires": 1,
-          "open_requisitions": 3,
-          "avg_time_to_fill": 97.0
-        },
-        {
-          "week_ending": "2026-08-16",
-          "applications": 5,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 3,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-23",
-          "applications": 12,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-30",
-          "applications": 11,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-06",
-          "applications": 5,
+          "applications": 4,
           "offers": 1,
-          "hires": 0,
-          "open_requisitions": 5,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-13",
-          "applications": 0,
-          "offers": 0,
           "hires": 0,
           "open_requisitions": 5,
           "avg_time_to_fill": null
@@ -4653,13 +4653,13 @@
       ]
     },
     "region:LATAM": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 55,
         "requisitions": 5,
         "date_range": {
-          "earliest_application": "2025-11-27",
-          "latest_hire": "2026-07-13"
+          "earliest_application": "2025-10-13",
+          "latest_hire": "2026-05-29"
         }
       },
       "kpis": {
@@ -4995,23 +4995,7 @@
       "at_risk_requisitions": [],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
-          "applications": 3,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 1,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-07",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 1,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-14",
+          "week_ending": "2026-04-12",
           "applications": 2,
           "offers": 0,
           "hires": 0,
@@ -5019,39 +5003,55 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-21",
-          "applications": 3,
+          "week_ending": "2026-04-19",
+          "applications": 2,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 1,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-28",
-          "applications": 0,
+          "week_ending": "2026-04-26",
+          "applications": 2,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 1,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-05",
+          "week_ending": "2026-05-03",
           "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 1,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-10",
+          "applications": 2,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 1,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-05-17",
+          "applications": 0,
           "offers": 1,
           "hires": 0,
           "open_requisitions": 1,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-12",
-          "applications": 2,
+          "week_ending": "2026-05-24",
+          "applications": 3,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 1,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-19",
+          "week_ending": "2026-05-31",
           "applications": 1,
           "offers": 0,
           "hires": 1,
@@ -5059,64 +5059,64 @@
           "avg_time_to_fill": 54.0
         },
         {
+          "week_ending": "2026-06-07",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-14",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-21",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-28",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-07-05",
+          "applications": 0,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 0,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-07-12",
+          "applications": 1,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 1,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-07-19",
+          "applications": 9,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 1,
+          "avg_time_to_fill": null
+        },
+        {
           "week_ending": "2026-07-26",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
-          "applications": 1,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-09",
-          "applications": 1,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-16",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-23",
-          "applications": 0,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 0,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-30",
-          "applications": 7,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 1,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-06",
-          "applications": 7,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 1,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-09-13",
-          "applications": 1,
+          "applications": 5,
           "offers": 0,
           "hires": 0,
           "open_requisitions": 1,
@@ -5125,13 +5125,13 @@
       ]
     },
     "region:NA": {
-      "as_of": "2026-09-14",
+      "as_of": "2026-07-31",
       "dataset": {
         "candidates": 307,
         "requisitions": 31,
         "date_range": {
-          "earliest_application": "2025-11-22",
-          "latest_hire": "2026-09-01"
+          "earliest_application": "2025-10-08",
+          "latest_hire": "2026-07-18"
         }
       },
       "kpis": {
@@ -5548,63 +5548,71 @@
       ],
       "weekly_trend": [
         {
-          "week_ending": "2026-05-31",
-          "applications": 3,
-          "offers": 1,
+          "week_ending": "2026-04-12",
+          "applications": 1,
+          "offers": 0,
           "hires": 0,
-          "open_requisitions": 8,
+          "open_requisitions": 7,
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-06-07",
-          "applications": 8,
+          "week_ending": "2026-04-19",
+          "applications": 5,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 9,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-04-26",
+          "applications": 6,
           "offers": 2,
           "hires": 1,
           "open_requisitions": 9,
           "avg_time_to_fill": 92.0
         },
         {
-          "week_ending": "2026-06-14",
-          "applications": 2,
+          "week_ending": "2026-05-03",
+          "applications": 4,
           "offers": 0,
           "hires": 1,
-          "open_requisitions": 8,
+          "open_requisitions": 9,
           "avg_time_to_fill": 57.0
         },
         {
-          "week_ending": "2026-06-21",
-          "applications": 9,
+          "week_ending": "2026-05-10",
+          "applications": 11,
           "offers": 0,
-          "hires": 0,
-          "open_requisitions": 9,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-06-28",
-          "applications": 8,
-          "offers": 2,
           "hires": 1,
           "open_requisitions": 8,
           "avg_time_to_fill": 67.0
         },
         {
-          "week_ending": "2026-07-05",
-          "applications": 7,
-          "offers": 0,
-          "hires": 1,
+          "week_ending": "2026-05-17",
+          "applications": 8,
+          "offers": 2,
+          "hires": 0,
           "open_requisitions": 8,
-          "avg_time_to_fill": 35.0
+          "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-07-12",
-          "applications": 9,
-          "offers": 1,
-          "hires": 1,
+          "week_ending": "2026-05-24",
+          "applications": 6,
+          "offers": 0,
+          "hires": 2,
           "open_requisitions": 7,
-          "avg_time_to_fill": 34.0
+          "avg_time_to_fill": 34.5
         },
         {
-          "week_ending": "2026-07-19",
+          "week_ending": "2026-05-31",
+          "applications": 7,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 7,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-07",
           "applications": 9,
           "offers": 0,
           "hires": 1,
@@ -5612,23 +5620,7 @@
           "avg_time_to_fill": 40.0
         },
         {
-          "week_ending": "2026-07-26",
-          "applications": 8,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 8,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-02",
-          "applications": 9,
-          "offers": 1,
-          "hires": 0,
-          "open_requisitions": 8,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-09",
+          "week_ending": "2026-06-14",
           "applications": 10,
           "offers": 1,
           "hires": 0,
@@ -5636,7 +5628,23 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-16",
+          "week_ending": "2026-06-21",
+          "applications": 13,
+          "offers": 1,
+          "hires": 0,
+          "open_requisitions": 8,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-06-28",
+          "applications": 5,
+          "offers": 0,
+          "hires": 0,
+          "open_requisitions": 9,
+          "avg_time_to_fill": null
+        },
+        {
+          "week_ending": "2026-07-05",
           "applications": 6,
           "offers": 2,
           "hires": 0,
@@ -5644,33 +5652,25 @@
           "avg_time_to_fill": null
         },
         {
-          "week_ending": "2026-08-23",
-          "applications": 5,
-          "offers": 0,
-          "hires": 0,
-          "open_requisitions": 9,
-          "avg_time_to_fill": null
-        },
-        {
-          "week_ending": "2026-08-30",
-          "applications": 5,
+          "week_ending": "2026-07-12",
+          "applications": 6,
           "offers": 1,
           "hires": 1,
-          "open_requisitions": 9,
+          "open_requisitions": 8,
           "avg_time_to_fill": 30.0
         },
         {
-          "week_ending": "2026-09-06",
-          "applications": 12,
+          "week_ending": "2026-07-19",
+          "applications": 8,
           "offers": 0,
           "hires": 1,
           "open_requisitions": 9,
           "avg_time_to_fill": 38.0
         },
         {
-          "week_ending": "2026-09-13",
-          "applications": 4,
-          "offers": 2,
+          "week_ending": "2026-07-26",
+          "applications": 10,
+          "offers": 1,
           "hires": 0,
           "open_requisitions": 9,
           "avg_time_to_fill": null
@@ -5703,7 +5703,7 @@
     "issues": []
   },
   "meta": {
-    "generated_at": "2026-09-14",
+    "generated_at": "2026-07-31",
     "source": "recruiting_data.csv",
     "version": "1.0.0",
     "synthetic": true,

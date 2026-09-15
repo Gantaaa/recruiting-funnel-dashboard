@@ -182,13 +182,13 @@ first seven of its twenty-eight applicants:
 
 | Candidate | Dept | Region | Recruiter | Source | Req opened | Applied | Offer | Hired | Stage | TTF | Req status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| C-10337 | Product | NA | Charlie Brown | University | 2025-11-26 | 2025-11-26 | 2025-12-22 | 2026-01-08 | Hired | 43 | Filled |
-| C-10681 | Product | NA | Charlie Brown | LinkedIn | 2025-11-26 | 2025-11-28 | — | — | Rejected | — | Filled |
-| C-10159 | Product | NA | Charlie Brown | Agency | 2025-11-26 | 2025-12-03 | — | — | Rejected | — | Filled |
-| C-10245 | Product | NA | Charlie Brown | Internal | 2025-11-26 | 2025-12-03 | — | — | Rejected | — | Filled |
-| C-10493 | Product | NA | Charlie Brown | Job Board | 2025-11-26 | 2025-12-04 | — | — | Rejected | — | Filled |
-| C-10633 | Product | NA | Charlie Brown | LinkedIn | 2025-11-26 | 2025-12-11 | — | — | Rejected | — | Filled |
-| C-10304 | Product | NA | Charlie Brown | University | 2025-11-26 | 2025-12-12 | — | — | Rejected | — | Filled |
+| C-10337 | Product | NA | Charlie Brown | University | 2025-10-12 | 2025-10-12 | 2025-11-07 | 2025-11-24 | Hired | 43 | Filled |
+| C-10681 | Product | NA | Charlie Brown | LinkedIn | 2025-10-12 | 2025-10-14 | — | — | Rejected | — | Filled |
+| C-10159 | Product | NA | Charlie Brown | Agency | 2025-10-12 | 2025-10-19 | — | — | Rejected | — | Filled |
+| C-10245 | Product | NA | Charlie Brown | Internal | 2025-10-12 | 2025-10-19 | — | — | Rejected | — | Filled |
+| C-10493 | Product | NA | Charlie Brown | Job Board | 2025-10-12 | 2025-10-20 | — | — | Rejected | — | Filled |
+| C-10633 | Product | NA | Charlie Brown | LinkedIn | 2025-10-12 | 2025-10-27 | — | — | Rejected | — | Filled |
+| C-10304 | Product | NA | Charlie Brown | University | 2025-10-12 | 2025-10-28 | — | — | Rejected | — | Filled |
 
 Two things this shows. **`REQ-2025-0023` is one role, so department, region,
 recruiter and open date are identical on every row** — that invariant is
