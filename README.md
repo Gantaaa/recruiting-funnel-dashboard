@@ -211,4 +211,4 @@ focus, and a table view.
 
 ---
 
-Gantamir Gankhuyag · [ggankhuy@ucsc.edu](mailto:ggankhuy@ucsc.edu)
+Gantamir Gankhuyag · [gantamirganta0729@gmail.com](mailto:gantamirganta0729@gmail.com)
