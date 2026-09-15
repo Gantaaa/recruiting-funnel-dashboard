@@ -34,7 +34,7 @@ the deck builds itself, and the narrative is drafted from the actual figures.
 | | |
 |---|---|
 | **[Live dashboard](https://gantaaa.github.io/recruiting-funnel-dashboard/)** | Funnel, velocity, source effectiveness, requisition ageing, data quality. Filters by department and region, light and dark themes, works on a phone. |
-| **[Metric layer](src/recruiting_funnel/metrics.py)** | Every KPI, defined exactly once. 48 tests pin the definitions. |
+| **[Metric layer](src/recruiting_funnel/metrics.py)** | Every KPI, defined exactly once. 51 tests pin the definitions. |
 | **[Validation](src/recruiting_funnel/validate.py)** | 13 data-quality rules that run over the raw CSV before any metric is computed. |
 | **[Generator](src/recruiting_funnel/generate.py)** | Seeded synthetic data where requisitions are real entities and funnel dates are monotonic. |
 | **[Apps Script](apps_script/Code.gs)** | The weekly job: snapshot → narrative → Slides deck → email, on a Monday trigger. [A real run's output](apps_script/example-output.md), and what it got wrong. |
@@ -50,7 +50,7 @@ No dependencies. Python 3.11+.
 git clone https://github.com/Gantaaa/recruiting-funnel-dashboard
 cd recruiting-funnel-dashboard
 
-make test        # 48 tests, no install step
+make test        # 51 tests, no install step
 make validate    # data-quality report
 make dashboard   # regenerate dashboard.json
 make serve       # http://localhost:8000
@@ -143,7 +143,7 @@ Full list in [docs/kpi-definitions.md](docs/kpi-definitions.md).
 │   └── export.py      metrics → dashboard.json
 ├── apps_script/       the weekly report automation
 ├── docs/              the GitHub Pages dashboard + written documentation
-├── tests/             48 tests, standard library unittest
+├── tests/             51 tests, standard library unittest
 └── workbook/          the original Google Sheets workbook
 ```
 
