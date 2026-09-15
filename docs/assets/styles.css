@@ -312,6 +312,15 @@ main {
 .chart { width: 100%; overflow-x: auto; }
 .chart svg { display: block; max-width: 100%; height: auto; }
 
+/* On a narrow screen a chart must scroll inside its own box, the way the
+   tables do. Letting the SVG shrink to fit instead scales the type down with
+   the geometry, and the labels stop being readable long before the bars stop
+   being visible. */
+.chart svg { min-width: 460px; }
+/* The sparklines are drawn to fill whatever width they are given, so they are
+   the one exception. */
+.sm .chart svg { min-width: 0; }
+
 .small-multiples {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
