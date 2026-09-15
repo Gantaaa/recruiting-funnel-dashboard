@@ -27,6 +27,37 @@ week figures and told to use only those, so the narrative cannot invent a
 number that is not on the dashboard. The model writes the framing; the
 spreadsheet owns the arithmetic.
 
+## Swapping the narrative provider
+
+The endpoint, model and temperature live in the `LLM` constant at the top of
+`Code.gs`, and nothing else in the file knows which provider is in use. Any
+OpenAI-compatible chat completions endpoint is a three-line change — Gemini
+exposes one at
+`https://generativelanguage.googleapis.com/v1beta/openai/chat/completions`.
+
+Anthropic's Messages API is the one that needs more than the constant, because
+its request and response shapes differ from the OpenAI-compatible form:
+
+```javascript
+const res = UrlFetchApp.fetch('https://api.anthropic.com/v1/messages', {
+  method: 'post',
+  contentType: 'application/json',
+  headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
+  muteHttpExceptions: true,
+  payload: JSON.stringify({
+    model: 'claude-opus-5',
+    max_tokens: 900,
+    messages: [{ role: 'user', content: prompt }]
+  })
+});
+// the text is at content[0].text, not choices[0].message.content
+const narrative = JSON.parse(res.getContentText()).content[0].text.trim();
+```
+
+The shipped configuration uses Groq because that is what the prototype was
+built and run against; the alternatives above are documented rather than
+exercised.
+
 ## Setup
 
 1. Open the workbook, then **Extensions → Apps Script**.

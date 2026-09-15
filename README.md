@@ -147,8 +147,8 @@ Full list in [docs/kpi-definitions.md](docs/kpi-definitions.md).
 ## Extending it to a real ATS
 
 `dataset.load()` is the seam. It returns `list[Row]`, and everything downstream
-depends on that shape and nothing else. Pointing this at Greenhouse, Lever or
-Workday means writing one function that returns `list[Row]` from their API; the
+depends on that shape and nothing else. Pointing this at Ashby, Greenhouse,
+Lever or Workday means writing one function that returns `list[Row]` from their API; the
 metrics, validation, tests, export and dashboard are unchanged.
 
 ## Notes

@@ -19,6 +19,18 @@ const PROPS = PropertiesService.getScriptProperties();
 /**
  * The narrative model. Any OpenAI-compatible chat completions endpoint works,
  * so switching providers is a change to these three lines and nothing else.
+ *
+ * Other providers this is written to accommodate (documented, not
+ * exercised in this project -- the shipped configuration is the one above):
+ *   Gemini  endpoint 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions'
+ *           model    'gemini-2.5-flash'
+ *   Claude  endpoint 'https://api.anthropic.com/v1/messages'
+ *           model    'claude-opus-5'
+ *           note     Anthropic's native Messages API differs from the
+ *                    OpenAI-compatible shape used below -- it wants an
+ *                    'x-api-key' header plus 'anthropic-version', and returns
+ *                    the text at content[0].text rather than
+ *                    choices[0].message.content. See README.md.
  */
 const LLM = {
   endpoint: 'https://api.groq.com/openai/v1/chat/completions',

@@ -73,8 +73,8 @@ describe in a sentence.
 ## Extending it to a real ATS
 
 `dataset.load()` is the seam. It returns `list[Row]`; everything downstream
-depends on that shape and nothing else. Pointing this at Greenhouse, Lever or
-Workday means writing one function that returns `list[Row]` from their API —
+depends on that shape and nothing else. Pointing this at Ashby, Greenhouse,
+Lever or Workday means writing one function that returns `list[Row]` from their API —
 the metrics, validation, tests, export and dashboard are unchanged.
 
 What would need real thought beyond that seam: incremental pulls and a lookback

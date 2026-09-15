@@ -20,6 +20,7 @@ from typing import Iterable, Sequence
 
 from .schema import (
     AT_RISK_DAYS,
+    CANDIDATE_TYPES,
     DEPARTMENTS,
     FUNNEL_STAGES,
     REGIONS,
@@ -293,7 +294,11 @@ def compute_all(rows: Sequence[Row], *, as_of: date | None = None) -> dict:
         "funnel": stages,
         "funnel_legacy": funnel(rows, legacy=True),
         "by_department": _breakdown(rows, "Department", DEPARTMENTS),
+        # Team is a finer cut than department and has no fixed vocabulary --
+        # teams get created and renamed, so it is read from the data.
+        "by_team": _breakdown(rows, "Team"),
         "by_region": _breakdown(rows, "Region", REGIONS),
+        "by_candidate_type": _breakdown(rows, "Candidate_Type", CANDIDATE_TYPES),
         "by_source": _breakdown(rows, "Source_of_Hire", SOURCES),
         "by_recruiter": _breakdown(rows, "Recruiter"),
         "aging_buckets": aging_buckets(rows, as_of=as_of),

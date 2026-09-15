@@ -125,6 +125,98 @@
       "median_time_to_fill": 59
     }
   ],
+  "by_team": [
+    {
+      "name": "Backend",
+      "candidates": 61,
+      "hires": 4,
+      "open_reqs": 0,
+      "conversion": 0.0656,
+      "avg_time_to_fill": 67.0,
+      "median_time_to_fill": 61.0
+    },
+    {
+      "name": "Customer Success",
+      "candidates": 76,
+      "hires": 5,
+      "open_reqs": 1,
+      "conversion": 0.0658,
+      "avg_time_to_fill": 50.6,
+      "median_time_to_fill": 40
+    },
+    {
+      "name": "Data Science",
+      "candidates": 68,
+      "hires": 4,
+      "open_reqs": 2,
+      "conversion": 0.0588,
+      "avg_time_to_fill": 67.75,
+      "median_time_to_fill": 68.5
+    },
+    {
+      "name": "Design",
+      "candidates": 133,
+      "hires": 8,
+      "open_reqs": 4,
+      "conversion": 0.0602,
+      "avg_time_to_fill": 57.62,
+      "median_time_to_fill": 46.0
+    },
+    {
+      "name": "Finance",
+      "candidates": 91,
+      "hires": 7,
+      "open_reqs": 2,
+      "conversion": 0.0769,
+      "avg_time_to_fill": 59.71,
+      "median_time_to_fill": 62
+    },
+    {
+      "name": "Frontend",
+      "candidates": 63,
+      "hires": 3,
+      "open_reqs": 3,
+      "conversion": 0.0476,
+      "avg_time_to_fill": 62.33,
+      "median_time_to_fill": 67
+    },
+    {
+      "name": "Marketing",
+      "candidates": 82,
+      "hires": 7,
+      "open_reqs": 0,
+      "conversion": 0.0854,
+      "avg_time_to_fill": 57.71,
+      "median_time_to_fill": 51
+    },
+    {
+      "name": "People Ops",
+      "candidates": 60,
+      "hires": 6,
+      "open_reqs": 2,
+      "conversion": 0.1,
+      "avg_time_to_fill": 66.67,
+      "median_time_to_fill": 58.0
+    },
+    {
+      "name": "Product",
+      "candidates": 47,
+      "hires": 3,
+      "open_reqs": 1,
+      "conversion": 0.0638,
+      "avg_time_to_fill": 72.0,
+      "median_time_to_fill": 68
+    },
+    {
+      "name": "Sales",
+      "candidates": 69,
+      "hires": 2,
+      "open_reqs": 3,
+      "conversion": 0.029,
+      "avg_time_to_fill": 61.0,
+      "median_time_to_fill": 61.0
+    }
+  ],
   "by_region": [
     {
       "name": "NA",
@@ -161,6 +253,44 @@
       "conversion": 0.0727,
       "avg_time_to_fill": 54.5,
       "median_time_to_fill": 51.5
+    }
+  ],
+  "by_candidate_type": [
+    {
+      "name": "External",
+      "candidates": 401,
+      "hires": 21,
+      "open_reqs": 16,
+      "conversion": 0.0524,
+      "avg_time_to_fill": 63.0,
+      "median_time_to_fill": 59
+    },
+    {
+      "name": "Internal",
+      "candidates": 43,
+      "hires": 2,
+      "open_reqs": 6,
+      "conversion": 0.0465,
+      "avg_time_to_fill": 66.0,
+      "median_time_to_fill": 66.0
+    },
+    {
+      "name": "Referral",
+      "candidates": 187,
+      "hires": 23,
+      "open_reqs": 16,
+      "conversion": 0.123,
+      "avg_time_to_fill": 60.87,
+      "median_time_to_fill": 57
+    },
+    {
+      "name": "New Grad",
+      "candidates": 119,
+      "hires": 3,
+      "open_reqs": 11,
+      "conversion": 0.0252,
+      "avg_time_to_fill": 48.33,
+      "median_time_to_fill": 51
     }
   ],
   "by_source": [
@@ -601,6 +731,98 @@
           "median_time_to_fill": 59
         }
       ],
+      "by_team": [
+        {
+          "name": "Backend",
+          "candidates": 61,
+          "hires": 4,
+          "open_reqs": 0,
+          "conversion": 0.0656,
+          "avg_time_to_fill": 67.0,
+          "median_time_to_fill": 61.0
+        },
+        {
+          "name": "Customer Success",
+          "candidates": 76,
+          "hires": 5,
+          "open_reqs": 1,
+          "conversion": 0.0658,
+          "avg_time_to_fill": 50.6,
+          "median_time_to_fill": 40
+        },
+        {
+          "name": "Data Science",
+          "candidates": 68,
+          "hires": 4,
+          "open_reqs": 2,
+          "conversion": 0.0588,
+          "avg_time_to_fill": 67.75,
+          "median_time_to_fill": 68.5
+        },
+        {
+          "name": "Design",
+          "candidates": 133,
+          "hires": 8,
+          "open_reqs": 4,
+          "conversion": 0.0602,
+          "avg_time_to_fill": 57.62,
+          "median_time_to_fill": 46.0
+        },
+        {
+          "name": "Finance",
+          "candidates": 91,
+          "hires": 7,
+          "open_reqs": 2,
+          "conversion": 0.0769,
+          "avg_time_to_fill": 59.71,
+          "median_time_to_fill": 62
+        },
+        {
+          "name": "Frontend",
+          "candidates": 63,
+          "hires": 3,
+          "open_reqs": 3,
+          "conversion": 0.0476,
+          "avg_time_to_fill": 62.33,
+          "median_time_to_fill": 67
+        },
+        {
+          "name": "Marketing",
+          "candidates": 82,
+          "hires": 7,
+          "open_reqs": 0,
+          "conversion": 0.0854,
+          "avg_time_to_fill": 57.71,
+          "median_time_to_fill": 51
+        },
+        {
+          "name": "People Ops",
+          "candidates": 60,
+          "hires": 6,
+          "open_reqs": 2,
+          "conversion": 0.1,
+          "avg_time_to_fill": 66.67,
+          "median_time_to_fill": 58.0
+        },
+        {
+          "name": "Product",
+          "candidates": 47,
+          "hires": 3,
+          "open_reqs": 1,
+          "conversion": 0.0638,
+          "avg_time_to_fill": 72.0,
+          "median_time_to_fill": 68
+        },
+        {
+          "name": "Sales",
+          "candidates": 69,
+          "hires": 2,
+          "open_reqs": 3,
+          "conversion": 0.029,
+          "avg_time_to_fill": 61.0,
+          "median_time_to_fill": 61.0
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -637,6 +859,44 @@
           "conversion": 0.0727,
           "avg_time_to_fill": 54.5,
           "median_time_to_fill": 51.5
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 401,
+          "hires": 21,
+          "open_reqs": 16,
+          "conversion": 0.0524,
+          "avg_time_to_fill": 63.0,
+          "median_time_to_fill": 59
+        },
+        {
+          "name": "Internal",
+          "candidates": 43,
+          "hires": 2,
+          "open_reqs": 6,
+          "conversion": 0.0465,
+          "avg_time_to_fill": 66.0,
+          "median_time_to_fill": 66.0
+        },
+        {
+          "name": "Referral",
+          "candidates": 187,
+          "hires": 23,
+          "open_reqs": 16,
+          "conversion": 0.123,
+          "avg_time_to_fill": 60.87,
+          "median_time_to_fill": 57
+        },
+        {
+          "name": "New Grad",
+          "candidates": 119,
+          "hires": 3,
+          "open_reqs": 11,
+          "conversion": 0.0252,
+          "avg_time_to_fill": 48.33,
+          "median_time_to_fill": 51
         }
       ],
       "by_source": [
@@ -1077,6 +1337,35 @@
           "median_time_to_fill": null
         }
       ],
+      "by_team": [
+        {
+          "name": "Backend",
+          "candidates": 61,
+          "hires": 4,
+          "open_reqs": 0,
+          "conversion": 0.0656,
+          "avg_time_to_fill": 67.0,
+          "median_time_to_fill": 61.0
+        },
+        {
+          "name": "Data Science",
+          "candidates": 68,
+          "hires": 4,
+          "open_reqs": 2,
+          "conversion": 0.0588,
+          "avg_time_to_fill": 67.75,
+          "median_time_to_fill": 68.5
+        },
+        {
+          "name": "Frontend",
+          "candidates": 63,
+          "hires": 3,
+          "open_reqs": 3,
+          "conversion": 0.0476,
+          "avg_time_to_fill": 62.33,
+          "median_time_to_fill": 67
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -1113,6 +1402,44 @@
           "conversion": 0.0385,
           "avg_time_to_fill": 54.0,
           "median_time_to_fill": 54
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 108,
+          "hires": 2,
+          "open_reqs": 4,
+          "conversion": 0.0185,
+          "avg_time_to_fill": 73.0,
+          "median_time_to_fill": 73.0
+        },
+        {
+          "name": "Internal",
+          "candidates": 11,
+          "hires": 0,
+          "open_reqs": 2,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "Referral",
+          "candidates": 53,
+          "hires": 9,
+          "open_reqs": 4,
+          "conversion": 0.1698,
+          "avg_time_to_fill": 64.44,
+          "median_time_to_fill": 67
+        },
+        {
+          "name": "New Grad",
+          "candidates": 20,
+          "hires": 0,
+          "open_reqs": 2,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
         }
       ],
       "by_source": [
@@ -1497,6 +1824,26 @@
           "median_time_to_fill": 59
         }
       ],
+      "by_team": [
+        {
+          "name": "Finance",
+          "candidates": 91,
+          "hires": 7,
+          "open_reqs": 2,
+          "conversion": 0.0769,
+          "avg_time_to_fill": 59.71,
+          "median_time_to_fill": 62
+        },
+        {
+          "name": "People Ops",
+          "candidates": 60,
+          "hires": 6,
+          "open_reqs": 2,
+          "conversion": 0.1,
+          "avg_time_to_fill": 66.67,
+          "median_time_to_fill": 58.0
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -1533,6 +1880,44 @@
           "conversion": 0.087,
           "avg_time_to_fill": 57.5,
           "median_time_to_fill": 57.5
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 85,
+          "hires": 4,
+          "open_reqs": 3,
+          "conversion": 0.0471,
+          "avg_time_to_fill": 68.5,
+          "median_time_to_fill": 61.0
+        },
+        {
+          "name": "Internal",
+          "candidates": 7,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "Referral",
+          "candidates": 34,
+          "hires": 9,
+          "open_reqs": 3,
+          "conversion": 0.2647,
+          "avg_time_to_fill": 60.44,
+          "median_time_to_fill": 57
+        },
+        {
+          "name": "New Grad",
+          "candidates": 25,
+          "hires": 0,
+          "open_reqs": 2,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
         }
       ],
       "by_source": [
@@ -1924,6 +2309,17 @@
           "median_time_to_fill": null
         }
       ],
+      "by_team": [
+        {
+          "name": "Marketing",
+          "candidates": 82,
+          "hires": 7,
+          "open_reqs": 0,
+          "conversion": 0.0854,
+          "avg_time_to_fill": 57.71,
+          "median_time_to_fill": 51
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -1958,6 +2354,44 @@
           "hires": 0,
           "open_reqs": 0,
           "conversion": null,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 39,
+          "hires": 4,
+          "open_reqs": 0,
+          "conversion": 0.1026,
+          "avg_time_to_fill": 64.5,
+          "median_time_to_fill": 56.5
+        },
+        {
+          "name": "Internal",
+          "candidates": 5,
+          "hires": 0,
+          "open_reqs": 0,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "Referral",
+          "candidates": 22,
+          "hires": 3,
+          "open_reqs": 0,
+          "conversion": 0.1364,
+          "avg_time_to_fill": 48.67,
+          "median_time_to_fill": 51
+        },
+        {
+          "name": "New Grad",
+          "candidates": 16,
+          "hires": 0,
+          "open_reqs": 0,
+          "conversion": 0.0,
           "avg_time_to_fill": null,
           "median_time_to_fill": null
         }
@@ -2311,6 +2745,26 @@
           "median_time_to_fill": null
         }
       ],
+      "by_team": [
+        {
+          "name": "Design",
+          "candidates": 133,
+          "hires": 8,
+          "open_reqs": 4,
+          "conversion": 0.0602,
+          "avg_time_to_fill": 57.62,
+          "median_time_to_fill": 46.0
+        },
+        {
+          "name": "Product",
+          "candidates": 47,
+          "hires": 3,
+          "open_reqs": 1,
+          "conversion": 0.0638,
+          "avg_time_to_fill": 72.0,
+          "median_time_to_fill": 68
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -2347,6 +2801,44 @@
           "conversion": 0.1667,
           "avg_time_to_fill": 49.0,
           "median_time_to_fill": 49
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 99,
+          "hires": 7,
+          "open_reqs": 5,
+          "conversion": 0.0707,
+          "avg_time_to_fill": 56.43,
+          "median_time_to_fill": 49
+        },
+        {
+          "name": "Internal",
+          "candidates": 11,
+          "hires": 1,
+          "open_reqs": 2,
+          "conversion": 0.0909,
+          "avg_time_to_fill": 97.0,
+          "median_time_to_fill": 97
+        },
+        {
+          "name": "Referral",
+          "candidates": 43,
+          "hires": 1,
+          "open_reqs": 5,
+          "conversion": 0.0233,
+          "avg_time_to_fill": 91.0,
+          "median_time_to_fill": 91
+        },
+        {
+          "name": "New Grad",
+          "candidates": 27,
+          "hires": 2,
+          "open_reqs": 3,
+          "conversion": 0.0741,
+          "avg_time_to_fill": 47.0,
+          "median_time_to_fill": 47.0
         }
       ],
       "by_source": [
@@ -2731,6 +3223,26 @@
           "median_time_to_fill": null
         }
       ],
+      "by_team": [
+        {
+          "name": "Customer Success",
+          "candidates": 76,
+          "hires": 5,
+          "open_reqs": 1,
+          "conversion": 0.0658,
+          "avg_time_to_fill": 50.6,
+          "median_time_to_fill": 40
+        },
+        {
+          "name": "Sales",
+          "candidates": 69,
+          "hires": 2,
+          "open_reqs": 3,
+          "conversion": 0.029,
+          "avg_time_to_fill": 61.0,
+          "median_time_to_fill": 61.0
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -2767,6 +3279,44 @@
           "conversion": null,
           "avg_time_to_fill": null,
           "median_time_to_fill": null
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 70,
+          "hires": 4,
+          "open_reqs": 4,
+          "conversion": 0.0571,
+          "avg_time_to_fill": 62.5,
+          "median_time_to_fill": 61.0
+        },
+        {
+          "name": "Internal",
+          "candidates": 9,
+          "hires": 1,
+          "open_reqs": 1,
+          "conversion": 0.1111,
+          "avg_time_to_fill": 35.0,
+          "median_time_to_fill": 35
+        },
+        {
+          "name": "Referral",
+          "candidates": 35,
+          "hires": 1,
+          "open_reqs": 4,
+          "conversion": 0.0286,
+          "avg_time_to_fill": 39.0,
+          "median_time_to_fill": 39
+        },
+        {
+          "name": "New Grad",
+          "candidates": 31,
+          "hires": 1,
+          "open_reqs": 4,
+          "conversion": 0.0323,
+          "avg_time_to_fill": 51.0,
+          "median_time_to_fill": 51
         }
       ],
       "by_source": [
@@ -3149,6 +3699,89 @@
           "median_time_to_fill": 62
         }
       ],
+      "by_team": [
+        {
+          "name": "Customer Success",
+          "candidates": 31,
+          "hires": 2,
+          "open_reqs": 0,
+          "conversion": 0.0645,
+          "avg_time_to_fill": 64.0,
+          "median_time_to_fill": 64.0
+        },
+        {
+          "name": "Data Science",
+          "candidates": 10,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.1,
+          "avg_time_to_fill": 100.0,
+          "median_time_to_fill": 100
+        },
+        {
+          "name": "Design",
+          "candidates": 15,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.0667,
+          "avg_time_to_fill": 82.0,
+          "median_time_to_fill": 82
+        },
+        {
+          "name": "Finance",
+          "candidates": 26,
+          "hires": 2,
+          "open_reqs": 1,
+          "conversion": 0.0769,
+          "avg_time_to_fill": 62.5,
+          "median_time_to_fill": 62.5
+        },
+        {
+          "name": "Frontend",
+          "candidates": 1,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "Marketing",
+          "candidates": 42,
+          "hires": 3,
+          "open_reqs": 0,
+          "conversion": 0.0714,
+          "avg_time_to_fill": 45.67,
+          "median_time_to_fill": 48
+        },
+        {
+          "name": "People Ops",
+          "candidates": 11,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.0909,
+          "avg_time_to_fill": 46.0,
+          "median_time_to_fill": 46
+        },
+        {
+          "name": "Product",
+          "candidates": 27,
+          "hires": 1,
+          "open_reqs": 1,
+          "conversion": 0.037,
+          "avg_time_to_fill": 51.0,
+          "median_time_to_fill": 51
+        },
+        {
+          "name": "Sales",
+          "candidates": 21,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -3185,6 +3818,44 @@
           "conversion": null,
           "avg_time_to_fill": null,
           "median_time_to_fill": null
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 92,
+          "hires": 5,
+          "open_reqs": 3,
+          "conversion": 0.0543,
+          "avg_time_to_fill": 64.2,
+          "median_time_to_fill": 63
+        },
+        {
+          "name": "Internal",
+          "candidates": 10,
+          "hires": 0,
+          "open_reqs": 2,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "Referral",
+          "candidates": 48,
+          "hires": 5,
+          "open_reqs": 3,
+          "conversion": 0.1042,
+          "avg_time_to_fill": 59.4,
+          "median_time_to_fill": 51
+        },
+        {
+          "name": "New Grad",
+          "candidates": 34,
+          "hires": 1,
+          "open_reqs": 4,
+          "conversion": 0.0294,
+          "avg_time_to_fill": 51.0,
+          "median_time_to_fill": 51
         }
       ],
       "by_source": [
@@ -3576,6 +4247,80 @@
           "median_time_to_fill": 58.0
         }
       ],
+      "by_team": [
+        {
+          "name": "Backend",
+          "candidates": 12,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.0833,
+          "avg_time_to_fill": 68.0,
+          "median_time_to_fill": 68
+        },
+        {
+          "name": "Customer Success",
+          "candidates": 45,
+          "hires": 3,
+          "open_reqs": 1,
+          "conversion": 0.0667,
+          "avg_time_to_fill": 41.67,
+          "median_time_to_fill": 39
+        },
+        {
+          "name": "Design",
+          "candidates": 32,
+          "hires": 1,
+          "open_reqs": 2,
+          "conversion": 0.0312,
+          "avg_time_to_fill": 91.0,
+          "median_time_to_fill": 91
+        },
+        {
+          "name": "Finance",
+          "candidates": 27,
+          "hires": 2,
+          "open_reqs": 0,
+          "conversion": 0.0741,
+          "avg_time_to_fill": 50.0,
+          "median_time_to_fill": 50.0
+        },
+        {
+          "name": "Frontend",
+          "candidates": 27,
+          "hires": 2,
+          "open_reqs": 0,
+          "conversion": 0.0741,
+          "avg_time_to_fill": 54.5,
+          "median_time_to_fill": 54.5
+        },
+        {
+          "name": "People Ops",
+          "candidates": 28,
+          "hires": 2,
+          "open_reqs": 1,
+          "conversion": 0.0714,
+          "avg_time_to_fill": 83.0,
+          "median_time_to_fill": 83.0
+        },
+        {
+          "name": "Product",
+          "candidates": 20,
+          "hires": 2,
+          "open_reqs": 0,
+          "conversion": 0.1,
+          "avg_time_to_fill": 82.5,
+          "median_time_to_fill": 82.5
+        },
+        {
+          "name": "Sales",
+          "candidates": 13,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -3612,6 +4357,44 @@
           "conversion": null,
           "avg_time_to_fill": null,
           "median_time_to_fill": null
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 103,
+          "hires": 3,
+          "open_reqs": 5,
+          "conversion": 0.0291,
+          "avg_time_to_fill": 72.67,
+          "median_time_to_fill": 68
+        },
+        {
+          "name": "Internal",
+          "candidates": 16,
+          "hires": 2,
+          "open_reqs": 2,
+          "conversion": 0.125,
+          "avg_time_to_fill": 66.0,
+          "median_time_to_fill": 66.0
+        },
+        {
+          "name": "Referral",
+          "candidates": 49,
+          "hires": 7,
+          "open_reqs": 4,
+          "conversion": 0.1429,
+          "avg_time_to_fill": 60.43,
+          "median_time_to_fill": 57
+        },
+        {
+          "name": "New Grad",
+          "candidates": 36,
+          "hires": 1,
+          "open_reqs": 4,
+          "conversion": 0.0278,
+          "avg_time_to_fill": 51.0,
+          "median_time_to_fill": 51
         }
       ],
       "by_source": [
@@ -3996,6 +4779,53 @@
           "median_time_to_fill": 57.5
         }
       ],
+      "by_team": [
+        {
+          "name": "Backend",
+          "candidates": 11,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.0909,
+          "avg_time_to_fill": 54.0,
+          "median_time_to_fill": 54
+        },
+        {
+          "name": "Design",
+          "candidates": 6,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.1667,
+          "avg_time_to_fill": 49.0,
+          "median_time_to_fill": 49
+        },
+        {
+          "name": "Finance",
+          "candidates": 18,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.0556,
+          "avg_time_to_fill": 79.0,
+          "median_time_to_fill": 79
+        },
+        {
+          "name": "Frontend",
+          "candidates": 15,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "People Ops",
+          "candidates": 5,
+          "hires": 1,
+          "open_reqs": 0,
+          "conversion": 0.2,
+          "avg_time_to_fill": 36.0,
+          "median_time_to_fill": 36
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -4032,6 +4862,44 @@
           "conversion": 0.0727,
           "avg_time_to_fill": 54.5,
           "median_time_to_fill": 51.5
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 29,
+          "hires": 1,
+          "open_reqs": 1,
+          "conversion": 0.0345,
+          "avg_time_to_fill": 49.0,
+          "median_time_to_fill": 49
+        },
+        {
+          "name": "Internal",
+          "candidates": 3,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "Referral",
+          "candidates": 16,
+          "hires": 3,
+          "open_reqs": 1,
+          "conversion": 0.1875,
+          "avg_time_to_fill": 56.33,
+          "median_time_to_fill": 54
+        },
+        {
+          "name": "New Grad",
+          "candidates": 7,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
         }
       ],
       "by_source": [
@@ -4383,6 +5251,80 @@
           "median_time_to_fill": 63.0
         }
       ],
+      "by_team": [
+        {
+          "name": "Backend",
+          "candidates": 38,
+          "hires": 2,
+          "open_reqs": 0,
+          "conversion": 0.0526,
+          "avg_time_to_fill": 73.0,
+          "median_time_to_fill": 73.0
+        },
+        {
+          "name": "Data Science",
+          "candidates": 58,
+          "hires": 3,
+          "open_reqs": 2,
+          "conversion": 0.0517,
+          "avg_time_to_fill": 57.0,
+          "median_time_to_fill": 50
+        },
+        {
+          "name": "Design",
+          "candidates": 80,
+          "hires": 5,
+          "open_reqs": 2,
+          "conversion": 0.0625,
+          "avg_time_to_fill": 47.8,
+          "median_time_to_fill": 40
+        },
+        {
+          "name": "Finance",
+          "candidates": 20,
+          "hires": 2,
+          "open_reqs": 1,
+          "conversion": 0.1,
+          "avg_time_to_fill": 57.0,
+          "median_time_to_fill": 57.0
+        },
+        {
+          "name": "Frontend",
+          "candidates": 20,
+          "hires": 1,
+          "open_reqs": 1,
+          "conversion": 0.05,
+          "avg_time_to_fill": 78.0,
+          "median_time_to_fill": 78
+        },
+        {
+          "name": "Marketing",
+          "candidates": 40,
+          "hires": 4,
+          "open_reqs": 0,
+          "conversion": 0.1,
+          "avg_time_to_fill": 66.75,
+          "median_time_to_fill": 61.0
+        },
+        {
+          "name": "People Ops",
+          "candidates": 16,
+          "hires": 2,
+          "open_reqs": 1,
+          "conversion": 0.125,
+          "avg_time_to_fill": 76.0,
+          "median_time_to_fill": 76.0
+        },
+        {
+          "name": "Sales",
+          "candidates": 35,
+          "hires": 2,
+          "open_reqs": 1,
+          "conversion": 0.0571,
+          "avg_time_to_fill": 61.0,
+          "median_time_to_fill": 61.0
+        }
+      ],
       "by_region": [
         {
           "name": "NA",
@@ -4419,6 +5361,44 @@
           "conversion": null,
           "avg_time_to_fill": null,
           "median_time_to_fill": null
+        }
+      ],
+      "by_candidate_type": [
+        {
+          "name": "External",
+          "candidates": 177,
+          "hires": 12,
+          "open_reqs": 7,
+          "conversion": 0.0678,
+          "avg_time_to_fill": 61.25,
+          "median_time_to_fill": 56.5
+        },
+        {
+          "name": "Internal",
+          "candidates": 14,
+          "hires": 0,
+          "open_reqs": 1,
+          "conversion": 0.0,
+          "avg_time_to_fill": null,
+          "median_time_to_fill": null
+        },
+        {
+          "name": "Referral",
+          "candidates": 74,
+          "hires": 8,
+          "open_reqs": 8,
+          "conversion": 0.1081,
+          "avg_time_to_fill": 63.88,
+          "median_time_to_fill": 62.0
+        },
+        {
+          "name": "New Grad",
+          "candidates": 42,
+          "hires": 1,
+          "open_reqs": 2,
+          "conversion": 0.0238,
+          "avg_time_to_fill": 43.0,
+          "median_time_to_fill": 43
         }
       ],
       "by_source": [

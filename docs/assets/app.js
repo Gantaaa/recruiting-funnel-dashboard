@@ -387,9 +387,12 @@ function horizontalBars(host, rows, options) {
 
   const rowHeight = 30;
   const gap = 8;
-  const labelWidth = 104;
+  // Size the label gutter to the longest name so a team like "Customer
+  // Success" is not silently clipped. ~6.4px per character at 12.5px.
+  const longest = Math.max(...usable.map((r) => String(r.name).length));
+  const labelWidth = Math.min(168, Math.max(104, Math.round(longest * 6.4) + 12));
   const valueWidth = 96;
-  const width = 560;
+  const width = options.width || 560;
   const plotWidth = width - labelWidth - valueWidth;
   // A target line needs a clear band above the bars for its own label.
   const headerHeight = target ? 16 : 0;
@@ -488,6 +491,27 @@ function renderSource() {
     ],
   });
 }
+
+function renderHiresBreakdown(hostSelector, key, sortByHires, width) {
+  const rows = [...state.slice[key]].filter((r) => r.candidates > 0);
+  if (sortByHires) rows.sort((a, b) => b.hires - a.hires);
+
+  horizontalBars($(hostSelector), rows, {
+    valueKey: "hires",
+    ariaLabel: "Hires by " + key.replace("by_", "").replace("_", " "),
+    color: "var(--series-1)",
+    width,
+    formatValue: (r) => fmtInt(r.hires),
+    subLabel: (r) => [
+      `${fmtInt(r.hires)} hires from ${fmtInt(r.candidates)} candidates`,
+      `${fmtPct(r.conversion, 1)} convert to hire`,
+      r.avg_time_to_fill == null
+        ? "No completed hires to time"
+        : `Average ${fmtDays(r.avg_time_to_fill)} days to fill`,
+    ],
+  });
+}
+
 
 function renderAging() {
   const buckets = state.slice.aging_buckets;
@@ -620,7 +644,9 @@ function renderDataTable() {
 
   for (const [caption, key] of [
     ["By department.", "by_department"],
+    ["By team.", "by_team"],
     ["By region.", "by_region"],
+    ["By candidate type.", "by_candidate_type"],
     ["By source.", "by_source"],
     ["By recruiter.", "by_recruiter"],
   ]) {
@@ -681,6 +707,8 @@ function renderAll() {
   renderTrend();
   renderTimeToFill();
   renderSource();
+  renderHiresBreakdown("#team-chart", "by_team", true, 1120);
+  renderHiresBreakdown("#candidate-type-chart", "by_candidate_type", false);
   renderAging();
   renderRiskTable();
   renderQuality();
