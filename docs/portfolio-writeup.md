@@ -19,6 +19,11 @@
 > [kpi-definitions.md](./kpi-definitions.md)), and the `Weekly_Snapshots`
 > approach in §8 was replaced by recomputing history from event dates.
 >
+> An "Interview Talking Points" section used to sit at §14. It was removed
+> because it had gone stale against the project it describes, and because a
+> design document should stand on its own rather than coach the reader on how
+> to discuss it.
+>
 > The narrative step is provider-agnostic — any OpenAI-compatible chat
 > completions endpoint works, configured in one place at the top of
 > [`Code.gs`](../apps_script/Code.gs). The shipped configuration uses Groq;
@@ -716,31 +721,8 @@ Monday 7am trigger → pipeline runs → deck + email land before the team's Mon
 
 The **Data Quality** tab surfaces a `Data Health %` = `1 − (flagged rows ÷ total rows)`. Leadership sees that number on the Exec Overview so they know how much to trust the week's figures. Anything flagged is listed with the offending field highlighted.
 
----
 
-## 14. Interview Talking Points
-
-**Why I built this project**
-> I wanted to actually understand recruiting operations, not just claim familiarity. Building the funnel math, the KPI definitions, and the weekly reporting cadence end-to-end taught me how RecOps teams measure themselves. I used synthetic data on purpose so I could focus on the workflow and analytics without any real-data constraints.
-
-**Biggest technical challenge**
-> Getting week-over-week comparison right. A dashboard shows *now*; leadership cares about *change*. I solved it with an append-only snapshot tab that the automation writes to each week, then deltas are just a diff of the last two rows. The second challenge was keeping the AI grounded — I pass it pre-computed numbers and explicitly forbid inventing figures, so it frames the data rather than hallucinating it.
-
-**Why Google Apps Script**
-> It's the only thing that runs natively on top of Sheets, Slides, and Gmail with built-in time triggers, and it needs zero infrastructure. For a recruiting team already living in Google Workspace, it's the lowest-friction way to automate. If the data outgrew Sheets I'd move the heavy logic to Python on Cloud Functions, but Apps Script is the right tool for the orchestration and delivery layer.
-
-**Why use AI summaries**
-> Numbers don't drive decisions on their own — interpretation does. The model turns "TTF 49→58, accept 88→82" into "offers are landing slower and converting worse, check the stalled reqs." That's the part an analyst usually writes by hand every week. Detection stays deterministic in code; the model only does the narrative framing.
-
-**How this could scale to Ashby or Workday**
-> The architecture already separates source from logic. Today the source is synthetic CSV; I'd swap it for Ashby's or Workday's API, land the data in a warehouse or BigQuery, and point the same KPI and reporting logic at it. The funnel definitions, the snapshot pattern, the AI prompt, and the Slides generator don't change — only the ingestion layer does.
-
-**Future improvements**
-> Real backing data store instead of Sheets; statistical significance testing on the anomaly flags so we don't cry wolf on noise; a self-serve query box where a recruiter asks a question in English and the AI answers from the dataset; and proper unit tests on the KPI calculations.
-
----
-
-## 15. Capstone Expansion
+## 14. Capstone Expansion
 
 How this prototype could grow into a Talent Strategy internship capstone.
 
