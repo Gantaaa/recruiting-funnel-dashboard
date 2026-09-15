@@ -1,7 +1,7 @@
 # Recruiting Funnel Dashboard
 
 A recruiting-operations reporting pipeline: synthetic ATS data in, a validated
-metric layer in the middle, and three delivery surfaces out — an interactive web
+metric layer in the middle, and three delivery surfaces out - an interactive web
 dashboard, a Google Sheets workbook, and an automatically generated weekly
 leadership deck whose executive summary is written by an LLM.
 
@@ -38,7 +38,7 @@ the deck builds itself, and the narrative is drafted from the actual figures.
 | **[Validation](src/recruiting_funnel/validate.py)** | 13 data-quality rules that run over the raw CSV before any metric is computed. |
 | **[Generator](src/recruiting_funnel/generate.py)** | Seeded synthetic data where requisitions are real entities and funnel dates are monotonic. |
 | **[Apps Script](apps_script/Code.gs)** | The weekly job on a Monday trigger: snapshot → LLM narrative → Slides deck → email. |
-| **[The LLM step](apps_script/Code.gs#L149)** | `generateNarrative()` — the prompt, and [a real run's output](apps_script/example-output.md) with an account of the two figures it got wrong. |
+| **[The LLM step](apps_script/Code.gs#L149)** | `generateNarrative()` - the prompt, and [a real run's output](apps_script/example-output.md) with an account of the two figures it got wrong. |
 | **[Workbook](workbook/)** | The original Google Sheets build: 15 tabs, 5 pivot tables, 7 charts, named ranges, validation rules, conditional formatting and a bound Apps Script. Preserved unfixed as the audit's ["before"](workbook/README.md). |
 | **[Findings memo](docs/findings-memo.md)** | The one-page version for a TA leader: what the numbers said, what was true, what it would have cost. No code. |
 | **[Portfolio write-up](docs/portfolio-writeup.md)** | The long-form version: design decisions, KPI reasoning, interview notes. |
@@ -64,7 +64,7 @@ make serve       # http://localhost:8000
 I built the first version of this as a Google Sheets workbook, so everything
 below is an audit of my own work. Before building anything on top of it, I
 wrote the validation layer and pointed it at my own data. The workbook's own
-Data Quality tab — which I also wrote — reported **99.75% health**. The audit
+Data Quality tab - which I also wrote - reported **99.75% health**. The audit
 found:
 
 | Finding | Scale | Consequence |
