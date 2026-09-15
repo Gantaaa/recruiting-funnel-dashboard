@@ -678,9 +678,12 @@ Monday 7am trigger → pipeline runs → deck + email land before the team's Mon
 
 ---
 
-## 12. Example Weekly Leadership Report
+## 12. Weekly Report Template
 
-> **Week of 2026-03-30 — generated from synthetic prototype data.**
+> **Illustrative layout.** Every figure below is invented to show the shape of
+> the report — they come from neither dataset in this repository. For a real
+> run, see [`apps_script/example-output.md`](../apps_script/example-output.md),
+> which includes what the model got wrong.
 
 **Key metrics**
 | KPI | This week | Last week | Δ |
@@ -703,8 +706,17 @@ Monday 7am trigger → pipeline runs → deck + email land before the team's Mon
 - Three of the five at-risk reqs are in EMEA — a targeted sourcing push or load rebalance there would move the average most.
 - Referrals are still converting ~3× job boards; a short referral campaign could lift volume cheaply.
 
-**Executive summary (AI-generated narrative)**
-> Hiring slowed this week — time-to-fill jumped nine days and offer acceptance slipped below our 85% line. We made seven hires versus nine last week while open reqs grew to 41. The acceptance dip alongside the slower fills points to offers landing later and converting worse, worth a look at the reqs stalled at offer stage. With open reqs outpacing hires roughly three to one, rebalancing load on the most-loaded recruiters would keep the backlog from compounding.
+**Executive summary**
+
+This section is written at run time by the model, from the figures above and
+the prior week's. It is the only part of the report that is not deterministic,
+and the prompt is given the exact numbers with an instruction to invent none.
+
+The narrative is deliberately *not* mocked up here. A hand-written sample would
+read better than the real thing, which would misrepresent what the step
+actually produces. The genuine output — and an account of the two figures it
+cited that were wrong — is in
+[`apps_script/example-output.md`](../apps_script/example-output.md).
 
 ---
 
